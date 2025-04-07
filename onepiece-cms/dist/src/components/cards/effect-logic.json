@@ -1,0 +1,69 @@
+{
+    "collectionName": "components_cards_effect_logics",
+    "info": {
+        "displayName": "effect_logic",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "trigger": {
+            "type": "enumeration",
+            "enum": [
+                "onPlay",
+                "onAttack",
+                "onKO",
+                "onBlock",
+                "manual",
+                "Activate:Main"
+            ]
+        },
+        "action": {
+            "type": "enumeration",
+            "enum": [
+                "drawCard",
+                "attachDon",
+                "playFromTrash",
+                "givePower",
+                "reducePower",
+                "donMinus",
+                "searchDeck",
+                "negateEffects"
+            ]
+        },
+        "target": {
+            "type": "string"
+        },
+        "amount": {
+            "type": "integer"
+        },
+        "optional": {
+            "type": "boolean"
+        },
+        "condition": {
+            "type": "json"
+        },
+        "timing": {
+            "type": "enumeration",
+            "enum": [
+                "immediate",
+                "delayed",
+                "endOfTurn"
+            ]
+        },
+        "priority": {
+            "type": "integer"
+        },
+        "filter": {
+            "type": "json"
+        },
+        "duration": {
+            "type": "enumeration",
+            "enum": [
+                "untilEndOfTurn",
+                "untilEndOfOpponentTurn",
+                "untilEndOfOpponentNextTurn",
+                "permanent"
+            ]
+        }
+    }
+}

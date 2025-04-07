@@ -1,49 +1,84 @@
 [
-    {
-      "name": "Monkey D. Luffy",
-      "type": "Leader",
-      "color": ["Red"],
-      "cost": 5,
-      "power": 6000,
-      "life": 5,
-      "traits": ["Straw Hat Crew"],
-      "rarity": "Super Rare",
-      "effect": {
-        "trigger": "On Attack",
-        "description": "You may attach 1 DON!! to this Leader."
-      },
-      "image_url": "path/to/luffy.jpg",
-      "set_id": "OP01"
-    },
-    {
-      "name": "Roronoa Zoro",
-      "type": "Character",
-      "color": ["Red"],
-      "cost": 3,
-      "power": 5000,
-      "traits": ["Straw Hat Crew", "Swordsman"],
-      "rarity": "Rare",
-      "effect": {
-        "trigger": "On Play",
-        "description": "Give +1000 power to another character."
-      },
-      "image_url": "path/to/zoro.jpg",
-      "set_id": "OP01"
-    },
-    {
-      "name": "Nami",
-      "type": "Character",
-      "color": ["Red"],
-      "cost": 1,
-      "power": 2000,
-      "traits": ["Straw Hat Crew"],
-      "rarity": "Common",
-      "effect": {
-        "trigger": "On Play",
-        "description": "Search your deck for a 'Straw Hat Crew' card and add it to your hand."
-      },
-      "image_url": "path/to/nami.jpg",
-      "set_id": "OP01"
-    }
-  ]
-  
+  {
+    "name": "Monkey D. Luffy",
+    "type": "Leader",
+    "cost": 5,
+    "power": 6000,
+    "life": 5,
+    "rarity": "Super rare",
+    "effect_trigger": "onAttack",
+    "traits": [
+      { "trait_name": "Straw Hat Crew" }
+    ],
+    "colors": [
+      { "color": "Red" }
+    ],
+    "effect_logic": [
+      {
+        "trigger": "onAttack",
+        "action": "attachDon",
+        "target": "leader",
+        "amount": 1,
+        "optional": true,
+        "timing": "immediate",
+        "condition": null,
+        "priority": null
+      }
+    ]
+  },
+  {
+    "name": "Roronoa Zoro",
+    "type": "Character",
+    "cost": 3,
+    "power": 5000,
+    "life": null,
+    "rarity": "Rare",
+    "effect_trigger": "onPlay",
+    "traits": [
+      { "trait_name": "Straw Hat Crew" },
+      { "trait_name": "Swordsman" }
+    ],
+    "colors": [
+      { "color": "Red" }
+    ],
+    "effect_logic": [
+      {
+        "trigger": "onPlay",
+        "action": "givePower",
+        "target": "allyCharacter",
+        "amount": 1000,
+        "optional": false,
+        "timing": "immediate",
+        "condition": null,
+        "priority": null
+      }
+    ]
+  },
+  {
+    "name": "Nami",
+    "type": "Character",
+    "cost": 1,
+    "power": 2000,
+    "life": null,
+    "rarity": "Common",
+    "effect_trigger": "onPlay",
+    "traits": [
+      { "trait_name": "Straw Hat Crew" }
+    ],
+    "colors": [
+      { "color": "Red" }
+    ],
+    "effect_logic": [
+      {
+        "trigger": "onPlay",
+        "action": "searchDeck",
+        "target": "Straw Hat Crew",
+        "amount": 1,
+        "optional": false,
+        "timing": "immediate",
+        "condition": null,
+        "priority": null
+      }
+    ]
+  }
+]

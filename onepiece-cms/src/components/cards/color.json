@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_cards_colors",
+  "info": {
+    "displayName": "color"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "Red",
+        "Blue",
+        "Green",
+        "Purple",
+        "Yellow",
+        "Black"
+      ]
+    }
+  }
+}

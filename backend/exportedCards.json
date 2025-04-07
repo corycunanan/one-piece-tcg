@@ -1,0 +1,284 @@
+[
+  {
+    "id": 4,
+    "name": "Monkey D. Luffy",
+    "type": "Leader",
+    "cost": 5,
+    "power": 6000,
+    "life": 5,
+    "rarity": "Super rare",
+    "effect_trigger": "onAttack",
+    "effect_description": null,
+    "set_id": null,
+    "image_url": null,
+    "documentId": "nijmkdeebjbn03bkb09swq2o",
+    "traits": [
+      {
+        "trait_name": "Straw Hat Crew"
+      }
+    ],
+    "colors": [
+      {
+        "color": "Red"
+      }
+    ],
+    "effect_logic": [
+      {
+        "trigger": "onAttack",
+        "action": "attachDon",
+        "target": "leader",
+        "amount": 1,
+        "optional": true,
+        "condition": null,
+        "timing": "immediate",
+        "priority": null,
+        "filter": null,
+        "duration": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Roronoa Zoro",
+    "type": "Character",
+    "cost": 3,
+    "power": 5000,
+    "life": null,
+    "rarity": "Rare",
+    "effect_trigger": "onPlay",
+    "effect_description": null,
+    "set_id": null,
+    "image_url": null,
+    "documentId": "hinvzzg9dly88dhu98tktotd",
+    "traits": [
+      {
+        "trait_name": "Straw Hat Crew"
+      },
+      {
+        "trait_name": "Swordsman"
+      }
+    ],
+    "colors": [
+      {
+        "color": "Red"
+      }
+    ],
+    "effect_logic": [
+      {
+        "trigger": "onPlay",
+        "action": "givePower",
+        "target": "allyCharacter",
+        "amount": 1000,
+        "optional": false,
+        "condition": null,
+        "timing": "immediate",
+        "priority": null,
+        "filter": null,
+        "duration": null
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Monkey D. Luffy",
+    "type": "Leader",
+    "cost": 5,
+    "power": 6000,
+    "life": 5,
+    "rarity": "Super rare",
+    "effect_trigger": "onAttack",
+    "effect_description": null,
+    "set_id": null,
+    "image_url": null,
+    "documentId": "n78egx0496j2xclwcxynt0xf",
+    "traits": [
+      {
+        "trait_name": "Straw Hat Crew"
+      }
+    ],
+    "colors": [
+      {
+        "color": "Red"
+      }
+    ],
+    "effect_logic": [
+      {
+        "trigger": "onAttack",
+        "action": "attachDon",
+        "target": "leader",
+        "amount": 1,
+        "optional": true,
+        "condition": null,
+        "timing": "immediate",
+        "priority": null,
+        "filter": null,
+        "duration": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Roronoa Zoro",
+    "type": "Character",
+    "cost": 3,
+    "power": 5000,
+    "life": null,
+    "rarity": "Rare",
+    "effect_trigger": "onPlay",
+    "effect_description": null,
+    "set_id": null,
+    "image_url": null,
+    "documentId": "kljccu0y6qqtp26b0nayj544",
+    "traits": [
+      {
+        "trait_name": "Straw Hat Crew"
+      },
+      {
+        "trait_name": "Swordsman"
+      }
+    ],
+    "colors": [
+      {
+        "color": "Red"
+      }
+    ],
+    "effect_logic": [
+      {
+        "trigger": "onPlay",
+        "action": "givePower",
+        "target": "allyCharacter",
+        "amount": 1000,
+        "optional": false,
+        "condition": null,
+        "timing": "immediate",
+        "priority": null,
+        "filter": null,
+        "duration": null
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Nami",
+    "type": "Character",
+    "cost": 4,
+    "power": 2000,
+    "life": null,
+    "rarity": "Common",
+    "effect_trigger": "onPlay",
+    "effect_description": null,
+    "set_id": null,
+    "image_url": null,
+    "documentId": "b1jqwj5t6qnasmhagddo4p6b",
+    "traits": [
+      {
+        "trait_name": "Straw Hat Crew"
+      }
+    ],
+    "colors": [
+      {
+        "color": "Red"
+      }
+    ],
+    "effect_logic": [
+      {
+        "trigger": "onPlay",
+        "action": "searchDeck",
+        "target": "Straw Hat Crew",
+        "amount": 1,
+        "optional": false,
+        "condition": {
+          "type": "donThreshold",
+          "min": 2,
+          "optional": true
+        },
+        "timing": "immediate",
+        "priority": null,
+        "filter": null,
+        "duration": null
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Jet Pistol",
+    "type": "Event",
+    "cost": 2,
+    "power": null,
+    "life": null,
+    "rarity": null,
+    "effect_trigger": null,
+    "effect_description": null,
+    "set_id": null,
+    "image_url": null,
+    "documentId": "pyqz83vpdgbpuhxvkdgqe57m",
+    "traits": [],
+    "colors": [],
+    "effect_logic": [
+      {
+        "trigger": "onPlay",
+        "action": "donMinus",
+        "target": null,
+        "amount": 2,
+        "optional": null,
+        "condition": null,
+        "timing": null,
+        "priority": null,
+        "filter": null,
+        "duration": null
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Marshall.D.Teach",
+    "type": "Leader",
+    "cost": null,
+    "power": 5000,
+    "life": 5,
+    "rarity": null,
+    "effect_trigger": null,
+    "effect_description": null,
+    "set_id": null,
+    "image_url": null,
+    "documentId": "aad8zgs9qbr79k8baxc1o4s6",
+    "traits": [],
+    "colors": [],
+    "effect_logic": [
+      {
+        "trigger": "Activate:Main",
+        "action": "negateEffects",
+        "target": "opponent",
+        "amount": null,
+        "optional": null,
+        "condition": {
+          "type": "trashCard",
+          "amount": 1
+        },
+        "timing": null,
+        "priority": null,
+        "filter": {
+          "effectType": "onPlay"
+        },
+        "duration": "untilEndOfOpponentNextTurn"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Big Bertha",
+    "type": "Character",
+    "cost": 10,
+    "power": 12000,
+    "life": null,
+    "rarity": null,
+    "effect_trigger": null,
+    "effect_description": null,
+    "set_id": null,
+    "image_url": null,
+    "documentId": "snt2he997xzr0voumnjzmljb",
+    "traits": [],
+    "colors": [],
+    "effect_logic": []
+  }
+]

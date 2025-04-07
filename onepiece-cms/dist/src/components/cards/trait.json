@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_cards_traits",
+    "info": {
+        "displayName": "trait",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "trait_name": {
+            "type": "string"
+        }
+    }
+}

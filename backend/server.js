@@ -1,53 +1,36 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
-const Card = require('./models/Card');
-const fs = require('fs');                         
-const path = require('path');                   
-const { getCardById } = require('./services/cards');
+
+const cardRoutes = require('./routes/cards');
+const simulateRoutes = require('./routes/simulate');
+const resolveRoutes = require('./routes/resolve');
+const playRoutes = require('./routes/play');
+const turnRoutes = require('./routes/turnRoutes');
 
 const app = express();
-const PORT = 5001;
-
 app.use(express.json());
 
-// Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/onepiece_tcg', {
+const PORT = process.env.PORT || 5001;
+const MONGODB_URI = process.env.MONGODB_URI;
+
+// MongoDB connection
+mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-}).then(() => console.log('MongoDB connected'))
-  .catch(err => console.error('MongoDB connection error:', err));
-
-// Root route
-app.get('/', (req, res) => {
-  res.send('One Piece TCG API is running!');
+}).then(() => {
+  console.log('✅ Connected to MongoDB');
+}).catch((err) => {
+  console.error('❌ MongoDB connection error:', err.message);
 });
 
-// 🧪 Load cards from JSON file
-app.get('/cards/load', async (req, res) => {
-  try {
-    const filePath = path.join(__dirname, 'sampleCards.json');
-    const data = fs.readFileSync(filePath, 'utf-8');
-    const cards = JSON.parse(data);
+// Mount routes
+app.use('/cards', cardRoutes);
+app.use('/simulate', simulateRoutes);
+app.use('/resolve', resolveRoutes);
+app.use('/play', playRoutes);
+app.use('/turn', turnRoutes);
 
-    await Card.insertMany(cards);
-    res.json({ message: 'Cards loaded successfully!', count: cards.length });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: 'Failed to load cards', error });
-  }
-});
-
-// Get all cards
-app.get('/cards', async (req, res) => {
-  try {
-    const cards = await Card.find({});
-    res.json(cards);
-  } catch (error) {
-    res.status(500).json({ message: 'Error fetching cards', error });
-  }
-});
-
-// Start server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
