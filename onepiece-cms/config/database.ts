@@ -11,7 +11,6 @@ export default ({ env }) => {
       useNullAsDefault: true,
     },
   };
-  
 
   return {
     connection: {

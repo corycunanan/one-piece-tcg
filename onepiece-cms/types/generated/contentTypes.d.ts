@@ -389,6 +389,7 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
     effect_description: Schema.Attribute.Blocks;
     effect_logic: Schema.Attribute.Component<'cards.effect-logic', true>;
     effect_trigger: Schema.Attribute.String;
+    has_trigger: Schema.Attribute.Boolean;
     image_url: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     life: Schema.Attribute.Integer;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
@@ -403,6 +404,35 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
     type: Schema.Attribute.Enumeration<
       ['Leader', 'Character', 'Event', 'Stage', 'Don!!']
     >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiSetSet extends Struct.CollectionTypeSchema {
+  collectionName: 'sets';
+  info: {
+    displayName: 'Set';
+    pluralName: 'sets';
+    singularName: 'set';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    cards: Schema.Attribute.Relation<'oneToMany', 'api::card.card'>;
+    code: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::set.set'> &
+      Schema.Attribute.Private;
+    name: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    region: Schema.Attribute.Enumeration<['EN']>;
+    release_date: Schema.Attribute.Date;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -919,6 +949,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::card.card': ApiCardCard;
+      'api::set.set': ApiSetSet;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

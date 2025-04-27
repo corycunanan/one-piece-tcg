@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sets",
+  "info": {
+    "singularName": "set",
+    "pluralName": "sets",
+    "displayName": "Set"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "release_date": {
+      "type": "date"
+    },
+    "region": {
+      "type": "enumeration",
+      "enum": [
+        "EN"
+      ]
+    },
+    "cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::card.card"
+    }
+  }
+}

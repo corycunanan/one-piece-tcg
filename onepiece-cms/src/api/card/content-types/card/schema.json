@@ -70,6 +70,9 @@
       "type": "component",
       "repeatable": true,
       "component": "cards.color"
+    },
+    "has_trigger": {
+      "type": "boolean"
     }
   }
 }
