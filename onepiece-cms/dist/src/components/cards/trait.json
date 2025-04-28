@@ -6,8 +6,36 @@
     },
     "options": {},
     "attributes": {
-        "trait_name": {
-            "type": "string"
+        "trait": {
+            "type": "enumeration",
+            "enum": [
+                "Straw Hat Crew",
+                "Supernova",
+                "Heart Pirates",
+                "Animal Kingdom Pirates",
+                "Big Mom Pirates",
+                "Navy",
+                "Warlord of the Sea",
+                "Revolutionary Army",
+                "Donquixote Pirates",
+                "Worst Generation",
+                "Fish-Man",
+                "Germa 66",
+                "Whitebeard Pirates",
+                "Four Emperors",
+                "Skypiea",
+                "Thriller Bark Pirates",
+                "CP9",
+                "Impel Down",
+                "Shandia",
+                "Amazon Lily",
+                "Dressrosa",
+                "Drum Kingdom",
+                "Mink Tribe",
+                "Alabasta",
+                "Punk Hazard"
+            ],
+            "required": true
         }
     }
 }

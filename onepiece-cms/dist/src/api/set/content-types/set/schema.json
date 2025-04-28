@@ -4,7 +4,8 @@
     "info": {
         "singularName": "set",
         "pluralName": "sets",
-        "displayName": "Set"
+        "displayName": "Set",
+        "description": ""
     },
     "options": {
         "draftAndPublish": true

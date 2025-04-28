@@ -1,0 +1,12 @@
+{
+    "OP01": [
+      { "id": "001", "name": "Roronoa Zoro" },
+      { "id": "002", "name": "Trafalgar Law" },
+      { "id": "003", "name": "Monkey.D.Luffy" },
+      { "id": "004", "name": "Usopp" }
+    ],
+    "OP02": [
+      { "id": "001", "name": "Ace" },
+      { "id": "002", "name": "Sabo" }
+    ]
+  }  

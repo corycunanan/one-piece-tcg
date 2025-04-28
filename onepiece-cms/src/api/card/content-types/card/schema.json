@@ -33,28 +33,11 @@
     "life": {
       "type": "integer"
     },
-    "rarity": {
-      "type": "string"
-    },
-    "effect_trigger": {
+    "trigger_description": {
       "type": "string"
     },
     "effect_description": {
       "type": "blocks"
-    },
-    "image_url": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "set_id": {
-      "type": "string"
     },
     "traits": {
       "type": "component",
@@ -73,6 +56,49 @@
     },
     "has_trigger": {
       "type": "boolean"
+    },
+    "trigger_effect": {
+      "displayName": "trigger_effect",
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.trigger-effect"
+    },
+    "set": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::set.set"
+    },
+    "rarity": {
+      "type": "enumeration",
+      "enum": [
+        "C",
+        "UC",
+        "R",
+        "SR",
+        "L",
+        "SEC",
+        "P",
+        "DON",
+        "SP"
+      ]
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.card-image"
+    },
+    "card_number": {
+      "type": "string",
+      "required": true
+    },
+    "Counter": {
+      "type": "integer"
+    },
+    "attributes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.attributes",
+      "required": false
     }
   }
 }

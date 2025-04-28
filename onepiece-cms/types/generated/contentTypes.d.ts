@@ -381,16 +381,18 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    attributes: Schema.Attribute.Component<'cards.attributes', true>;
+    card_number: Schema.Attribute.String & Schema.Attribute.Required;
     colors: Schema.Attribute.Component<'cards.color', true>;
     cost: Schema.Attribute.Integer;
+    Counter: Schema.Attribute.Integer;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     effect_description: Schema.Attribute.Blocks;
     effect_logic: Schema.Attribute.Component<'cards.effect-logic', true>;
-    effect_trigger: Schema.Attribute.String;
     has_trigger: Schema.Attribute.Boolean;
-    image_url: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    images: Schema.Attribute.Component<'cards.card-image', true>;
     life: Schema.Attribute.Integer;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::card.card'> &
@@ -398,9 +400,13 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
     name: Schema.Attribute.String;
     power: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
-    rarity: Schema.Attribute.String;
-    set_id: Schema.Attribute.String;
+    rarity: Schema.Attribute.Enumeration<
+      ['C', 'UC', 'R', 'SR', 'L', 'SEC', 'P', 'DON', 'SP']
+    >;
+    set: Schema.Attribute.Relation<'oneToOne', 'api::set.set'>;
     traits: Schema.Attribute.Component<'cards.trait', true>;
+    trigger_description: Schema.Attribute.String;
+    trigger_effect: Schema.Attribute.Component<'cards.trigger-effect', true>;
     type: Schema.Attribute.Enumeration<
       ['Leader', 'Character', 'Event', 'Stage', 'Don!!']
     >;
@@ -410,9 +416,38 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiFolderManagerFolderManager
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'folder_managers';
+  info: {
+    displayName: 'Folder Manager';
+    pluralName: 'folder-managers';
+    singularName: 'folder-manager';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::folder-manager.folder-manager'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiSetSet extends Struct.CollectionTypeSchema {
   collectionName: 'sets';
   info: {
+    description: '';
     displayName: 'Set';
     pluralName: 'sets';
     singularName: 'set';
@@ -949,6 +984,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::card.card': ApiCardCard;
+      'api::folder-manager.folder-manager': ApiFolderManagerFolderManager;
       'api::set.set': ApiSetSet;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

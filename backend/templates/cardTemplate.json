@@ -1,0 +1,21 @@
+{
+    "name": "",
+    "type": "",
+    "life": null,
+    "power": null,
+    "cost": null,
+    "counter": null,
+    "rarity": "",
+    "set": "",
+    "card_number": "",
+    "images": [],
+    "colors": [],
+    "traits": [],
+    "attributes": "",
+    "effect_description": null,
+    "effect_logic": null,
+    "has_trigger": false,
+    "trigger_description": null,
+    "trigger_effect": null
+}
+  

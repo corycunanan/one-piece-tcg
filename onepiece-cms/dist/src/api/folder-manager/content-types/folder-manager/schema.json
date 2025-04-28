@@ -1,0 +1,13 @@
+{
+    "kind": "collectionType",
+    "collectionName": "folder_managers",
+    "info": {
+        "singularName": "folder-manager",
+        "pluralName": "folder-managers",
+        "displayName": "Folder Manager"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "attributes": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_cards_attributes",
+  "info": {
+    "displayName": "attributes"
+  },
+  "options": {},
+  "attributes": {
+    "attribute": {
+      "type": "enumeration",
+      "enum": [
+        "Slash",
+        "Strike",
+        "Wisdom",
+        "Ranged",
+        "Special"
+      ]
+    }
+  }
+}

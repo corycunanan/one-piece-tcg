@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_cards_trigger_effects",
+  "info": {
+    "displayName": "trigger_effect_logic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logic": {
+      "type": "json"
+    }
+  }
+}

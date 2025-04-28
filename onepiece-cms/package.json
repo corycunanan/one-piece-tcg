@@ -14,7 +14,8 @@
     "start": "strapi start",
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
-    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+    "upgrade:dry": "npx @strapi/upgrade latest --dry",
+    "create-folders": "node scripts/createFolders.js"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.12.1",
@@ -23,6 +24,7 @@
     "@strapi/provider-email-nodemailer": "^5.12.6",
     "@strapi/strapi": "5.12.1",
     "better-sqlite3": "11.3.0",
+    "dotenv": "^16.5.0",
     "nodemailer": "^6.10.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

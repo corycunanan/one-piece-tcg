@@ -1,0 +1,34 @@
+{
+    "collectionName": "components_cards_card_images",
+    "info": {
+        "displayName": "card_image",
+        "icon": "picture",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "image_url": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "label": {
+            "type": "enumeration",
+            "enum": [
+                "Regular",
+                "Alternate Art",
+                "Manga Art",
+                "Full Art",
+                "Parallel Rare",
+                "Special Art",
+                "Promo"
+            ]
+        }
+    }
+}
