@@ -57,7 +57,7 @@ export interface CardsEffectLogic extends Struct.ComponentSchema {
     displayName: 'effect_logic';
   };
   attributes: {
-    logic: Schema.Attribute.JSON;
+    effect_data: Schema.Attribute.JSON;
   };
 }
 
@@ -71,7 +71,7 @@ export interface CardsTrait extends Struct.ComponentSchema {
     trait: Schema.Attribute.Enumeration<
       [
         'Straw Hat Crew',
-        'Supernova',
+        'Supernovas',
         'Heart Pirates',
         'Animal Kingdom Pirates',
         'Big Mom Pirates',
@@ -108,7 +108,7 @@ export interface CardsTriggerEffect extends Struct.ComponentSchema {
     displayName: 'trigger_effect_logic';
   };
   attributes: {
-    logic: Schema.Attribute.JSON;
+    effect_data: Schema.Attribute.JSON;
   };
 }
 

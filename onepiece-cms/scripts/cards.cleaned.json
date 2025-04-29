@@ -1,0 +1,224 @@
+[
+  {
+    "cardId": "OP01-001",
+    "name": "Roronoa Zoro",
+    "type": "Leader",
+    "power": 5000,
+    "cost": null,
+    "counter": null,
+    "keywords": {},
+    "life": 5,
+    "rarity": "L",
+    "set": 1,
+    "colors": [
+      {
+        "color": "Red"
+      }
+    ],
+    "traits": [
+      {
+        "trait": "Supernovas"
+      },
+      {
+        "trait": "Straw Hat Crew"
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "Slash"
+      }
+    ],
+    "effect_description": "DON!! x1 (Your Turn): All of your Characters gain +1000 power.",
+    "effect_logic": [
+      {
+        "effect_data": ""
+      }
+    ],
+    "has_trigger": false,
+    "trigger_description": null,
+    "trigger_effect": [
+      {
+        "effect_data": ""
+      }
+    ],
+    "images": []
+  },
+  {
+    "cardId": "OP01-002",
+    "name": "Trafalgar Law",
+    "type": "Leader",
+    "power": 5000,
+    "cost": null,
+    "counter": null,
+    "keywords": {},
+    "life": 4,
+    "rarity": "L",
+    "set": 1,
+    "colors": [
+      {
+        "color": "Red"
+      },
+      {
+        "color": "Green"
+      }
+    ],
+    "traits": [
+      {
+        "trait": "Supernovas"
+      },
+      {
+        "trait": "Heart Pirates"
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "Slash"
+      }
+    ],
+    "effect_description": "Activate: Main (Once Per Turn) (2): If you have 5 Characters, return 1 of your Characters to the owner's hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character.",
+    "effect_logic": [
+      {
+        "effect_data": ""
+      }
+    ],
+    "has_trigger": false,
+    "trigger_description": null,
+    "trigger_effect": [
+      {
+        "effect_data": ""
+      }
+    ],
+    "images": []
+  },
+  {
+    "cardId": "OP01-003",
+    "name": "Monkey.D.Luffy",
+    "type": "Leader",
+    "power": 5000,
+    "cost": null,
+    "counter": null,
+    "keywords": {},
+    "life": 4,
+    "rarity": "L",
+    "set": 1,
+    "colors": [
+      {
+        "color": "Red"
+      },
+      {
+        "color": "Green"
+      }
+    ],
+    "traits": [
+      {
+        "trait": "Supernovas"
+      },
+      {
+        "trait": "Straw Hat Crew"
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "Strike"
+      }
+    ],
+    "effect_description": "Activate: Main (Once Per Turn) (4): Set up to 1 of your Supernovas or Straw Hat Crew type Character cards with a cost of 5 or less as active. It gains +1000 power during this turn.",
+    "effect_logic": [
+      {
+        "effect_data": ""
+      }
+    ],
+    "has_trigger": false,
+    "trigger_description": null,
+    "trigger_effect": [
+      {
+        "effect_data": ""
+      }
+    ],
+    "images": []
+  },
+  {
+    "cardId": "OP06-080",
+    "name": "Gecko Moria",
+    "type": "Leader",
+    "cost": null,
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "set": 11,
+    "colors": [
+      {
+        "color": "Black"
+      }
+    ],
+    "traits": [
+      {
+        "trait": "Supernovas"
+      },
+      {
+        "trait": "Straw Hat Crew"
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "Special"
+      }
+    ],
+    "counter": 0,
+    "keywords": {},
+    "images": [],
+    "effect_logic": [
+      {
+        "effect_data": {
+          "timing": "whenAttacking",
+          "cost": [
+            {
+              "type": "attachDon",
+              "amount": 1
+            },
+            {
+              "type": "restDon",
+              "amount": 2
+            }
+          ],
+          "costFailureBehavior": "abortEffect",
+          "condition": null,
+          "boldRequirement": {
+            "type": "trashFromHand",
+            "target": {
+              "type": "anyCard",
+              "quantity": 1
+            }
+          },
+          "boldFailureBehavior": "abortEffect",
+          "effect": {
+            "type": "composite",
+            "actions": [
+              {
+                "type": "millDeck",
+                "amount": 2
+              },
+              {
+                "type": "playFromTrash",
+                "target": {
+                  "type": "character",
+                  "trait": "Thriller Bark Pirates",
+                  "costMax": 4
+                }
+              }
+            ]
+          },
+          "isOptional": true,
+          "duration": "instant",
+          "reversibleOnFailure": true,
+          "description": "When Attacking DON!! x1 and rest 2 DON!!: You may trash 1 card from your hand. Trash 2 cards from the top of your deck and play up to 1 {Thriller Bark Pirates} Character with cost 4 or less from your trash."
+        }
+      }
+    ],
+    "trigger_effect": [
+      {
+        "effect_data": ""
+      }
+    ]
+  }
+]

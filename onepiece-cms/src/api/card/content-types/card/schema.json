@@ -63,11 +63,6 @@
       "repeatable": true,
       "component": "cards.trigger-effect"
     },
-    "set": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::set.set"
-    },
     "rarity": {
       "type": "enumeration",
       "enum": [
@@ -87,11 +82,11 @@
       "repeatable": true,
       "component": "cards.card-image"
     },
-    "card_number": {
+    "cardId": {
       "type": "string",
       "required": true
     },
-    "Counter": {
+    "counter": {
       "type": "integer"
     },
     "attributes": {
@@ -99,6 +94,15 @@
       "repeatable": true,
       "component": "cards.attributes",
       "required": false
+    },
+    "keywords": {
+      "type": "json"
+    },
+    "set": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::set.set",
+      "inversedBy": "cards"
     }
   }
 }

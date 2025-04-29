@@ -9,5 +9,22 @@
     "options": {
         "draftAndPublish": false
     },
-    "attributes": {}
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "parent": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::folder-manager.folder-manager",
+            "inversedBy": "children"
+        },
+        "children": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::folder-manager.folder-manager",
+            "mappedBy": "parent"
+        }
+    }
 }

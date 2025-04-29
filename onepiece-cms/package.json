@@ -15,7 +15,8 @@
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
     "upgrade:dry": "npx @strapi/upgrade latest --dry",
-    "create-folders": "node scripts/createFolders.js"
+    "create-folders": "node scripts/createFolders.js",
+    "import-cards": "node scripts/importCards.js"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.12.1",

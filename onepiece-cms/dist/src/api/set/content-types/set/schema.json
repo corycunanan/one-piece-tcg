@@ -29,7 +29,8 @@
         "cards": {
             "type": "relation",
             "relation": "oneToMany",
-            "target": "api::card.card"
+            "target": "api::card.card",
+            "mappedBy": "set"
         }
     }
 }

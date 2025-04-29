@@ -382,10 +382,10 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
   };
   attributes: {
     attributes: Schema.Attribute.Component<'cards.attributes', true>;
-    card_number: Schema.Attribute.String & Schema.Attribute.Required;
+    cardId: Schema.Attribute.String & Schema.Attribute.Required;
     colors: Schema.Attribute.Component<'cards.color', true>;
     cost: Schema.Attribute.Integer;
-    Counter: Schema.Attribute.Integer;
+    counter: Schema.Attribute.Integer;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -393,6 +393,7 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
     effect_logic: Schema.Attribute.Component<'cards.effect-logic', true>;
     has_trigger: Schema.Attribute.Boolean;
     images: Schema.Attribute.Component<'cards.card-image', true>;
+    keywords: Schema.Attribute.JSON;
     life: Schema.Attribute.Integer;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::card.card'> &
@@ -403,7 +404,7 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
     rarity: Schema.Attribute.Enumeration<
       ['C', 'UC', 'R', 'SR', 'L', 'SEC', 'P', 'DON', 'SP']
     >;
-    set: Schema.Attribute.Relation<'oneToOne', 'api::set.set'>;
+    set: Schema.Attribute.Relation<'manyToOne', 'api::set.set'>;
     traits: Schema.Attribute.Component<'cards.trait', true>;
     trigger_description: Schema.Attribute.String;
     trigger_effect: Schema.Attribute.Component<'cards.trigger-effect', true>;
@@ -428,6 +429,10 @@ export interface ApiFolderManagerFolderManager
     draftAndPublish: false;
   };
   attributes: {
+    children: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::folder-manager.folder-manager'
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -437,6 +442,11 @@ export interface ApiFolderManagerFolderManager
       'api::folder-manager.folder-manager'
     > &
       Schema.Attribute.Private;
+    name: Schema.Attribute.String & Schema.Attribute.Required;
+    parent: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::folder-manager.folder-manager'
+    >;
     publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
