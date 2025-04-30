@@ -2,55 +2,99 @@ const express = require('express');
 const axios = require('axios');
 const effectHandlers = require('../game/effectHandlers');
 const evaluateCondition = require('../game/conditionEngine');
+const { initGameState } = require('../game/initGameState');
+const sampleDeck = require('../sampleCards.json');
 
 const router = express.Router();
 
-router.get('/by-document/:documentId', async (req, res) => {
+router.post('/', async (req, res) => {
   try {
-    const { documentId } = req.params;
+    const {
+      card, // optional full card object
+      cardId, // optional Strapi lookup fallback
+      player1Deck = sampleDeck.slice(0, 50),
+      player2Deck = sampleDeck.slice(0, 50)
+    } = req.body;
 
-    const response = await axios.get(
-      `http://localhost:1337/api/cards?filters[documentId][$eq]=${documentId}&populate=*`,
-      { headers: { Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}` } }
-    );
+    // Fetch from Strapi if no full card provided
+    let cardData = card;
+    if (!cardData && cardId) {
+      const response = await axios.get(
+        `http://localhost:1337/api/cards?filters[cardId][$eq]=${cardId}&populate=*`,
+        { headers: { Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}` } }
+      );
+      const match = response.data?.data?.[0];
+      if (!match) return res.status(404).json({ message: `Card not found with cardId: ${cardId}` });
+      
+      // Map Strapi data structure to expected simulation format
+      cardData = {
+        id: match.id,
+        cardId: match.cardId,
+        name: match.name,
+        type: match.type,
+        cost: match.cost,
+        power: match.power,
+        life: match.life,
+        rarity: match.rarity,
+        effect_description: match.effect_description,
+        traits: match.traits?.map(t => t.trait) || [],
+        colors: match.colors?.map(c => c.color) || [],
+        // Parse effect_logic from Strapi's structure
+        effect_logic: match.effect_logic?.map(e => {
+          // If effect_data is a string, try to parse it as JSON
+          try {
+            if (e.effect_data && typeof e.effect_data === 'string') {
+              return JSON.parse(e.effect_data);
+            }
+            return e.effect_data || {};
+          } catch (err) {
+            console.warn(`Failed to parse effect data: ${err.message}`);
+            return {};
+          }
+        }) || []
+      };
+    }
 
-    const match = response.data?.data?.[0];
+    if (!cardData) {
+      return res.status(400).json({ message: 'Card data not provided or invalid.' });
+    }
+    
+    // If effect_logic is empty or invalid, provide a useful message
+    if (!Array.isArray(cardData.effect_logic) || cardData.effect_logic.length === 0) {
+      return res.status(400).json({ 
+        message: 'Card effect logic not provided or invalid.',
+        card: cardData 
+      });
+    }
 
-    if (!match) return res.status(404).json({ message: 'Card not found for that documentId' });
-
-    const card = { ...match, name: match.name || 'Unknown Card' };
-
-    const gameState = {
-      currentPlayer: 'player1',
-      player1: { hand: [], deck: ['Zoro', 'Nami', 'Luffy'], don: 0, powerBuff: 0 },
-      player2: { hand: [], deck: [], don: 0, powerBuff: 0 },
-    };
+    const gameState = initGameState({ player1Deck, player2Deck });
+    const currentPlayer = gameState.turn.currentPlayer;
 
     const pendingChoices = [];
 
-    for (const effect of card.effect_logic || []) {
+    for (const effect of cardData.effect_logic || []) {
       const handler = effectHandlers[effect.action];
-      const shouldRun = evaluateCondition(effect.condition, gameState, 'player1');
+      const shouldRun = evaluateCondition(effect.condition, gameState, currentPlayer);
 
       if (!shouldRun) continue;
       if (effect.optional) {
-        pendingChoices.push({ card: card.name, effect });
+        pendingChoices.push({ card: cardData.name, effect });
         continue;
       }
 
-      if (handler) handler(gameState, effect, 'player1');
+      if (handler) handler(gameState, effect, currentPlayer);
     }
 
     res.json({
-      message: `Simulated card: ${card.name}`,
+      message: `Simulated card: ${cardData.name}`,
       result: gameState,
-      pendingChoices,
+      pendingChoices
     });
 
   } catch (err) {
     res.status(500).json({
       message: 'Simulation failed',
-      error: err.response?.data || err.message,
+      error: err.response?.data || err.message
     });
   }
 });

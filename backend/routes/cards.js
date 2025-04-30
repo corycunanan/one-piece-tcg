@@ -51,7 +51,6 @@ router.get('/export', async (req, res) => {
         effect_description: card.effect_description,
         set_id: card.set_id,
         image_url: card.image_url,
-        documentId: card.documentId,
         traits: card.traits?.map((t) => ({ trait_name: t.trait_name })) || [],
         colors: card.colors?.map((c) => ({ color: c.color })) || [],
         effect_logic: card.effect_logic?.map((e) => ({
@@ -80,8 +79,64 @@ router.get('/export', async (req, res) => {
     } catch (error) {
     res.status(500).json({
       message: 'Failed to export cards',
-      error: error.message,
-      cards
+      error: error.message
+    });
+  }
+});
+
+// Add a cleanup route to regenerate exported cards file, removing documentId
+router.get('/cleanup-export', async (req, res) => {
+  try {
+    // First, check if exported file exists
+    const filePath = path.join(__dirname, '..', 'exportedCards.json');
+    
+    // Fetch all cards with their related data
+    const response = await axios.get('http://localhost:1337/api/cards?populate=*', {
+      headers: { Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}` }
+    });
+
+    // Map cards without documentId
+    const cards = response.data.data.map((card) => {
+      return {
+        id: card.id,
+        name: card.name,
+        type: card.type,
+        cost: card.cost,
+        power: card.power,
+        life: card.life,
+        rarity: card.rarity,
+        effect_trigger: card.effect_trigger,
+        effect_description: card.effect_description,
+        set_id: card.set_id,
+        image_url: card.image_url,
+        traits: card.traits?.map((t) => ({ trait_name: t.trait_name })) || [],
+        colors: card.colors?.map((c) => ({ color: c.color })) || [],
+        effect_logic: card.effect_logic?.map((e) => ({
+          trigger: e.trigger,
+          action: e.action,
+          target: e.target,
+          amount: e.amount,
+          optional: e.optional,
+          condition: e.condition,
+          timing: e.timing,
+          priority: e.priority,
+          filter: e.filter,
+          duration: e.duration
+        })) || [],
+      };
+    });
+    
+    // Write to file
+    fs.writeFileSync(filePath, JSON.stringify(cards, null, 2), 'utf-8');
+
+    res.json({
+      message: 'Exported cards file cleaned up successfully!',
+      count: cards.length
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: 'Failed to clean up exported cards',
+      error: error.message
     });
   }
 });
