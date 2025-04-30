@@ -404,7 +404,46 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
     rarity: Schema.Attribute.Enumeration<
       ['C', 'UC', 'R', 'SR', 'L', 'SEC', 'P', 'DON', 'SP']
     >;
-    set: Schema.Attribute.Relation<'manyToOne', 'api::set.set'>;
+    set: Schema.Attribute.Enumeration<
+      [
+        'OP01 - Romance Dawn',
+        'OP02 - Paramount War',
+        'OP03 - Pillars of Strength',
+        'OP04 - Kingdoms of Intrigue',
+        'OP05 - Awakening of the New Era',
+        'OP06 - Wings of the Captain',
+        'OP07 - 500 Years in the Future',
+        'OP08 - Two Legends',
+        'OP09 - Emperors in the New World',
+        'OP10 - Royal Blood',
+        'OP11 - A Fist of Divine Speed',
+        'EB01 - Memorial Collection',
+        'EB02 - Anime 25th Collection',
+        'PRB01 - One Piece The Best',
+        'ST01 - Straw Hat Crew',
+        'ST02 - Worst Generation',
+        'ST03 - The Seven Warlords of the Sea',
+        'ST04 - Animal Kingdom Pirates',
+        'ST05 - One Piece Film Edition',
+        'ST06 - Absolute Justice',
+        'ST07 - Big Mom Pirates',
+        'ST08 - Monkey D. Luffy',
+        'ST09 - Yamato',
+        'ST10 - The Three Captains',
+        'ST11 - Uta',
+        'ST12 - Zoro & Sanji',
+        'ST13 - The Three Brothers',
+        'ST14 - 3D2Y',
+        'ST15 - Edward Newgate',
+        'ST16 - Uta',
+        'ST17 - Donquixote Doflamingo',
+        'ST18 - Monkey D. Luffy',
+        'ST19 - Smoker',
+        'ST20 - Charlotte Katakuri',
+        'ST21 - Gear 5',
+        'ST22 - Ace & Newgate',
+      ]
+    >;
     traits: Schema.Attribute.Component<'cards.trait', true>;
     trigger_description: Schema.Attribute.String;
     trigger_effect: Schema.Attribute.Component<'cards.trigger-effect', true>;
@@ -466,7 +505,6 @@ export interface ApiSetSet extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    cards: Schema.Attribute.Relation<'oneToMany', 'api::card.card'>;
     code: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

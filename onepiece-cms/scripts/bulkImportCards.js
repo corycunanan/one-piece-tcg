@@ -69,8 +69,8 @@ async function importCards() {
   
   // Validate set mapping before proceeding
   if (Object.keys(setCodeToId).length === 0) {
-    console.error('❌ No valid sets found. Please make sure sets are imported first.');
-    console.error('   Run: node scripts/bulkImportSets.js');
+    console.error('❌ No valid sets found in the CMS.');
+    console.error('   Please ensure the set enumeration values are configured correctly in Strapi.');
     process.exit(1);
   }
   
