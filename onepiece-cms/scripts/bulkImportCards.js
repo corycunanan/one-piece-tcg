@@ -13,66 +13,64 @@ const cards = JSON.parse(fs.readFileSync(path.join(__dirname, 'cards.cleaned.jso
 // Your Strapi API URLs
 const BASE_URL = process.env.STRAPI_BASE_URL || 'http://localhost:1337';
 const CARDS_API_URL = `${BASE_URL}/api/cards`;
-const SETS_API_URL = `${BASE_URL}/api/sets`;
 const AUTH_TOKEN = process.env.STRAPI_API_TOKEN;
+
+// Debug logging for environment variables
+console.log('🔐 Authentication configuration:');
+console.log(`  - Base URL: ${BASE_URL}`);
+console.log(`  - API Token: ${AUTH_TOKEN ? '✅ Set (starts with: ' + AUTH_TOKEN.substring(0, 8) + '...)' : '❌ Not set'}`);
+console.log(`  - API Token length: ${AUTH_TOKEN ? AUTH_TOKEN.length : 0} characters`);
+console.log(`  - Cards API URL: ${CARDS_API_URL}`);
 
 let successCount = 0;
 let failureCount = 0;
 let skippedCount = 0;
 let relationErrorCount = 0;
 
-// Function to fetch all sets from Strapi
-async function fetchAllSets() {
-  try {
-    console.log('📊 Fetching all sets from Strapi...');
-    const response = await axios.get(`${SETS_API_URL}?pagination[pageSize]=100`, {
-      headers: {
-        Authorization: `Bearer ${AUTH_TOKEN}`,
-      }
-    });
-    
-    // Log the response structure to help debug
-    console.log('API Response structure:', Object.keys(response.data));
-    
-    const sets = response.data.data || [];
-    console.log(`✅ Successfully fetched ${sets.length} sets.`);
-    
-    if (sets.length > 0) {
-      console.log('First set structure:', Object.keys(sets[0]));
-    }
-    
-    // Build dynamic mapping of set codes to IDs
-    const setCodeToId = {};
-    sets.forEach(set => {
-      // Handle both possible data structures
-      const code = set.code || (set.attributes ? set.attributes.code : null);
-      
-      if (code) {
-        setCodeToId[code] = set.id;
-        console.log(`  - Found set: ${code} (ID: ${set.id})`);
-      } else {
-        console.warn(`  - Set with ID ${set.id} has no code, skipping`);
-      }
-    });
-    
-    return setCodeToId;
-  } catch (error) {
-    console.error('❌ Failed to fetch sets:', error.message);
-    process.exit(1);
-  }
-}
+// Map of set codes to their full enum values
+const SET_CODE_TO_ENUM = {
+  'OP01': 'OP01 - Romance Dawn',
+  'OP02': 'OP02 - Paramount War',
+  'OP03': 'OP03 - Pillars of Strength',
+  'OP04': 'OP04 - Kingdoms of Intrigue',
+  'OP05': 'OP05 - Awakening of the New Era',
+  'OP06': 'OP06 - Wings of the Captain',
+  'OP07': 'OP07 - 500 Years in the Future',
+  'OP08': 'OP08 - Two Legends',
+  'OP09': 'OP09 - Emperors in the New World',
+  'OP10': 'OP10 - Royal Blood',
+  'OP11': 'OP11 - A Fist of Divine Speed',
+  'EB01': 'EB01 - Memorial Collection',
+  'EB02': 'EB02 - Anime 25th Collection',
+  'PRB01': 'PRB01 - One Piece The Best',
+  'ST01': 'ST01 - Straw Hat Crew',
+  'ST02': 'ST02 - Worst Generation',
+  'ST03': 'ST03 - The Seven Warlords of the Sea',
+  'ST04': 'ST04 - Animal Kingdom Pirates',
+  'ST05': 'ST05 - One Piece Film Edition',
+  'ST06': 'ST06 - Absolute Justice',
+  'ST07': 'ST07 - Big Mom Pirates',
+  'ST08': 'ST08 - Monkey D. Luffy',
+  'ST09': 'ST09 - Yamato',
+  'ST10': 'ST10 - The Three Captains',
+  'ST11': 'ST11 - Uta',
+  'ST12': 'ST12 - Zoro & Sanji',
+  'ST13': 'ST13 - The Three Brothers',
+  'ST14': 'ST14 - 3D2Y',
+  'ST15': 'ST15 - Edward Newgate',
+  'ST16': 'ST16 - Uta',
+  'ST17': 'ST17 - Donquixote Doflamingo',
+  'ST18': 'ST18 - Monkey D. Luffy',
+  'ST19': 'ST19 - Smoker',
+  'ST20': 'ST20 - Charlotte Katakuri',
+  'ST21': 'ST21 - Gear 5',
+  'ST22': 'ST22 - Ace & Newgate'
+};
 
 // Main import function
 async function importCards() {
-  // Dynamically build set code to ID mapping
-  const setCodeToId = await fetchAllSets();
-  
-  // Validate set mapping before proceeding
-  if (Object.keys(setCodeToId).length === 0) {
-    console.error('❌ No valid sets found in the CMS.');
-    console.error('   Please ensure the set enumeration values are configured correctly in Strapi.');
-    process.exit(1);
-  }
+  console.log(`📋 Using set enum values from CMS configuration`);
+  console.log(`✅ Found ${Object.keys(SET_CODE_TO_ENUM).length} set mappings.`);
   
   console.log(`\n🚀 Attempting to import ${cards.length} cards...`);
 
@@ -93,11 +91,12 @@ async function importCards() {
       
       // Extract setCode from cardId
       const setCode = card.cardId.split('-')[0];
-      const matchingSetId = setCodeToId[setCode];
+      const matchingSetEnum = SET_CODE_TO_ENUM[setCode];
 
-      // Validate that we have a valid set relation
-      if (!matchingSetId) {
-        console.error(`❌ No matching Set ID found for code: ${setCode} (card: ${card.cardId})`);
+      // Validate that we have a valid set enum value
+      if (!matchingSetEnum) {
+        console.error(`❌ No matching set enum value found for code: ${setCode} (card: ${card.cardId})`);
+        console.error(`   This set code may not be configured in the CMS schema.`);
         relationErrorCount++;
         failureCount++;
         continue;
@@ -123,8 +122,9 @@ async function importCards() {
         trigger_description: card.trigger_description || null,
         trigger_effect: card.trigger_effect || [],
         images: card.images || [],
-        // Corrected Strapi v4 relation format - use direct ID reference
-        set: matchingSetId
+        // Use the set enum value directly
+        set: matchingSetEnum,
+        publishedAt: new Date().toISOString(),
       };
 
       // POST to Strapi
@@ -151,13 +151,10 @@ async function importCards() {
       if (errorData.error) {
         console.error(`  - Error Message: ${errorData.error.message}`);
         
-        // Check for various relation error patterns
-        if (errorData.error.message.includes('relation') || 
-            errorData.error.message.includes('foreign key') ||
-            errorData.error.message.includes('Invalid relation') ||
-            errorData.error.message.includes('connect')) {
-          console.error(`  - RELATION ERROR: Issue with the set relation for card ${card.cardId}`);
-          console.error(`  - Set ID used: ${matchingSetId}`);
+        // Check for validation errors related to the set field
+        if (errorData.error.message.includes('set')) {
+          console.error(`  - SET ERROR: Issue with the set field for card ${card.cardId}`);
+          console.error(`  - Set value used: ${matchingSetEnum}`);
           relationErrorCount++;
         } else {
           console.error(`  - Detailed Server Response:`, JSON.stringify(errorData, null, 2));

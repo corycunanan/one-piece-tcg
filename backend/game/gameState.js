@@ -1,32 +1,45 @@
 const gameState = {
-    turn: {
-        number: 1,
-        currentPlayer: 'player1',
-        phase: 'reset' // Options: reset → draw → action
-    },
+  turn: {
+    number: 1,
+    currentPlayer: 'player1',
+    phase: 'reset', // phases: reset, draw, main, end
+  },
+
+  players: {
     player1: {
-      hand: [15],
-      field: [],
-      deck: [5, 16], // Zoro, Jet Pistol
-      don: {
-        total: 10,
-        active: 1,
-        rested: 0
-      },
-      powerBuff: 0
-    },
-    player2: {
-      hand: [22],
-      field: [],
+      life: 5,
+      hand: [],
+      board: [],
       deck: [],
+      trash: [],
       don: {
-        total: 10,
+        total: 0,
         active: 0,
         rested: 0
       },
-      powerBuff: 0
+      powerBuff: 0,
+      leader: null
     },
-    effectSuppression: []
-  };
-  
-  module.exports = gameState;
+    player2: {
+      life: 5,
+      hand: [],
+      board: [],
+      deck: [],
+      trash: [],
+      don: {
+        total: 0,
+        active: 0,
+        rested: 0
+      },
+      powerBuff: 0,
+      leader: null
+    }
+  },
+
+  effectSuppression: [], // e.g. [{ source: 'cardId', effectType: 'onPlay', duration: 'turn' }]
+  effectStack: [],
+  actionHistory: [],
+  pendingTriggers: [],
+};
+
+module.exports = gameState;
