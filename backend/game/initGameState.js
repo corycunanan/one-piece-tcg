@@ -31,11 +31,20 @@ function initGameState({ player1Deck, player2Deck }) {
 
 // Per-player state generator
 function buildPlayerState(deck) {
-  const shuffledDeck = shuffle(deck);
+  const clonedDeck = cloneDeep(deck); // clone to avoid mutation
+  const shuffledDeck = shuffle(clonedDeck);
+
   const leaderCard = shuffledDeck.find(card => card.type === 'Leader');
   const rest = shuffledDeck.filter(card => card !== leaderCard);
-  const hand = rest.slice(0, 5);
-  const deckRest = rest.slice(5);
+  const hand = rest.slice(0, 5).map(setInitialCardFlags);
+  const deckRest = rest.slice(5).map(setInitialCardFlags);
+
+  const leaderWithFlags = {
+    ...leaderCard,
+    rested: false,
+    attacksThisTurn: 0,
+    canAttackMultipleTimes: false
+  };
 
   return {
     life: leaderCard?.life || 5,
@@ -49,7 +58,18 @@ function buildPlayerState(deck) {
       rested: 0
     },
     powerBuff: 0,
-    leader: leaderCard || null
+    leader: leaderWithFlags
+  };
+}
+
+// Adds flags for cards
+function setInitialCardFlags(card) {
+  return {
+    ...card,
+    rested: false,
+    attacksThisTurn: 0,
+    canAttackMultipleTimes: false,
+    summoningSickness: true
   };
 }
 

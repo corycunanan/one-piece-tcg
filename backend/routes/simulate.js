@@ -1,6 +1,6 @@
 const express = require('express');
 const axios = require('axios');
-const effectHandlers = require('../game/effectHandlers');
+const effectHandlers = require('../game/effects');
 const evaluateCondition = require('../game/conditionEngine');
 const { initGameState } = require('../game/initGameState');
 const sampleDeck = require('../sampleCards.json');
@@ -41,19 +41,24 @@ router.post('/', async (req, res) => {
         colors: match.colors?.map(c => c.color) || [],
         // Parse effect_logic from Strapi's structure
         effect_logic: match.effect_logic?.map(e => {
-          // If effect_data is a string, try to parse it as JSON
           try {
-            if (e.effect_data && typeof e.effect_data === 'string') {
+            if (typeof e.effect_data === 'string') {
               return JSON.parse(e.effect_data);
             }
-            return e.effect_data || {};
+            if (typeof e.effect_data === 'object' && e.effect_data !== null) {
+              return e.effect_data;
+            }
+            console.warn('⚠️ Missing or invalid effect_data:', e);
+            return { invalid: true }; // Flag it for debugging
           } catch (err) {
-            console.warn(`Failed to parse effect data: ${err.message}`);
-            return {};
+            console.warn(`❌ Failed to parse effect_data: ${err.message}`);
+            return { parseError: true };
           }
-        }) || []
+        }) || []        
       };
     }
+
+    console.log('Effect logic:', JSON.stringify(cardData.effect_logic, null, 2));
 
     if (!cardData) {
       return res.status(400).json({ message: 'Card data not provided or invalid.' });
@@ -72,18 +77,52 @@ router.post('/', async (req, res) => {
 
     const pendingChoices = [];
 
+    console.log()
+    console.log(`Running simulation for card: ${cardData.name}`);
+    console.log('Effect logic:', JSON.stringify(cardData.effect_logic, null, 2));
+
     for (const effect of cardData.effect_logic || []) {
       const handler = effectHandlers[effect.action];
-      const shouldRun = evaluateCondition(effect.condition, gameState, currentPlayer);
 
-      if (!shouldRun) continue;
-      if (effect.optional) {
-        pendingChoices.push({ card: cardData.name, effect });
+      if (!handler) {
+        console.warn(`⚠️ No handler found for effect action: "${effect.action}"`);
+        gameState.actionHistory.push({
+          type: 'unhandledEffect',
+          action: effect.action,
+          player: currentPlayer,
+          timestamp: Date.now()
+        });
         continue;
       }
 
-      if (handler) handler(gameState, effect, currentPlayer);
-    }
+      const shouldRun = evaluateCondition(effect.condition, gameState, currentPlayer);
+    
+      console.log(`→ Effect: ${effect.action}`);
+      console.log(`→ Should run: ${shouldRun}`);
+    
+      if (!shouldRun) continue;
+    
+      if (effect.optional) {
+        pendingChoices.push({ card: cardData.name, effect });
+        gameState.actionHistory.push({
+          type: 'optionalEffectPrompt',
+          card: cardData.name,
+          effect
+        });
+        continue;
+      }
+    
+      if (handler) {
+        handler(gameState, effect, currentPlayer);
+        gameState.actionHistory.push({
+          type: 'effectApplied',
+          card: cardData.name,
+          effect,
+          player: currentPlayer,
+          timestamp: Date.now()
+        });
+      }
+    }    
 
     res.json({
       message: `Simulated card: ${cardData.name}`,

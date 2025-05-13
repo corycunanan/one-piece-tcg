@@ -1,6 +1,6 @@
 const express = require('express');
 const axios = require('axios');
-const effectHandlers = require('../game/effectHandlers');
+const effectHandlers = require('../game/effects');
 const evaluateCondition = require('../game/conditionEngine');
 const isSuppressed = require('../game/suppressionChecker');
 const gameState = require('../game/gameState');
@@ -52,6 +52,11 @@ router.post('/', async (req, res) => {
     // Move card from hand to field
     player.hand = player.hand.filter(id => id !== cardId);
     player.field.push(cardId);
+
+    // Update card state
+    card.rested = false;
+    card.attacksThisTurn = 0;
+    card.summoningSickness = true; // important
 
     const pendingChoices = [];
 

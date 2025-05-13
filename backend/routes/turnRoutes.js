@@ -1,41 +1,56 @@
 const express = require('express');
-const router = express.Router();
-const { endTurn, progressPhase } = require('../game/turn');
 const gameState = require('../game/gameState');
+const { initGameState } = require('../game/initGameState');
 const axios = require('axios');
-const hasAvailableActions = require('../game/hasAvailableActions');
-
+const { resetPhase, advanceTurn, progressPhase } = require('../game/turn');
 require('dotenv').config();
 
-router.post('/end-turn', async (req, res) => {
-    endTurn(gameState);
+const router = express.Router();
 
-    // Auto-progress through reset → draw → action
-    const resetMsg = progressPhase(gameState);
-    const drawMsg = progressPhase(gameState);
-    const actionMsg = progressPhase(gameState);
+let currentGameState = null;
 
-    let autoEndMsg = null;
-    const currentPlayer = gameState.turn.currentPlayer;
-
-    const hasActions = await hasAvailableActions(gameState, currentPlayer);
-
-    if (!hasActions) {
-        endTurn(gameState);
-        const reset2 = progressPhase(gameState);
-        const draw2 = progressPhase(gameState);
-        const action2 = progressPhase(gameState);
-        autoEndMsg = `🔚 No valid actions for ${currentPlayer}. Turn auto-ended.`;
-    }
-
-    res.json({
-        message: `Turn ended. It is now ${gameState.turn.currentPlayer}'s turn.`,
-        phaseMessages: [resetMsg, drawMsg, actionMsg],
-        autoEndMsg,
-        turn: gameState.turn,
-    });
+// POST /turn/start
+router.post('/start', (req, res) => {
+  // You can accept decks in the body, or use a default sample
+  const { player1Deck, player2Deck } = req.body;
+  currentGameState = initGameState({ player1Deck, player2Deck });
+  res.json({ message: 'Game started', gameState: currentGameState });
 });
 
+// POST /turn/reset
+router.post('/reset', (req, res) => {
+  resetPhase(gameState);
+  res.json({ message: 'Board and DON!! reset', gameState });
+});
+
+// POST /turn/advance
+router.post('/advance', (req, res) => {
+  advanceTurn(gameState);
+  res.json({ message: 'Turn advanced', gameState });
+});
+
+// POST /turn/next-phase
+router.post('/next-phase', (req, res) => {
+  if (!currentGameState) {
+    return res.status(400).json({ message: 'Game has not been started.' });
+  }
+  const msg = progressPhase(currentGameState);
+  res.json({ message: msg, gameState: currentGameState });
+});
+
+// POST /turn/end
+router.post('/end', (req, res) => {
+  if (!currentGameState) {
+    return res.status(400).json({ message: 'Game has not been started.' });
+  }
+  advanceTurn(currentGameState);
+  res.json({
+    message: `Turn advanced to ${currentGameState.turn.currentPlayer}`,
+    gameState: currentGameState
+  });
+});
+
+// POST /turn/progress-phase
 router.post('/progress-phase', (req, res) => {
   const message = progressPhase(gameState);
 
@@ -46,6 +61,7 @@ router.post('/progress-phase', (req, res) => {
   });
 });
 
+// 🔍 Inspect current phase of game state
 router.get('/phase/status', async (req, res) => {
   
     console.log('🖐 player2 hand before enrichment:', gameState.player2.hand);

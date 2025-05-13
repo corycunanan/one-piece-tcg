@@ -1,5 +1,5 @@
 const express = require('express');
-const effectHandlers = require('../game/effectHandlers');
+const effectHandlers = require('../game/effects');
 
 const router = express.Router();
 
