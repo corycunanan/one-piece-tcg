@@ -1,5 +1,7 @@
 import React from 'react';
+import { useDrag } from 'react-dnd';
 import { MockCard } from '../mockCards';
+import { DraggedCard } from './GameBoard';
 
 interface CardProps {
   card?: MockCard;
@@ -7,12 +9,23 @@ interface CardProps {
   onClick?: () => void;
   onHoverIn?: (e: React.MouseEvent) => void;
   onHoverOut?: () => void;
+  draggableType?: string;
+  dragItem?: DraggedCard;
 }
 
-const CARD_WIDTH = 63;
-const CARD_HEIGHT = 88;
+const CARD_WIDTH = 75.6;
+const CARD_HEIGHT = 105.6;
 
-const Card: React.FC<CardProps> = ({ card, faceDown, onClick, onHoverIn, onHoverOut }) => {
+const Card: React.FC<CardProps> = ({ card, faceDown, onClick, onHoverIn, onHoverOut, draggableType, dragItem }) => {
+  const [{ isDragging }, drag] = useDrag({
+    type: draggableType || '',
+    item: dragItem,
+    canDrag: !!draggableType && !!dragItem,
+    collect: monitor => ({
+      isDragging: monitor.isDragging(),
+    }),
+  });
+
   if (faceDown) {
     return (
       <div
@@ -22,7 +35,9 @@ const Card: React.FC<CardProps> = ({ card, faceDown, onClick, onHoverIn, onHover
           height: CARD_HEIGHT,
           background: '#bfc8d1',
           borderRadius: 6,
+          opacity: isDragging ? 0.5 : 1,
         }}
+        ref={draggableType ? (drag as unknown as React.Ref<HTMLDivElement>) : undefined}
       />
     );
   }
@@ -40,12 +55,14 @@ const Card: React.FC<CardProps> = ({ card, faceDown, onClick, onHoverIn, onHover
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        cursor: onClick ? 'pointer' : 'default',
+        cursor: onClick ? 'pointer' : draggableType ? 'grab' : 'default',
         boxSizing: 'border-box',
+        opacity: isDragging ? 0.5 : 1,
       }}
       onClick={onClick}
       onMouseEnter={onHoverIn}
       onMouseLeave={onHoverOut}
+      ref={draggableType ? (drag as unknown as React.Ref<HTMLDivElement>) : undefined}
     >
       <div style={{ fontWeight: 700, fontSize: 12 }}>{card.name}</div>
       <div style={{ fontSize: 10 }}>{card.type}</div>

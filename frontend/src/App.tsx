@@ -7,15 +7,21 @@ import { MockCard } from './mockCards';
 function App() {
   const [hoveredCard, setHoveredCard] = useState<MockCard | null>(null);
 
+  // Handler to pass to GameBoard for card hover
+  const handleCardHover = (card: MockCard | null, e?: React.MouseEvent) => {
+    setHoveredCard(card);
+  };
+
   return (
     <div className="app-layout">
-      {/* Left Sidebar: Card Info Panel */}
-      <aside className="sidebar card-info-panel">
-        <CardInfoPanel card={hoveredCard} />
-      </aside>
       {/* Main Game Area */}
       <main className="main-board">
-        <GameBoard setHoveredCard={setHoveredCard} />
+        <GameBoard setHoveredCard={handleCardHover} />
+        {hoveredCard && (
+          <div className="card-info-panel-overlay">
+            <CardInfoPanel card={hoveredCard} />
+          </div>
+        )}
       </main>
     </div>
   );
