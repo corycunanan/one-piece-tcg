@@ -49,6 +49,35 @@
   justify-content: center;
   background: #f7f9fb;
   overflow: hidden;
+  perspective: 1000px;
+}
+
+.game-board-wrapper {
+  transform-style: preserve-3d;
+  transform: rotateX(5deg) translateY(-12px);
+  transition: transform 0.3s ease;
+}
+
+.game-board-abstracted {
+  display: grid;
+  width: auto;
+  height: 80vh;
+  aspect-ratio: 1.7/1;
+  grid-template-columns: 140px 1.5fr .7fr 1.5fr 140px;
+  grid-template-rows: 1fr 1.1fr 1.1fr 1fr;
+  grid-template-areas:
+    "opponent-trash opponent-event opponent-leader opponent-don opponent-life"
+    "opponent-deck opponent-character opponent-character opponent-character opponent-life"
+    "player-life player-character player-character player-character player-deck"
+    "player-life player-don player-leader player-event player-trash";
+  gap: 16px;
+  background: #e9ecf2;
+  border: 2px solid #bfc8d1;
+  border-radius: 16px;
+  margin: 0 auto;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  position: relative;
+  z-index: 1;
 }
 
 .card-info-placeholder,
@@ -138,36 +167,17 @@
   min-height: 100px;
   position: relative;
   z-index: 2;
+  transform: translateZ(30px);
 }
 
 .hands-row.top {
   margin-bottom: -24px;
+  transform: translateZ(30px) translateY(-20px);
 }
 
 .hands-row.bottom {
   margin-top: -24px;
-}
-
-.game-board-abstracted {
-  display: grid;
-  width: auto;
-  height: 80vh;
-  aspect-ratio: 1.7/1;
-  grid-template-columns: 140px 1.5fr .7fr 1.5fr 140px;
-  grid-template-rows: 1fr 1.1fr 1.1fr 1fr;
-  grid-template-areas:
-    "opponent-trash opponent-event opponent-leader opponent-don opponent-life"
-    "opponent-deck opponent-character opponent-character opponent-character opponent-life"
-    "player-life player-character player-character player-character player-deck"
-    "player-life player-don player-leader player-event player-trash";
-  gap: 16px;
-  background: #e9ecf2;
-  border: 2px solid #bfc8d1;
-  border-radius: 16px;
-  margin: 0 auto;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-  position: relative;
-  z-index: 1;
+  transform: translateZ(30px) translateY(20px);
 }
 
 .opponent-trash { grid-area: opponent-trash; }
@@ -185,6 +195,39 @@
 .player-trash { grid-area: player-trash; }
 .player-character { grid-area: player-character; }
 
+.card {
+  transform-style: preserve-3d;
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 1;
+  will-change: transform;
+}
+
+.card:hover {
+  transform: translateZ(20px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.card-face-down {
+  background: #bfc8d1;
+}
+
+.card-with-image {
+  background: #fff;
+  border: 1px solid #bfc8d1;
+  overflow: hidden;
+}
+
+.card-text {
+  background: #fff;
+  border: 1px solid #bfc8d1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .zone {
   background: #dde3ea;
   border-radius: 8px;
@@ -198,6 +241,13 @@
   min-width: 60px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
   text-align: center;
+  transform-style: preserve-3d;
+  transition: transform 0.2s ease;
+}
+
+.zone:hover {
+  transform: translateZ(10px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .character-area-grid {
@@ -207,6 +257,8 @@
   gap: 20px;
   width: 100%;
   height: 100%;
+  transform-style: preserve-3d;
+  perspective: 1000px;
 }
 
 .card-slot {
@@ -223,10 +275,18 @@
   z-index: 3;
   box-sizing: border-box;
   background: rgba(255,255,255,0.12);
+  transform-style: preserve-3d;
 }
 
-.card-slot > * {
-  z-index: 4;
+.card-slot > .card {
+  position: static;
+  top: auto;
+  left: auto;
+  transform: none;
+}
+
+.card-slot > .card:hover {
+  transform: translateZ(20px) scale(1.05);
 }
 
 .leader-area-grid, .event-area-grid {

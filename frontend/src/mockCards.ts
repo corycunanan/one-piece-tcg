@@ -6,6 +6,7 @@ export interface MockCard {
   power?: number;
   life?: number;
   image?: string;
+  cardBack?: string;
 }
 
 export const mockCards: MockCard[] = [
@@ -16,7 +17,8 @@ export const mockCards: MockCard[] = [
     cost: 5,
     power: 5000,
     life: 5,
-    image: '',
+    image: '/monkey-d-luffy-st21-001.png',
+    cardBack: '/card-back.jpg',
   },
   {
     id: '2',
@@ -24,7 +26,8 @@ export const mockCards: MockCard[] = [
     type: 'Character',
     cost: 3,
     power: 4000,
-    image: '',
+    image: '/roronoa-zoro-op01-025sr.jpg',
+    cardBack: '/card-back.jpg',
   },
   {
     id: '3',
@@ -32,6 +35,7 @@ export const mockCards: MockCard[] = [
     type: 'Event',
     cost: 2,
     image: '',
+    cardBack: '/card-back.jpg',
   },
   {
     id: '4',
@@ -39,11 +43,13 @@ export const mockCards: MockCard[] = [
     type: 'Stage',
     cost: 1,
     image: '',
+    cardBack: '/card-back.jpg',
   },
   {
     id: '5',
     name: 'Don!!',
     type: 'Don!!',
     image: '',
+    cardBack: '/card-back.jpg',
   },
 ]; 

@@ -4,14 +4,14 @@ import { DraggedCard } from './GameBoard';
 
 interface CardSlotProps {
   children?: ReactNode;
-  canDrop?: boolean;
+  canDrop?: boolean | ((item: DraggedCard) => boolean);
   onDrop?: (item: DraggedCard) => void;
 }
 
 const CardSlot: React.FC<CardSlotProps> = ({ children, canDrop, onDrop }) => {
   const [{ isOver, canDropHere }, drop] = useDrop<DraggedCard, void, { isOver: boolean; canDropHere: boolean }>({
-    accept: 'HAND_CARD',
-    canDrop: () => !!canDrop,
+    accept: ['HAND_CARD', 'DON_CARD'],
+    canDrop: (item) => typeof canDrop === 'function' ? canDrop(item) : !!canDrop,
     drop: (item: DraggedCard) => {
       if (onDrop) onDrop(item);
     },

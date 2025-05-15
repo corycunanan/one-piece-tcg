@@ -6,6 +6,7 @@ import Card from './Card';
 import DONCard from './DONCard';
 import { mockCards, MockCard } from '../mockCards';
 import { Deck } from '../game/Deck';
+import DraggableDONCard from './DraggableDONCard';
 
 const luffyLeader = mockCards.find(card => card.name === 'Monkey D. Luffy')!;
 const zoroCard = mockCards.find(card => card.name === 'Roronoa Zoro')!;
@@ -41,6 +42,8 @@ const GameBoard: React.FC<GameBoardProps> = ({ setHoveredCard }) => {
   const [selectedHandIdx, setSelectedHandIdx] = useState<number | null>(null);
   // DON state: true = active, false = rested
   const [playerDON, setPlayerDON] = useState<boolean[]>(Array(NUM_DON).fill(true));
+  // Track DON attachments per character
+  const [donAttachments, setDonAttachments] = useState<number[]>([0, 0, 0, 0, 0]);
 
   const handleCardHoverIn = (card: MockCard) => (e: React.MouseEvent) => {
     setHoveredCard(card, e);
@@ -74,6 +77,23 @@ const GameBoard: React.FC<GameBoardProps> = ({ setHoveredCard }) => {
     }
   };
 
+  // Handle dropping a DON card onto a character
+  const handleDonDropToSlot = (slotIdx: number) => {
+    // Find an active DON to attach
+    const donIndex = playerDON.findIndex(active => active);
+    if (donIndex === -1) return; // No active DON available
+
+    // Update DON state
+    const newDON = [...playerDON];
+    newDON[donIndex] = false;
+    setPlayerDON(newDON);
+
+    // Update DON attachments
+    const newAttachments = [...donAttachments];
+    newAttachments[slotIdx]++;
+    setDonAttachments(newAttachments);
+  };
+
   // Helper to show deck back and count
   const renderDeckZone = (deck: Deck) => (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -91,7 +111,7 @@ const GameBoard: React.FC<GameBoardProps> = ({ setHoveredCard }) => {
     const cardHeight = 88 * 1.2;
     const totalWidth = cardWidth + overlap * (don.length - 1);
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center', zIndex: 9999, position: 'relative', pointerEvents: 'auto' }}>
         <div style={{ position: 'relative', height: cardHeight, width: totalWidth }}>
           {don.map((active, idx) => (
             <div
@@ -99,15 +119,15 @@ const GameBoard: React.FC<GameBoardProps> = ({ setHoveredCard }) => {
               style={{
                 position: 'absolute',
                 left: idx * overlap,
-                zIndex: idx,
-                pointerEvents: 'none',
+                zIndex: 100 + idx,
+                pointerEvents: 'auto',
               }}
             >
-              <DONCard active={active} scale={1.2} />
+              <DraggableDONCard active={active} index={idx} donCard={donCard} />
             </div>
           ))}
           {/* Spacer to force container height */}
-          <div style={{ width: 1, height: cardHeight, pointerEvents: 'none', opacity: 0 }} />
+          <div style={{ width: 1, height: cardHeight, opacity: 0 }} />
         </div>
         <div style={{ fontWeight: 700, fontSize: 16, color: '#222b3a', marginTop: 0 }}>
           {don.filter(Boolean).length} DON
@@ -128,61 +148,111 @@ const GameBoard: React.FC<GameBoardProps> = ({ setHoveredCard }) => {
       </div>
 
       {/* Main board */}
-      <div className="game-board-abstracted">
-        {/* Opponent character area */}
-        <div className="zone opponent-character">
-          <div className="character-area-grid">
-            {opponentBoard.map((card, idx) => (
-              <CardSlot key={idx}>{card && <Card card={card} onHoverIn={handleCardHoverIn(card)} onHoverOut={handleCardHoverOut} />}</CardSlot>
-            ))}
+      <div className="game-board-wrapper">
+        <div className="game-board-abstracted">
+          {/* Opponent character area */}
+          <div className="zone opponent-character">
+            <div className="character-area-grid">
+              {opponentBoard.map((card, idx) => (
+                <CardSlot key={idx}>{card && <Card card={card} onHoverIn={handleCardHoverIn(card)} onHoverOut={handleCardHoverOut} />}</CardSlot>
+              ))}
+            </div>
           </div>
-        </div>
-        {/* Player character area */}
-        <div className="zone player-character">
-          <div className="character-area-grid">
-            {playerBoard.map((card, idx) => (
-              <CardSlot
-                key={idx}
-                canDrop={playerBoard[idx] === null}
-                onDrop={dragged => handleDropToSlot(idx, dragged)}
-              >
-                {card && <Card card={card} onHoverIn={handleCardHoverIn(card)} onHoverOut={handleCardHoverOut} />}
+          {/* Player character area */}
+          <div className="zone player-character">
+            <div className="character-area-grid">
+              {playerBoard.map((card, idx) => (
+                <CardSlot
+                  key={idx}
+                  canDrop={(item) => {
+                    if (item.card.type === 'Don!!') {
+                      return playerBoard[idx] !== null; // Can only attach DON to existing characters
+                    }
+                    return playerBoard[idx] === null; // Can only place characters in empty slots
+                  }}
+                  onDrop={dragged => {
+                    if (dragged.card.type === 'Don!!') {
+                      handleDonDropToSlot(idx);
+                    } else {
+                      handleDropToSlot(idx, dragged);
+                    }
+                  }}
+                >
+                  {card && (
+                    <div style={{ position: 'relative', zIndex: 9999, pointerEvents: 'auto' }}>
+                      <Card card={card} onHoverIn={handleCardHoverIn(card)} onHoverOut={handleCardHoverOut} />
+                      {donAttachments[idx] > 0 && (
+                        <div
+                          style={{
+                            position: 'absolute',
+                            top: -10,
+                            right: -10,
+                            background: '#4a90e2',
+                            color: 'white',
+                            borderRadius: '50%',
+                            width: 24,
+                            height: 24,
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            fontSize: 12,
+                            fontWeight: 'bold',
+                            boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+                            zIndex: 5,
+                          }}
+                        >
+                          {donAttachments[idx]}
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </CardSlot>
+              ))}
+            </div>
+          </div>
+          {/* Leader and Event areas as squares */}
+          <div className="zone opponent-leader" style={{ zIndex: 10000, pointerEvents: 'auto' }}>
+            <div className="leader-area-grid" style={{ zIndex: 10001, pointerEvents: 'auto' }}>
+              <CardSlot>{luffyLeader && (
+                <div style={{ position: 'relative', zIndex: 9999, pointerEvents: 'auto' }}>
+                  <Card card={luffyLeader} onHoverIn={handleCardHoverIn(luffyLeader)} onHoverOut={handleCardHoverOut} />
+                </div>
+              )}</CardSlot>
+            </div>
+          </div>
+          <div className="zone player-leader" style={{ zIndex: 10000, pointerEvents: 'auto' }}>
+            <div className="leader-area-grid" style={{ zIndex: 10001, pointerEvents: 'auto' }}>
+              <CardSlot>
+                {luffyLeader && (
+                  <div style={{ position: 'relative', zIndex: 9999, pointerEvents: 'auto' }}>
+                    <Card card={luffyLeader} onHoverIn={handleCardHoverIn(luffyLeader)} onHoverOut={handleCardHoverOut} />
+                  </div>
+                )}
               </CardSlot>
-            ))}
+            </div>
           </div>
-        </div>
-        {/* Leader and Event areas as squares */}
-        <div className="zone opponent-leader">
-          <div className="leader-area-grid">
-            <CardSlot>{luffyLeader && <Card card={luffyLeader} onHoverIn={handleCardHoverIn(luffyLeader)} onHoverOut={handleCardHoverOut} />}</CardSlot>
+          <div className="zone opponent-event">
+            <div className="event-area-grid">
+              <CardSlot />
+            </div>
           </div>
-        </div>
-        <div className="zone player-leader">
-          <div className="leader-area-grid">
-            <CardSlot>{luffyLeader && <Card card={luffyLeader} onHoverIn={handleCardHoverIn(luffyLeader)} onHoverOut={handleCardHoverOut} />}</CardSlot>
+          <div className="zone player-event">
+            <div className="event-area-grid">
+              <CardSlot />
+            </div>
           </div>
+          {/* Deck zones */}
+          <div className="zone opponent-deck">{renderDeckZone(opponentDeck)}</div>
+          <div className="zone player-deck">{renderDeckZone(playerDeck)}</div>
+          {/* DON areas */}
+          <div className="zone player-don">{renderDONArea(playerDON)}</div>
+          {/* Other zones remain as before */}
+          <div className="zone opponent-trash">Trash area</div>
+          <div className="zone opponent-don">DON area</div>
+          <div className="zone opponent-life">Life area</div>
+          <div className="zone player-life">Life area</div>
+          <div className="zone player-trash">Trash area</div>
         </div>
-        <div className="zone opponent-event">
-          <div className="event-area-grid">
-            <CardSlot />
-          </div>
-        </div>
-        <div className="zone player-event">
-          <div className="event-area-grid">
-            <CardSlot />
-          </div>
-        </div>
-        {/* Deck zones */}
-        <div className="zone opponent-deck">{renderDeckZone(opponentDeck)}</div>
-        <div className="zone player-deck">{renderDeckZone(playerDeck)}</div>
-        {/* DON areas */}
-        <div className="zone player-don">{renderDONArea(playerDON)}</div>
-        {/* Other zones remain as before */}
-        <div className="zone opponent-trash">Trash area</div>
-        <div className="zone opponent-don">DON area</div>
-        <div className="zone opponent-life">Life area</div>
-        <div className="zone player-life">Life area</div>
-        <div className="zone player-trash">Trash area</div>
       </div>
 
       {/* Player hand (face up, below board) */}
