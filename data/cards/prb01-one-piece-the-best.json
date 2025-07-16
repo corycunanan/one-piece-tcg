@@ -1,0 +1,52 @@
+{
+  "totalCards": 1,
+  "cards": [
+    {
+      "cardId": "PRB01-001",
+      "name": "Sanji",
+      "cardType": "LEADER",
+      "life": 5,
+      "cost": null,
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/PRB01-001.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/PRB01-001_p1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Activate: Main] [Once Per Turn] Up to 1 of your Characters without an [On Play] effect and with a cost of 8 or less gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "trigger_description": "",
+      "rarity": "L",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": true
+        }
+      ]
+    }
+  ]
+}

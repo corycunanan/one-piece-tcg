@@ -1,0 +1,15 @@
+{
+  "totalCards": 2024,
+  "totalSets": 36,
+  "cardTypes": [
+    "LEADER",
+    "CHARACTER",
+    "EVENT",
+    "STAGE"
+  ],
+  "rarities": [
+    "C",
+    "R"
+  ],
+  "exportedAt": "2025-07-14T00:05:26.926Z"
+}

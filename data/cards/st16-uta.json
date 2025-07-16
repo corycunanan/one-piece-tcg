@@ -1,0 +1,235 @@
+{
+  "totalCards": 5,
+  "cards": [
+    {
+      "cardId": "ST16-004",
+      "name": "Shanks",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "9",
+      "power": 11000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "The Four Emperors"
+        },
+        {
+          "trait": "Red-Haired Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-004.png?250701",
+          "label": "-Green Uta- [ST-16]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-004_p1.png?250701",
+          "label": "-A FIST OF DIVINE SPEED- [OP-11] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] K.O. up to 1 of your opponent's rested Characters.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "OP11 - A Fist of Divine Speed",
+          "is_default": false
+        },
+        {
+          "set": "ST16 - Uta",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST16-001",
+      "name": "Uta",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-001.png?250701",
+          "label": "-Green Uta- [ST-16]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may trash 1 {FILM} type card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "ST16 - Uta",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST16-002",
+      "name": "Gordon",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 1000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-002.png?250701",
+          "label": "-Green Uta- [ST-16]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Your Opponent's Attack] You may trash any number of {Music} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST16 - Uta",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST16-003",
+      "name": "Charlotte Katakuri",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Big Mom Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-003.png?250701",
+          "label": "-Green Uta- [ST-16]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If your Leader has the {FILM} type and you have 6 or more rested cards, this Character gains +2000 power.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST16 - Uta",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST16-005",
+      "name": "Monkey.D.Luffy",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-005.png?250701",
+          "label": "-Green Uta- [ST-16]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If you have a rested [Uta], this Character gains +1000 power.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST16 - Uta",
+          "is_default": true
+        }
+      ]
+    }
+  ]
+}

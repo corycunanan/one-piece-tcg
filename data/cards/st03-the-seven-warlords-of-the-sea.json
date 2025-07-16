@@ -1,0 +1,901 @@
+{
+  "totalCards": 17,
+  "cards": [
+    {
+      "cardId": "ST03-005",
+      "name": "Dracule Mihawk",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-005.png?250701",
+          "label": "-The Seven Warlords of the Sea-[ST-03]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-005_p4.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-005_p5.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p5)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-005_p1.png?250701",
+          "label": "Tournament Pack Vol.4 (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/ST03-005_r2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/ST03-005_r1.png?250701",
+          "label": "-Blue Donquixote Doflamingo- [ST-17] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        },
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        },
+        {
+          "set": "ST17 - Donquixote Doflamingo",
+          "is_default": false
+        }
+      ],
+      "variantCount": 6
+    },
+    {
+      "cardId": "ST03-008",
+      "name": "Trafalgar Law",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 1000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Heart Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-008.png?250701",
+          "label": "-The Seven Warlords of the Sea-[ST-03]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-008_p6.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p6)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-008_p7.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p7)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-008_p2.png?250701",
+          "label": "Event Pack Vol.3 (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-008_p3.png?250701",
+          "label": "Offline Regional Participation Pack 2024 Vol. 2 (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/ST03-008_r2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/ST03-008_r1.png?250701",
+          "label": "-Blue Donquixote Doflamingo- [ST-17] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        },
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        },
+        {
+          "set": "ST17 - Donquixote Doflamingo",
+          "is_default": false
+        }
+      ],
+      "variantCount": 7
+    },
+    {
+      "cardId": "ST03-013",
+      "name": "Boa Hancock",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 1000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Kuja Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-013.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-013_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-013_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-013_p4.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/ST03-013_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        }
+      ],
+      "variantCount": 5
+    },
+    {
+      "cardId": "ST03-003",
+      "name": "Crocodile",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Baroque Works"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-003.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-003_p1.png?250701",
+          "label": "Tournament Pack Vol.5 (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "cardId": "ST03-007",
+      "name": "Sentomaru",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-007.png?250701",
+          "label": "-The Seven Warlords of the Sea-[ST-03]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-007_p1.png?250701",
+          "label": "Tournament Pack Vol.3 (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        },
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST03-014",
+      "name": "Marshall.D.Teach",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Blackbeard Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-014.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-014_p1.png?250701",
+          "label": "Included in Online Regional Participation Pack Vol.1 (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "cardId": "ST03-009",
+      "name": "Donquixote Doflamingo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "7",
+      "power": 7000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Donquixote Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-009.png?250701",
+          "label": "-The Seven Warlords of the Sea-[ST-03]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-009_p1.png?250701",
+          "label": "-PILLARS OF STRENGTH- [OP03] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "OP03 - Pillars of Strength",
+          "is_default": false
+        },
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST03-004",
+      "name": "Gecko Moria",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-004.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-004_p1.png?250701",
+          "label": "-TWO LEGENDS- [OP-08] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/ST03-004_r1.png?250701",
+          "label": "-Blue Donquixote Doflamingo- [ST-17] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP08 - Two Legends",
+          "is_default": false
+        },
+        {
+          "set": "ST17 - Donquixote Doflamingo",
+          "is_default": false
+        }
+      ],
+      "variantCount": 3
+    },
+    {
+      "cardId": "ST03-001",
+      "name": "Crocodile",
+      "cardType": "LEADER",
+      "life": 5,
+      "cost": null,
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Baroque Works"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-001.png?250701",
+          "label": "-The Seven Warlords of the Sea-[ST-03]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+      "trigger_description": "",
+      "rarity": "L",
+      "set": [
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST03-002",
+      "name": "Edward Weevil",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 3,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-002.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "../images/cardlist/card/ST03-002_r1.png?250701",
+          "label": "-Blue Donquixote Doflamingo- [ST-17] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST17 - Donquixote Doflamingo",
+          "is_default": false
+        }
+      ],
+      "variantCount": 2
+    },
+    {
+      "cardId": "ST03-006",
+      "name": "Jinbe",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "The Sun Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-006.png?250701",
+          "label": "-The Seven Warlords of the Sea-[ST-03]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST03-010",
+      "name": "Bartholomew Kuma",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Revolutionary Army"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-010.png?250701",
+          "label": "-The Seven Warlords of the Sea-[ST-03]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.",
+      "trigger_description": "[Trigger] Play this card.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST03-011",
+      "name": "Buggy",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-011.png?250701",
+          "label": "-The Seven Warlords of the Sea-[ST-03]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST03-012",
+      "name": "Pacifista",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 6000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Biological Weapon"
+        },
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-012.png?250701",
+          "label": "-The Seven Warlords of the Sea-[ST-03]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST03-015",
+      "name": "Sables",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": 4,
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Baroque Works"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-015.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST03-016",
+      "name": "Thrust Pad Cannon",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Revolutionary Army"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-016.png?250701",
+          "label": "-The Seven Warlords of the Sea-[ST-03]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+      "trigger_description": "[Trigger] Activate this card's [Counter] effect.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST03-017",
+      "name": "Love-Love Mellow",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Kuja Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-017.png?250701",
+          "label": "-The Seven Warlords of the Sea-[ST-03]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST03 - The Seven Warlords of the Sea",
+          "is_default": true
+        }
+      ]
+    }
+  ]
+}

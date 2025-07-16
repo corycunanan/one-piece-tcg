@@ -196,17 +196,17 @@
 .player-character { grid-area: player-character; }
 
 .card {
+  width: 75.6px;
+  height: 105.6px;
   transform-style: preserve-3d;
-  transition: all 0.2s ease;
-  position: relative;
-  z-index: 1;
   will-change: transform;
+  perspective: 1000px;
+  transition: none;
 }
 
 .card:hover {
-  transform: translateZ(20px) scale(1.05);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-  z-index: 10;
+  transform: none;
+  box-shadow: none;
 }
 
 .card-face-down {

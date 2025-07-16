@@ -1,0 +1,650 @@
+{
+  "totalCards": 15,
+  "cards": [
+    {
+      "cardId": "ST09-014",
+      "name": "Narikabura Arrow",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-014.png?250701",
+          "label": "-Yamato-[ST-09]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-014_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-014_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/ST09-014_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Counter] If you have 2 or less Life cards, give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
+      "trigger_description": "[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "ST09-001",
+      "name": "Yamato",
+      "cardType": "LEADER",
+      "life": 5,
+      "cost": null,
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-001.png?250701",
+          "label": "-Yamato-[ST-09]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[DON!! x1] [Opponent's Turn] If you have 2 or less Life cards, this Leader gains +1000 power.",
+      "trigger_description": "",
+      "rarity": "L",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-002",
+      "name": "Uzuki Tempura",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 4,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-002.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-003",
+      "name": "Ulti",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 4,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Animal Kingdom Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-003.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-004",
+      "name": "Kaido",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 4,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Four Emperors"
+        },
+        {
+          "trait": "Animal Kingdom Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-004.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-005",
+      "name": "Kouzuki Oden",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 7,
+      "power": null,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "Kouzuki Clan"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-005.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-006",
+      "name": "Kouzuki Momonosuke",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 2,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "Kouzuki Clan"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-006.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-007",
+      "name": "Shinobu",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 3,
+      "power": 4000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-007.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-008",
+      "name": "Shimotsuki Ushimaru",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 5,
+      "power": null,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-008.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-009",
+      "name": "Fugetsu Omusubi",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 3,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-009.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-010",
+      "name": "Portgas.D.Ace",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 6,
+      "power": null,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "Whitebeard Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-010.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-011",
+      "name": "Monkey.D.Luffy",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 3,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-011.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-012",
+      "name": "Yamato",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 3,
+      "power": 2000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-012.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-013",
+      "name": "Yamato",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 5,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-013.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST09-015",
+      "name": "Thunder Bagua",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-015.png?250701",
+          "label": "-Yamato-[ST-09]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of the owner's Life cards face-up.",
+      "trigger_description": "[Trigger] Draw 1 card.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST09 - Yamato",
+          "is_default": true
+        }
+      ]
+    }
+  ]
+}

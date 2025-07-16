@@ -1,0 +1,754 @@
+{
+  "totalCards": 17,
+  "cards": [
+    {
+      "cardId": "ST06-010",
+      "name": "Helmeppo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-010.png?250701",
+          "label": "-Absolute Justice- [ST-06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-010_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-010_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/ST06-010_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "ST06-014",
+      "name": "Shockwave",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-014.png?250701",
+          "label": "-Absolute Justice- [ST-06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-014_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-014_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/ST06-014_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's active Characters with a cost of 3 or less.",
+      "trigger_description": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "ST06-006",
+      "name": "Tashigi",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 4000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006.png?250701",
+          "label": "-Absolute Justice- [ST-06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006_p1.png?250701",
+          "label": "Tournament Pack Vol.4 (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006_p3.png?250701",
+          "label": "ST15-20 Release Event (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006_p2.png?250701",
+          "label": "-Absolute Justice- [ST-06] (p2)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        },
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-001",
+      "name": "Sakazuki",
+      "cardType": "LEADER",
+      "life": 5,
+      "cost": null,
+      "power": null,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-001.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-002",
+      "name": "Koby",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 1,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-002.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-003",
+      "name": "Jango",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 1,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-003.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-004",
+      "name": "Smoker",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 5,
+      "power": null,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-004.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-005",
+      "name": "Sengoku",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 5,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-005.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-007",
+      "name": "Tsuru",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-007.png?250701",
+          "label": "-Absolute Justice- [ST-06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-008",
+      "name": "Hina",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-008.png?250701",
+          "label": "-Absolute Justice- [ST-06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-009",
+      "name": "Fullbody",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-009.png?250701",
+          "label": "-Absolute Justice- [ST-06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-011",
+      "name": "Momonga",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 6000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-011.png?250701",
+          "label": "-Absolute Justice- [ST-06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-012",
+      "name": "Monkey.D.Garp",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-012.png?250701",
+          "label": "-Absolute Justice- [ST-06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] You may trash 1 card from your hand and rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-013",
+      "name": "T-Bone",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-013.png?250701",
+          "label": "-Absolute Justice- [ST-06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-015",
+      "name": "Great Eruption",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-015.png?250701",
+          "label": "-Absolute Justice- [ST-06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] Draw 1 card. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "trigger_description": "[Trigger] Your opponent chooses 1 card from their hand and trashes it.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-016",
+      "name": "White Out",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": 1,
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-016.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST06-017",
+      "name": "Navy HQ",
+      "cardType": "STAGE",
+      "life": null,
+      "cost": 1,
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-017.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST06 - Absolute Justice",
+          "is_default": true
+        }
+      ]
+    }
+  ]
+}

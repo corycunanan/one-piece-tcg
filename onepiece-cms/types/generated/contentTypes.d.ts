@@ -383,15 +383,17 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
   attributes: {
     attributes: Schema.Attribute.Component<'cards.attributes', true>;
     cardId: Schema.Attribute.String & Schema.Attribute.Required;
+    cardType: Schema.Attribute.Enumeration<
+      ['LEADER', 'CHARACTER', 'EVENT', 'STAGE']
+    >;
     colors: Schema.Attribute.Component<'cards.color', true>;
     cost: Schema.Attribute.Integer;
     counter: Schema.Attribute.Integer;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    effect_description: Schema.Attribute.Blocks;
     effect_logic: Schema.Attribute.Component<'cards.effect-logic', true>;
-    has_trigger: Schema.Attribute.Boolean;
+    effectText: Schema.Attribute.Blocks;
     images: Schema.Attribute.Component<'cards.card-image', true>;
     keywords: Schema.Attribute.JSON;
     life: Schema.Attribute.Integer;
@@ -402,7 +404,7 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
     power: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
     rarity: Schema.Attribute.Enumeration<
-      ['C', 'UC', 'R', 'SR', 'L', 'SEC', 'P', 'DON', 'SP']
+      ['C', 'UC', 'R', 'SR', 'L', 'SEC', 'P', 'DON', 'SP', 'TR']
     >;
     set: Schema.Attribute.Enumeration<
       [
@@ -434,22 +436,26 @@ export interface ApiCardCard extends Struct.CollectionTypeSchema {
         'ST12 - Zoro & Sanji',
         'ST13 - The Three Brothers',
         'ST14 - 3D2Y',
-        'ST15 - Edward Newgate',
+        'ST15 - Edward.Newgate',
         'ST16 - Uta',
         'ST17 - Donquixote Doflamingo',
-        'ST18 - Monkey D. Luffy',
+        'ST18 - Monkey.D.Luffy',
         'ST19 - Smoker',
         'ST20 - Charlotte Katakuri',
-        'ST21 - Gear 5',
+        'ST21 - EX - Gear 5',
         'ST22 - Ace & Newgate',
+        'ST23 - Shanks',
+        'ST24 - Jewelry Bonney',
+        'ST25 - Buggy',
+        'ST26 - Monkey.D.Luffy',
+        'ST27 - Marshall.D.Teach',
+        'ST28 - Yamato',
+        'P - Promotional Cards',
       ]
     >;
     traits: Schema.Attribute.Component<'cards.trait', true>;
-    trigger_description: Schema.Attribute.String;
     trigger_effect: Schema.Attribute.Component<'cards.trigger-effect', true>;
-    type: Schema.Attribute.Enumeration<
-      ['Leader', 'Character', 'Event', 'Stage', 'Don!!']
-    >;
+    triggerText: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

@@ -1,0 +1,796 @@
+{
+  "totalCards": 17,
+  "cards": [
+    {
+      "cardId": "ST02-004",
+      "name": "Capone\"Gang\"Bege",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 1000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Firetank Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/ST02-004.png?250701\", \"alt\": \"Capone\"Gang\"Bege\", \"localPath\": \"ST02-004.jpg\"}]",
+          "label": "-Worst Generation-[ST-02]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/ST02-004_p2.png?250701\", \"alt\": \"Capone\"Gang\"Bege\", \"localPath\": \"ST02-004_p2.jpg\"}]",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/ST02-004_p3.png?250701\", \"alt\": \"Capone\"Gang\"Bege\", \"localPath\": \"ST02-004_p3.jpg\"}]",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/ST02-004_p4.png?250701\", \"alt\": \"Capone\"Gang\"Bege\", \"localPath\": \"ST02-004_p4.jpg\"}]",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/ST02-004_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ],
+      "variantCount": 5
+    },
+    {
+      "cardId": "ST02-007",
+      "name": "Jewelry Bonney",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 1000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Bonney Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-007.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-007_p1.png?250701",
+          "label": "Tournament Pack Vol.3 (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-007_p2.png?250701",
+          "label": "-TWO LEGENDS- [OP-08] (p2)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        },
+        {
+          "set": "OP08 - Two Legends",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-008",
+      "name": "Scratchmen Apoo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Ranged"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "On-Air Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-008.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-008_p1.png?250701",
+          "label": "Offline Regional Participation Pack 2024 Vol. 1 (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-013",
+      "name": "Eustass\"Captain\"Kid",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "7",
+      "power": 7000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Kid Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/ST02-013.png?250701\", \"alt\": \"Eustass\"Captain\"Kid\", \"localPath\": \"ST02-013.jpg\"}]",
+          "label": "-Worst Generation-[ST-02]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/ST02-013_p1.png?250701\", \"alt\": \"Eustass\"Captain\"Kid\", \"localPath\": \"ST02-013_p1.jpg\"}]",
+          "label": "Tournament Pack Vol.5 (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [End of Your Turn] Set this Character as active.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        },
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-001",
+      "name": "Eustass\"Captain\"Kid",
+      "cardType": "LEADER",
+      "life": 5,
+      "cost": null,
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Kid Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/ST02-001.png?250701\", \"alt\": \"Eustass\"Captain\"Kid\", \"localPath\": \"ST02-001.jpg\"}]",
+          "label": "-Worst Generation-[ST-02]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Set this Leader as active.",
+      "trigger_description": "",
+      "rarity": "L",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-002",
+      "name": "Vito",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Ranged"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Firetank Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-002.png?250701",
+          "label": "-Worst Generation-[ST-02]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-003",
+      "name": "Urouge",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Fallen Monk Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-003.png?250701",
+          "label": "-Worst Generation-[ST-02]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[DON!! x1] If you have 3 or more Characters, this card gains +2000 power.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-005",
+      "name": "Killer",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Kid Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-005.png?250701",
+          "label": "-Worst Generation-[ST-02]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+      "trigger_description": "[Trigger] Play this card.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-006",
+      "name": "Koby",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 4,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-006.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-009",
+      "name": "Trafalgar Law",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 5,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Heart Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-009.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-010",
+      "name": "Basil Hawkins",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 5,
+      "power": null,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Hawkins Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-010.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-011",
+      "name": "Heat",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": 2,
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Kid Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-011.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-012",
+      "name": "Bepo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Minks"
+        },
+        {
+          "trait": "Heart Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-012.png?250701",
+          "label": "-Worst Generation-[ST-02]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-014",
+      "name": "X.Drake",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        },
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Drake Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-014.png?250701",
+          "label": "-Worst Generation-[ST-02]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[DON!! x1] [Your Turn] If this Character is rested, your {Supernovas} or {Navy} type Leaders and Characters gain +1000 power.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-015",
+      "name": "Scalpel",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Heart Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-015.png?250701",
+          "label": "-Worst Generation-[ST-02]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
+      "trigger_description": "[Trigger] Set up to 2 of your DON!! cards as active.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-016",
+      "name": "Repel",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Kid Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-016.png?250701",
+          "label": "-Worst Generation-[ST-02]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST02-017",
+      "name": "Straw Sword",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Hawkins Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-017.png?250701",
+          "label": "-Worst Generation-[ST-02]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] Rest up to 1 of your opponent's Characters.",
+      "trigger_description": "[Trigger] Play up to 1 {Supernovas} type card with a cost of 2 or less from your hand.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
+        }
+      ]
+    }
+  ]
+}

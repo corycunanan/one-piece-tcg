@@ -14,14 +14,13 @@
     "name": {
       "type": "string"
     },
-    "type": {
+    "cardType": {
       "type": "enumeration",
       "enum": [
-        "Leader",
-        "Character",
-        "Event",
-        "Stage",
-        "Don!!"
+        "LEADER",
+        "CHARACTER",
+        "EVENT",
+        "STAGE"
       ]
     },
     "cost": {
@@ -33,10 +32,10 @@
     "life": {
       "type": "integer"
     },
-    "trigger_description": {
+    "triggerText": {
       "type": "string"
     },
-    "effect_description": {
+    "effectText": {
       "type": "blocks"
     },
     "traits": {
@@ -53,9 +52,6 @@
       "type": "component",
       "repeatable": true,
       "component": "cards.color"
-    },
-    "has_trigger": {
-      "type": "boolean"
     },
     "trigger_effect": {
       "displayName": "trigger_effect",
@@ -74,7 +70,8 @@
         "SEC",
         "P",
         "DON",
-        "SP"
+        "SP",
+        "TR"
       ]
     },
     "images": {
@@ -99,45 +96,9 @@
       "type": "json"
     },
     "set": {
-      "type": "enumeration",
-      "enum": [
-        "OP01 - Romance Dawn",
-        "OP02 - Paramount War",
-        "OP03 - Pillars of Strength",
-        "OP04 - Kingdoms of Intrigue",
-        "OP05 - Awakening of the New Era",
-        "OP06 - Wings of the Captain",
-        "OP07 - 500 Years in the Future",
-        "OP08 - Two Legends",
-        "OP09 - Emperors in the New World",
-        "OP10 - Royal Blood",
-        "OP11 - A Fist of Divine Speed",
-        "EB01 - Memorial Collection",
-        "EB02 - Anime 25th Collection",
-        "PRB01 - One Piece The Best",
-        "ST01 - Straw Hat Crew",
-        "ST02 - Worst Generation",
-        "ST03 - The Seven Warlords of the Sea",
-        "ST04 - Animal Kingdom Pirates",
-        "ST05 - One Piece Film Edition",
-        "ST06 - Absolute Justice",
-        "ST07 - Big Mom Pirates",
-        "ST08 - Monkey D. Luffy",
-        "ST09 - Yamato",
-        "ST10 - The Three Captains",
-        "ST11 - Uta",
-        "ST12 - Zoro & Sanji",
-        "ST13 - The Three Brothers",
-        "ST14 - 3D2Y",
-        "ST15 - Edward Newgate",
-        "ST16 - Uta",
-        "ST17 - Donquixote Doflamingo",
-        "ST18 - Monkey D. Luffy",
-        "ST19 - Smoker",
-        "ST20 - Charlotte Katakuri",
-        "ST21 - Gear 5",
-        "ST22 - Ace & Newgate"
-      ]
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.set"
     }
   }
 }

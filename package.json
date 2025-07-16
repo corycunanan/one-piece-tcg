@@ -1,0 +1,14 @@
+{
+  "name": "one-piece-tcg-data",
+  "version": "1.0.0",
+  "description": "One Piece TCG Data Management",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001",
+    "dev": "json-server --watch db.json --port 3001 --host 0.0.0.0",
+    "export": "node onepiece-cms/scripts/exportToJson.js",
+    "import": "node onepiece-cms/scripts/importFromJson.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

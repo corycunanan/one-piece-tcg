@@ -14,14 +14,13 @@
         "name": {
             "type": "string"
         },
-        "type": {
+        "cardType": {
             "type": "enumeration",
             "enum": [
-                "Leader",
-                "Character",
-                "Event",
-                "Stage",
-                "Don!!"
+                "LEADER",
+                "CHARACTER",
+                "EVENT",
+                "STAGE"
             ]
         },
         "cost": {
@@ -33,10 +32,10 @@
         "life": {
             "type": "integer"
         },
-        "trigger_description": {
+        "triggerText": {
             "type": "string"
         },
-        "effect_description": {
+        "effectText": {
             "type": "blocks"
         },
         "traits": {
@@ -53,9 +52,6 @@
             "type": "component",
             "repeatable": true,
             "component": "cards.color"
-        },
-        "has_trigger": {
-            "type": "boolean"
         },
         "trigger_effect": {
             "displayName": "trigger_effect",
@@ -74,7 +70,8 @@
                 "SEC",
                 "P",
                 "DON",
-                "SP"
+                "SP",
+                "TR"
             ]
         },
         "images": {
@@ -129,14 +126,21 @@
                 "ST12 - Zoro & Sanji",
                 "ST13 - The Three Brothers",
                 "ST14 - 3D2Y",
-                "ST15 - Edward Newgate",
+                "ST15 - Edward.Newgate",
                 "ST16 - Uta",
                 "ST17 - Donquixote Doflamingo",
-                "ST18 - Monkey D. Luffy",
+                "ST18 - Monkey.D.Luffy",
                 "ST19 - Smoker",
                 "ST20 - Charlotte Katakuri",
-                "ST21 - Gear 5",
-                "ST22 - Ace & Newgate"
+                "ST21 - EX - Gear 5",
+                "ST22 - Ace & Newgate",
+                "ST23 - Shanks",
+                "ST24 - Jewelry Bonney",
+                "ST25 - Buggy",
+                "ST26 - Monkey.D.Luffy",
+                "ST27 - Marshall.D.Teach",
+                "ST28 - Yamato",
+                "P - Promotional Cards"
             ]
         }
     }

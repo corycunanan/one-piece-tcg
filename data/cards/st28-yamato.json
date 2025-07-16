@@ -1,0 +1,222 @@
+{
+  "totalCards": 5,
+  "cards": [
+    {
+      "cardId": "ST28-001",
+      "name": "Ashura Doji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "The Akazaya Nine"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-001.png?250701",
+          "label": "-GREEN/YELLOW Yamato- [ST-28]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] If your Leader has the {Land of Wano} type and your opponent has 3 or more Life cards, K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST28 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST28-002",
+      "name": "Izo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 1000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Ranged"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "Former Whitebeard Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-002.png?250701",
+          "label": "-GREEN/YELLOW Yamato- [ST-28]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[DON!! x2] This Character gains [Blocker].[On Play] Your {Land of Wano} type Leader gains [Banish] during this turn.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST28 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST28-003",
+      "name": "Kin'emon",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "The Akazaya Nine"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/ST28-003.png?250701\", \"alt\": \"Kin\"emon\", \"localPath\": \"ST28-003.jpg\"}]",
+          "label": "-GREEN/YELLOW Yamato- [ST-28]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "[Trigger] If your Leader has the {Land of Wano} type and your opponent has 3 or less Life cards, play this card.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST28 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST28-004",
+      "name": "Kouzuki Momonosuke",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "6",
+      "power": 7000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "Kouzuki Clan"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-004.png?250701",
+          "label": "-GREEN/YELLOW Yamato- [ST-28]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Your Turn] If you have 2 or less Life cards, your Leader gains +1000 power.[Activate: Main] [Once Per Turn] You may return 2 total of your currently given DON!! cards to your cost area rested: This Character gains [Rush] and +1000 power during this turn.(This card can attack on the turn in which it is played.)",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "ST28 - Yamato",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST28-005",
+      "name": "Yamato",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-005.png?250701",
+          "label": "-GREEN/YELLOW Yamato- [ST-28]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[DON!! x2] [Your Turn] This Character gains +3000 power.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "ST28 - Yamato",
+          "is_default": true
+        }
+      ]
+    }
+  ]
+}

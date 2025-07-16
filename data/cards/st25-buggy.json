@@ -1,0 +1,219 @@
+{
+  "totalCards": 5,
+  "cards": [
+    {
+      "cardId": "ST25-001",
+      "name": "Alvida",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Cross Guild"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST25-001.png?250701",
+          "label": "-BLUE Buggy- [ST-25]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains +1 cost.[On Play] If your Leader is [Buggy], draw 3 cards and trash 2 cards from your hand.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST25 - Buggy",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST25-002",
+      "name": "Cabaji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 1000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Cross Guild"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST25-002.png?250701",
+          "label": "-BLUE Buggy- [ST-25]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains [Blocker] and +1 cost.(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] This Character gains +5000 power.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST25 - Buggy",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST25-003",
+      "name": "Crocodile & Mihawk",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "8",
+      "power": 7000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        },
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Cross Guild"
+        },
+        {
+          "trait": "Former Baroque Works"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST25-003.png?250701",
+          "label": "-BLUE Buggy- [ST-25]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Draw 2 cards and trash 1 card from your hand. Then, play up to 1 {Cross Guild} type Character card with a cost of 4 or less from your hand.[Once Per Turn] If your {Cross Guild} type Character would be removed from the field by your opponent's effect, you may trash 1 card from your hand instead.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "ST25 - Buggy",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST25-004",
+      "name": "Buggy",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 1000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Four Emperors"
+        },
+        {
+          "trait": "Cross Guild"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST25-004.png?250701",
+          "label": "-BLUE Buggy- [ST-25]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] You may trash 1 card from your hand and trash this Character: If your Leader is [Buggy], play up to 1 {Cross Guild} type Character card with a cost of 6 or less from your hand.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "ST25 - Buggy",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST25-005",
+      "name": "Mohji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 1000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Cross Guild"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST25-005.png?250701",
+          "label": "-BLUE Buggy- [ST-25]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains [Blocker] and +1 cost.(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader is [Buggy] and you have 3 or less cards in your hand, draw 1 card.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST25 - Buggy",
+          "is_default": true
+        }
+      ]
+    }
+  ]
+}

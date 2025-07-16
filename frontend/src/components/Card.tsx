@@ -1,7 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useDrag } from 'react-dnd';
 import { MockCard } from '../mockCards';
 import { DraggedCard } from './GameBoard';
+import { 
+  animateCardHover, 
+  animateCardUnhover, 
+  animateDragStart, 
+  animateDragEnd,
+  animateCardHoverDynamic
+} from '../utils/cardAnimations';
 
 interface CardProps {
   card?: MockCard;
@@ -18,7 +25,10 @@ const CARD_HEIGHT = 105.6;
 
 const Card: React.FC<CardProps> = ({ card, faceDown, onClick, onHoverIn, onHoverOut, draggableType, dragItem }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const [{ isDragging }, drag] = useDrag({
+  const [isDragging, setIsDragging] = useState(false);
+  const cardRef = useRef<HTMLDivElement>(null);
+  
+  const [{ isDragging: dragState }, drag] = useDrag({
     type: draggableType || (card?.type === 'Don!!' ? 'DON_CARD' : ''),
     item: dragItem || (card?.type === 'Don!!' ? { card, handIndex: -1 } : undefined),
     canDrag: !!draggableType && !!dragItem || card?.type === 'Don!!',
@@ -27,28 +37,60 @@ const Card: React.FC<CardProps> = ({ card, faceDown, onClick, onHoverIn, onHover
     }),
   });
 
+  // Handle drag state changes
+  useEffect(() => {
+    if (dragState && !isDragging && cardRef.current) {
+      setIsDragging(true);
+      animateDragStart(cardRef.current);
+    } else if (!dragState && isDragging && cardRef.current) {
+      setIsDragging(false);
+      animateDragEnd(cardRef.current);
+    }
+  }, [dragState, isDragging]);
+
   const baseCardStyle = {
     width: CARD_WIDTH,
     height: CARD_HEIGHT,
     borderRadius: 6,
-    opacity: isDragging ? 0.5 : 1,
-    transform: isHovered ? 'translateZ(20px) scale(1.05)' : 'none',
-    boxShadow: isHovered ? '0 8px 16px rgba(0,0,0,0.1)' : 'none',
-    transition: 'all 0.2s ease',
+    opacity: dragState ? 0.8 : 1,
     position: 'relative' as const,
-    zIndex: isHovered ? 10 : 1,
+    zIndex: isHovered || isDragging ? 10 : 1,
     border: isHovered ? '2px solid #4a90e2' : '1px solid #bfc8d1',
     background: isHovered ? '#e3f2fd' : '#fff',
+    transformStyle: 'preserve-3d' as const,
+    backfaceVisibility: 'hidden' as const,
   };
 
-  const handleMouseEnter = (e: React.MouseEvent) => {
-    setIsHovered(true);
-    onHoverIn?.(e);
+  const handlePointerEnter = (e: React.PointerEvent) => {
+    if (!isDragging) {
+      setIsHovered(true);
+      onHoverIn?.(e as any);
+      if (cardRef.current) {
+        animateCardHoverDynamic(cardRef.current, e.clientX, e.clientY);
+      }
+    }
   };
 
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-    onHoverOut?.();
+  const handlePointerMove = (e: React.PointerEvent) => {
+    if (!isDragging && isHovered && cardRef.current) {
+      animateCardHoverDynamic(cardRef.current, e.clientX, e.clientY);
+    }
+  };
+
+  const handlePointerLeave = () => {
+    if (!isDragging) {
+      setIsHovered(false);
+      onHoverOut?.();
+      if (cardRef.current) {
+        animateCardUnhover(cardRef.current);
+      }
+    }
+  };
+
+  // Combine refs for drag and animation
+  const setRefs = (element: HTMLDivElement) => {
+    drag(element);
+    cardRef.current = element;
   };
 
   if (faceDown) {
@@ -64,12 +106,15 @@ const Card: React.FC<CardProps> = ({ card, faceDown, onClick, onHoverIn, onHover
           justifyContent: 'center',
           boxSizing: 'border-box',
         }}
-        ref={draggableType ? (drag as unknown as React.Ref<HTMLDivElement>) : undefined}
+        ref={draggableType ? setRefs : undefined}
+        onPointerEnter={handlePointerEnter}
+        onPointerMove={handlePointerMove}
+        onPointerLeave={handlePointerLeave}
       >
         <img
           src={card?.cardBack || '/card-back.jpg'}
           alt="Card Back"
-          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          style={{ width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none' }}
         />
       </div>
     );
@@ -89,9 +134,10 @@ const Card: React.FC<CardProps> = ({ card, faceDown, onClick, onHoverIn, onHover
           boxSizing: 'border-box',
         }}
         onClick={() => { console.log('Clicked root div of Card component'); }}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-        ref={draggableType ? (drag as unknown as React.Ref<HTMLDivElement>) : undefined}
+        onPointerEnter={handlePointerEnter}
+        onPointerMove={handlePointerMove}
+        onPointerLeave={handlePointerLeave}
+        ref={draggableType ? setRefs : undefined}
       >
         <img
           src={card.image}
@@ -116,14 +162,15 @@ const Card: React.FC<CardProps> = ({ card, faceDown, onClick, onHoverIn, onHover
         boxSizing: 'border-box',
       }}
       onClick={onClick}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      ref={draggableType ? (drag as unknown as React.Ref<HTMLDivElement>) : undefined}
+      onPointerEnter={handlePointerEnter}
+      onPointerMove={handlePointerMove}
+      onPointerLeave={handlePointerLeave}
+      ref={draggableType ? setRefs : undefined}
     >
-      <div style={{ fontWeight: 700, fontSize: 12 }}>{card.name}</div>
-      <div style={{ fontSize: 10 }}>{card.type}</div>
-      {card.cost !== undefined && <div style={{ fontSize: 10 }}>Cost: {card.cost}</div>}
-      {card.power !== undefined && <div style={{ fontSize: 10 }}>Power: {card.power}</div>}
+      <div style={{ fontWeight: 700, fontSize: 12, pointerEvents: 'none' }}>{card.name}</div>
+      <div style={{ fontSize: 10, pointerEvents: 'none' }}>{card.type}</div>
+      {card.cost !== undefined && <div style={{ fontSize: 10, pointerEvents: 'none' }}>Cost: {card.cost}</div>}
+      {card.power !== undefined && <div style={{ fontSize: 10, pointerEvents: 'none' }}>Power: {card.power}</div>}
     </div>
   );
 };

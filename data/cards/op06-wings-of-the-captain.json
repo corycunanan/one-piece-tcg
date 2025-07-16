@@ -1,0 +1,5870 @@
+{
+  "totalCards": 119,
+  "cards": [
+    {
+      "cardId": "OP06-001",
+      "name": "Uta",
+      "cardType": "LEADER",
+      "life": 4,
+      "cost": null,
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        },
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-001.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-001_p2.png?250701",
+          "label": "-Anime 25th Collection- [EB-02] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-001_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[When Attacking] You may trash 1 {FILM} type card from your hand: Give up to 1 of your opponent's Characters −2000 power during this turn. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "trigger_description": "",
+      "rarity": "L",
+      "set": [
+        {
+          "set": "EB02 - Anime 25th Collection",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-020",
+      "name": "Hody Jones",
+      "cardType": "LEADER",
+      "life": 5,
+      "cost": null,
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "New Fish-Man Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-020.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-020_p2.png?250701",
+          "label": "-Anime 25th Collection- [EB-02] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-020_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Activate: Main] You may rest this Leader: Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 3 or less. Then, you cannot add Life cards to your hand using your own effects during this turn.",
+      "trigger_description": "",
+      "rarity": "L",
+      "set": [
+        {
+          "set": "EB02 - Anime 25th Collection",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-021",
+      "name": "Perona",
+      "cardType": "LEADER",
+      "life": 4,
+      "cost": null,
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        },
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-021.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-021_p2.png?250701",
+          "label": "-Anime 25th Collection- [EB-02] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-021_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Activate: Main] [Once Per Turn] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 4 or less.• Give up to 1 of your opponent's Characters −1 cost during this turn.",
+      "trigger_description": "",
+      "rarity": "L",
+      "set": [
+        {
+          "set": "EB02 - Anime 25th Collection",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-022",
+      "name": "Yamato",
+      "cardType": "LEADER",
+      "life": 4,
+      "cost": null,
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        },
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-022.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-022_p2.png?250701",
+          "label": "-Anime 25th Collection- [EB-02] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-022_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-022_p3.png?250701",
+          "label": "-GREEN/YELLOW Yamato- [ST-28] (p3)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Double Attack] (This card deals 2 damage.)[Activate: Main] [Once Per Turn] If your opponent has 3 or less Life cards, give up to 2 rested DON!! cards to 1 of your Characters.",
+      "trigger_description": "",
+      "rarity": "L",
+      "set": [
+        {
+          "set": "EB02 - Anime 25th Collection",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        },
+        {
+          "set": "ST28 - Yamato",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-042",
+      "name": "Vinsmoke Reiju",
+      "cardType": "LEADER",
+      "life": 4,
+      "cost": null,
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        },
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-042.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-042_p2.png?250701",
+          "label": "-Anime 25th Collection- [EB-02] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-042_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card.",
+      "trigger_description": "",
+      "rarity": "L",
+      "set": [
+        {
+          "set": "EB02 - Anime 25th Collection",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-080",
+      "name": "Gecko Moria",
+      "cardType": "LEADER",
+      "life": 5,
+      "cost": null,
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-080.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-080_p2.png?250701",
+          "label": "-Anime 25th Collection- [EB-02] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-080_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[DON!! x1] [When Attacking] ➁ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Trash 2 cards from the top of your deck and play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash.",
+      "trigger_description": "",
+      "rarity": "L",
+      "set": [
+        {
+          "set": "EB02 - Anime 25th Collection",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-003",
+      "name": "Emporio.Ivankov",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Revolutionary Army"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-003.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-003_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-003_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-003_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Look at 3 cards from the top of your deck and play up to 1 {Revolutionary Army} type Character card with 5000 power or less. Then, place the rest at the bottom of your deck in any order.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-023",
+      "name": "Arlong",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "East Blue"
+        },
+        {
+          "trait": "Arlong Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-023.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-023_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-023_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-023_p4.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-023_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] You may trash 1 card from your hand: Up to 1 of your opponent's rested Leader cannot attack until the end of your opponent's next turn.",
+      "trigger_description": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 5
+    },
+    {
+      "cardId": "OP06-035",
+      "name": "Hody Jones",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "7",
+      "power": 8000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "New Fish-Man Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-035.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-035_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-035_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-035_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Rest up to a total of 2 of your opponent's Characters or DON!! cards. Then, add 1 card from the top of your Life cards to your hand.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-036",
+      "name": "Ryuma",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-036.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-036_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-036_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-036_p4.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-036_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play]/[On K.O.] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 5
+    },
+    {
+      "cardId": "OP06-038",
+      "name": "The Billion-fold World Trichiliocosm",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Dressrosa"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-038.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-038_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-038_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-038_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 8 or more rested cards, that card gains an additional +2000 power during this battle.",
+      "trigger_description": "[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-056",
+      "name": "Ama no Murakumo Sword",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-056.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-056_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-056_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-056_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Main] Place up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck in any order.",
+      "trigger_description": "[Trigger] Activate this card's [Main] effect.",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-060",
+      "name": "Vinsmoke Ichiji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-060.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-060_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-060_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-060_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Ichiji] with a cost of 7 from your hand or trash.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-064",
+      "name": "Vinsmoke Niji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-064.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-064_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-064_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-064_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Niji] with a cost of 5 from your hand or trash.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-065",
+      "name": "Vinsmoke Niji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-065.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-065_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-065_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-065_p4.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-065_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, choose one:• K.O. up to 1 of your opponent's Characters with a cost of 2 or less.• Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 5
+    },
+    {
+      "cardId": "OP06-066",
+      "name": "Vinsmoke Yonji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-066.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-066_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-066_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-066_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Yonji] with a cost of 4 from your hand or trash.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-067",
+      "name": "Vinsmoke Yonji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-067.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-067_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-067_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-067_p4.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-067_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, this Character gains +1000 power.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 5
+    },
+    {
+      "cardId": "OP06-068",
+      "name": "Vinsmoke Reiju",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-068.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-068_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-068_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-068_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Reiju] with a cost of 4 from your hand or trash.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-069",
+      "name": "Vinsmoke Reiju",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-069.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-069_p4.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-069_p2.png?250701",
+          "label": "Treasure Cup November-December (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-069_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-069_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field and you have 5 or less cards in your hand, draw 2 cards.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 5
+    },
+    {
+      "cardId": "OP06-079",
+      "name": "Kingdom of GERMA",
+      "cardType": "STAGE",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Kingdom of GERMA"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-079.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-079_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-079_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-079_p4.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-079_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 5
+    },
+    {
+      "cardId": "OP06-086",
+      "name": "Gecko Moria",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "8",
+      "power": 9000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-086.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-086_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-086_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-086_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Choose up to 1 Character card with a cost of 4 or less and up to 1 Character card with a cost of 2 or less from your trash. Play 1 card and play the other card rested.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-091",
+      "name": "Victoria Cindry",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 2000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-091.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-091_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-091_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-091_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] If your Leader has the {Thriller Bark Pirates} type, trash 5 cards from the top of your deck.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-100",
+      "name": "Inuarashi",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Minks"
+        },
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "The Akazaya Nine"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-100.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-100_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-100_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-100_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-100_r2.png?250701",
+          "label": "-GREEN/YELLOW Yamato- [ST-28] (r2)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[DON!! x2] [When Attacking] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+      "trigger_description": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        },
+        {
+          "set": "ST28 - Yamato",
+          "is_default": false
+        }
+      ],
+      "variantCount": 5
+    },
+    {
+      "cardId": "OP06-106",
+      "name": "Kouzuki Hiyori",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "Kouzuki Clan"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-106.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-106_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-106_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-106_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-110",
+      "name": "Nekomamushi",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Minks"
+        },
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "The Akazaya Nine"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-110.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-110_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-110_p4.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-110_p1.png?250701",
+          "label": "Offline Regional Participation Pack 2024 Vol. 3 (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-110_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-110_r2.png?250701",
+          "label": "-GREEN/YELLOW Yamato- [ST-28] (r2)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[DON!! x2] This Character can also attack your opponent's active Characters.",
+      "trigger_description": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        },
+        {
+          "set": "ST28 - Yamato",
+          "is_default": false
+        }
+      ],
+      "variantCount": 6
+    },
+    {
+      "cardId": "OP06-114",
+      "name": "Wyper",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 7000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Ranged"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Sky Island"
+        },
+        {
+          "trait": "Shandian Warrior"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-114.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-114_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-114_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-114_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] or {Shandian Warrior} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-118",
+      "name": "Roronoa Zoro",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "9",
+      "power": 9000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-118.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-118_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-118_p2.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-118_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[When Attacking] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.",
+      "trigger_description": "",
+      "rarity": "SEC",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4
+    },
+    {
+      "cardId": "OP06-093",
+      "name": "Perona",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093_p3.png?250701",
+          "label": "Treasure Cup August – September (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093_p4.png?250701",
+          "label": "Store Treasure Cup August – September 2024 (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters −3 cost during this turn.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-101",
+      "name": "O-Nami",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p3.png?250701",
+          "label": "Event Pack Vol.5 (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p2.png?250701",
+          "label": "-500 YEARS IN THE FUTURE- [OP-07] (p2)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+      "trigger_description": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "Promotional Cards",
+          "is_default": false
+        },
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        },
+        {
+          "set": "OP07 - 500 Years in the Future",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-002",
+      "name": "Inazuma",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Revolutionary Army"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-002.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If this Character has 7000 power or more, this Character gains [Banish].(When this card deals damage, the target card is trashed without activating its Trigger.)",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-004",
+      "name": "Baron Omatsuri",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Omatsuri Island"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-004.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Play up to 1 [Lily Carnation] from your hand.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-005",
+      "name": "Gasparde",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "6",
+      "power": 8000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Former Navy"
+        },
+        {
+          "trait": "Gasparde Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-005.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-006",
+      "name": "Saga",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Asuka Island"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-006.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[DON!! x1] [When Attacking] This Character gains +1000 power until the start of your next turn. Then, trash 1 of your {FILM} type Characters at the end of this turn.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-007",
+      "name": "Shanks",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "10",
+      "power": 12000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "The Four Emperors"
+        },
+        {
+          "trait": "Red-Haired Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-007.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-007_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] K.O. up to 1 of your opponent's Characters with 10000 power or less.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-008",
+      "name": "Schneider",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Mugiwara Chase"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-008.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-009",
+      "name": "Shuraiya",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Shipbuilding Town"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-009.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-009_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[When Attacking]/[On Block] [Once Per Turn] This Character's base power becomes the same as your opponent's Leader until the start of your next turn.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-010",
+      "name": "Douglas Bullet",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "6",
+      "power": 7000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "The Pirates Fest"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-010.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If your Leader has the {FILM} type, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-011",
+      "name": "Tot Musica",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-011.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] [Once Per Turn] You may rest 1 of your [Uta] cards: This Character gains +5000 power during this turn.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-012",
+      "name": "Bear.King",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Trump Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-012.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If your opponent has a Leader or Character with a base power of 6000 or more, this Character cannot be K.O.'d in battle.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-013",
+      "name": "Monkey.D.Luffy",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-013.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-013_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "trigger_description": "[Trigger] Activate this card's [On Play] effect.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-014",
+      "name": "Ratchet",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 1000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Mecha Island"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-014.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Your Opponent's Attack] You may trash any number of {FILM} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-015",
+      "name": "Lily Carnation",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 6000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Omatsuri Island"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-015.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] [Once Per Turn] You may trash 1 of your Characters with 6000 power or more: Play up to 1 {FILM} type Character card with 2000 to 5000 power from your trash rested.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-016",
+      "name": "Raise Max",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 2000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Revolutionary Army"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-016.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-017",
+      "name": "Meteor-Strike of Love",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-017.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main]/[Counter] You may add 1 card from the top of your Life cards to your hand: Up to 1 of your Leader or Character cards gains +3000 power during this turn.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-018",
+      "name": "Gum-Gum King Kong Gatling",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-018.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if your opponent has a Character with 7000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+      "trigger_description": "[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-019",
+      "name": "Blue Dragon Seal Water Stream",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "3",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-019.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+      "trigger_description": "[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-024",
+      "name": "Ikaros Much",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "New Fish-Man Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-024.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] If your Leader has the {New Fish-Man Pirates} type, play up to 1 {Fish-Man} type Character card with a cost of 4 or less from your hand. Then, add 1 card from the top of your Life cards to your hand.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-025",
+      "name": "Camie",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Merfolk"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-025.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-025_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Fish-Man} or {Merfolk} type card other than [Camie] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-026",
+      "name": "Koushirou",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Frost Moon Village"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-026.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Set up to 1 of your attribute Characters with a cost of 4 or less as active. Then, you cannot attack a Leader during this turn.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-027",
+      "name": "Gyro",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Gyro Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-027.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On K.O.] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-028",
+      "name": "Zeo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "New Fish-Man Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-028.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[DON!! x1] [When Attacking] If your Leader has the {New Fish-Man Pirates} type, set up to 1 of your DON!! cards as active and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-029",
+      "name": "Daruma",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "New Fish-Man Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-029.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[DON!! x1] [When Attacking] [Once Per Turn] If your Leader has the {New Fish-Man Pirates} type, set this Character as active and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-030",
+      "name": "Dosun",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "New Fish-Man Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-030.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[When Attacking] If your Leader has the {New Fish-Man Pirates} type, this Character cannot be K.O.'d in battle and gains +2000 power until the start of your next turn. Then, add 1 card from the top of your Life cards to your hand.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-031",
+      "name": "Hatchan",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "Former Arlong Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-031.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "[Trigger] Play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand.",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-032",
+      "name": "Hammond",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "New Fish-Man Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-032.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-033",
+      "name": "Vander Decken IX",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Ranged"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "Flying Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-033.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] You may trash 1 {Fish-Man} type card from your hand or 1 [The Ark Noah] from your hand or field: K.O. up to 1 of your opponent's rested Characters.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-034",
+      "name": "Hyouzou",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-034.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 4 or less and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-037",
+      "name": "Wadatsumi",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "6",
+      "power": 8000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "Flying Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-037.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-039",
+      "name": "You Ain't Even Worth Killing Time!!",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "4",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/OP06-039.png?250701\", \"alt\": \"You Ain\"t Even Worth Killing Time!!\", \"localPath\": \"OP06-039.jpg\"}]",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 6 or less.• K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
+      "trigger_description": "[Trigger] Activate this card's [Main] effect.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-040",
+      "name": "Shark Arrows",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "New Fish-Man Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-040.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] K.O. up to 2 of your opponent's rested Characters with a cost of 3 or less.",
+      "trigger_description": "[Trigger] Activate this card's [Main] effect.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-041",
+      "name": "The Ark Noah",
+      "cardType": "STAGE",
+      "life": null,
+      "cost": "6",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Fish-Man Island"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-041.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Rest all of your opponent's Characters.",
+      "trigger_description": "[Trigger] Play this card.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-043",
+      "name": "Aramaki",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "8",
+      "power": 8000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-043.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-043_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may trash 1 card from your hand and place 1 Character with a cost of 2 or less at the bottom of the owner's deck: This Character gains +3000 power during this turn.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-044",
+      "name": "Gion",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-044.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Your Turn] [Once Per Turn] When your opponent activates an Event, your opponent must place 1 card from their hand at the bottom of their deck.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-045",
+      "name": "Kuzan",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-045.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-046",
+      "name": "Sakazuki",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-046.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-047",
+      "name": "Charlotte Pudding",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Big Mom Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-047.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Your opponent returns all cards in their hand to their deck and shuffles their deck. Then, your opponent draws 5 cards.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-048",
+      "name": "Zeff",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "East Blue"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-048.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Your Turn] When your opponent activates [Blocker] or an Event, if your Leader has the {East Blue} type, you may trash 4 cards from the top of your deck.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-049",
+      "name": "Sengoku",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 7000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-049.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-050",
+      "name": "Tashigi",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-050.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-050_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Tashigi] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-051",
+      "name": "Tsuru",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 4000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-051.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] You may trash 2 cards from your hand: Your opponent returns 1 of their Characters to the owner's hand.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-052",
+      "name": "Tokikake",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-052.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[DON!! x1] If you have 4 or less cards in your hand, this Character cannot be K.O.'d in battle.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-053",
+      "name": "Jaguar.D.Saul",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Giant"
+        },
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-053.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On K.O.] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-054",
+      "name": "Borsalino",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 4000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-054.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If you have 5 or less cards in your hand, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-055",
+      "name": "Monkey.D.Garp",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 7000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-055.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[DON!! x2] [When Attacking] If you have 4 or less cards in your hand, your opponent cannot activate [Blocker] during this battle.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-057",
+      "name": "But I Will Never Doubt a Woman's Tears!!!!",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Dressrosa"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/OP06-057.png?250701\", \"alt\": \"But I Will Never Doubt a Woman\"s Tears!!!!\", \"localPath\": \"OP06-057.jpg\"}]",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, reveal 1 card from the top of your deck, play up to 1 Character card with a cost of 2, and place the rest at the top or bottom of your deck.",
+      "trigger_description": "[Trigger] Play up to 1 Character card with a cost of 2 from your hand.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-058",
+      "name": "Gravity Blade Raging Tiger",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "7",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-058.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] Place up to 2 Characters with a cost of 6 or less at the bottom of the owner's deck in any order.",
+      "trigger_description": "[Trigger] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-059",
+      "name": "White Snake",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-059.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn, and draw 1 card.",
+      "trigger_description": "[Trigger] Look at 5 cards from the top of your deck and place them at the top or bottom of your deck in any order.",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-061",
+      "name": "Vinsmoke Ichiji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "7",
+      "power": 7000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-061.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-061_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, give up to 1 of your opponent's Characters −2000 power during this turn and this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-062",
+      "name": "Vinsmoke Judge",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "8",
+      "power": 8000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-062.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-062_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 2 cards from your hand: Play up to 4 {GERMA 66} type Character cards with different card names and 4000 power or less from your trash.[Activate: Main] [Once Per Turn] DON!! −1: Rest up to 1 of your opponent's DON!! cards.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-063",
+      "name": "Vinsmoke Sora",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 4000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "Kingdom of GERMA"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-063.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] You may trash 1 card from your hand: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 {The Vinsmoke Family} type Character card with 4000 power or less from your trash to your hand.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-070",
+      "name": "Eldoraggo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 7000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Eldoraggo Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-070.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-071",
+      "name": "Gild Tesoro",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Grantesoro"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-071.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {FILM} type, add up to 2 {FILM} type Character cards with a cost of 4 or less from your trash to your hand.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-072",
+      "name": "Cosette",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Kingdom of GERMA"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-072.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If your Leader has the {GERMA 66} type and the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-073",
+      "name": "Shiki",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 1000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Golden Lion Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-073.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 8 or more DON!! cards on your field, draw 1 card and trash 1 card from your hand.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-074",
+      "name": "Zephyr (Navy)",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "7",
+      "power": 7000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-074.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Negate the effect of up to 1 of your opponent's Characters during this turn. Then, if that Character has 5000 power or less, K.O. it.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-075",
+      "name": "Count Battler",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "FILM"
+        },
+        {
+          "trait": "Crown Island"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-075.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-076",
+      "name": "Hitokiri Kamazo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Kid Pirates"
+        },
+        {
+          "trait": "SMILE"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-076.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-077",
+      "name": "Black Bug",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "4",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-077.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, place up to 1 of your opponent's Characters with a cost of 5 or less at the bottom of the owner's deck.",
+      "trigger_description": "[Trigger] Place up to 1 of your opponent's Characters with a cost of 4 or less at the bottom of the owner's deck.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-078",
+      "name": "GERMA 66",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "The Vinsmoke Family"
+        },
+        {
+          "trait": "GERMA 66"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Purple"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-078.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" other than [GERMA 66] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "trigger_description": "[Trigger] Draw 1 card.",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-081",
+      "name": "Absalom",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Ranged"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-081.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-081_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: K.O. up to 1 Character with a cost of 2 or less.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-082",
+      "name": "Inuppe",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-082.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play]/[On K.O.] If your Leader has the {Thriller Bark Pirates} type, draw 2 cards and trash 2 cards from your hand.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-083",
+      "name": "Oars",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 7000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Giant"
+        },
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-083.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "This Character cannot attack.[Activate: Main] You may K.O. 1 of your {Thriller Bark Pirates} type Characters: This Character's effect is negated during this turn.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-084",
+      "name": "Jigoro of the Wind",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-084.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On K.O.] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-085",
+      "name": "Kumacy",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-085.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[DON!! x2] [Your Turn] This Character gains +1000 power for every 5 cards in your trash.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-087",
+      "name": "Cerberus",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-087.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-088",
+      "name": "Sai",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Dressrosa"
+        },
+        {
+          "trait": "Happosui Army"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-088.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If your Leader has the {Dressrosa} type and is active, this Character gains +2000 power.",
+      "trigger_description": "",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-089",
+      "name": "Taralan",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-089.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play]/[On K.O.] Trash 3 cards from the top of your deck.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-090",
+      "name": "Dr. Hogback",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-090.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: Add up to 1 {Thriller Bark Pirates} type card other than [Dr. Hogback] from your trash to your hand.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-092",
+      "name": "Brook",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "6",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Former Rumbar Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-092.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Choose one:• Trash up to 1 of your opponent's Characters with a cost of 4 or less.• Your opponent places 3 cards from their trash at the bottom of their deck in any order.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-094",
+      "name": "Lola",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 6000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-094.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-095",
+      "name": "Shadows Asgard",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "The Seven Warlords of the Sea"
+        },
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-095.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main]/[Counter] Your Leader gains +1000 power during this turn. Then, you may K.O. any number of your {Thriller Bark Pirates} type Characters with a cost of 2 or less. Your Leader gains an additional +1000 power during this turn for every Character K.O.'d.",
+      "trigger_description": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-096",
+      "name": "...Nothing...at All!!!",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "3",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-096.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Counter] You may add 1 card from the top of your Life cards to your hand: Your Characters with a cost of 7 or less cannot be K.O.'d in battle during this turn.",
+      "trigger_description": "[Trigger] Activate this card's [Counter] effect.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-097",
+      "name": "Negative Hollow",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "2",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-097.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] Trash 1 card from your opponent's hand.",
+      "trigger_description": "[Trigger] Activate this card's [Main] effect.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-098",
+      "name": "Thriller Bark",
+      "cardType": "STAGE",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Thriller Bark Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Black"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-098.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader has the {Thriller Bark Pirates} type, play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-099",
+      "name": "Aisa",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Sky Island"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-099.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards and place it at the top or bottom of the Life cards.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-102",
+      "name": "Kamakiri",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Sky Island"
+        },
+        {
+          "trait": "Shandian Warrior"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-102.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] [Once Per Turn] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "trigger_description": "[Trigger] If you have 2 or less Life cards, play this card.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-103",
+      "name": "Kawamatsu",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Fish-Man"
+        },
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "The Akazaya Nine"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-103.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-103_r1.png?250701",
+          "label": "-GREEN/YELLOW Yamato- [ST-28] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[When Attacking] You may trash 2 cards from your hand: Add up to 1 of your Characters with 0 power to the top or bottom of the owner's Life cards face-up.",
+      "trigger_description": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        },
+        {
+          "set": "ST28 - Yamato",
+          "is_default": false
+        }
+      ],
+      "variantCount": 2
+    },
+    {
+      "cardId": "OP06-104",
+      "name": "Kikunojo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "The Akazaya Nine"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-104.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-104_r1.png?250701",
+          "label": "-GREEN/YELLOW Yamato- [ST-28] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On K.O.] If your opponent has 3 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+      "trigger_description": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        },
+        {
+          "set": "ST28 - Yamato",
+          "is_default": false
+        }
+      ],
+      "variantCount": 2
+    },
+    {
+      "cardId": "OP06-105",
+      "name": "Genbo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 5000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Sky Island"
+        },
+        {
+          "trait": "Shandian Warrior"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-105.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-107",
+      "name": "Kouzuki Momonosuke",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "Kouzuki Clan"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-107.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-107_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Add up to 1 of your {Land of Wano} type Characters other than [Kouzuki Momonosuke] to the top or bottom of the owner's Life cards face-up.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-108",
+      "name": "Tenguyama Hitetsu",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Wisdom"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "Kouzuki Clan"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-108.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "-",
+      "trigger_description": "[Trigger] Up to 1 of your {Land of Wano} type Leader or Character cards gains +2000 power during this turn.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-109",
+      "name": "Denjiro",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "The Akazaya Nine"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-109.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-109_r1.png?250701",
+          "label": "-GREEN/YELLOW Yamato- [ST-28] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[DON!! x2] If your opponent has 3 or less Life cards, this Character cannot be K.O.'d by effects.",
+      "trigger_description": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        },
+        {
+          "set": "ST28 - Yamato",
+          "is_default": false
+        }
+      ],
+      "variantCount": 2
+    },
+    {
+      "cardId": "OP06-111",
+      "name": "Braham",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Ranged"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Sky Island"
+        },
+        {
+          "trait": "Shandian Warrior"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-111.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] [Once Per Turn] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "trigger_description": "[Trigger] If you have 2 or less Life cards, play this card.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-112",
+      "name": "Raizo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "The Akazaya Nine"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-112.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "../images/cardlist/card/OP06-112_r1.png?250701",
+          "label": "-GREEN/YELLOW Yamato- [ST-28] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.",
+      "trigger_description": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        },
+        {
+          "set": "ST28 - Yamato",
+          "is_default": false
+        }
+      ],
+      "variantCount": 2
+    },
+    {
+      "cardId": "OP06-113",
+      "name": "Raki",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 1000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Ranged"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Sky Island"
+        },
+        {
+          "trait": "Shandian Warrior"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-113.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If you have a {Shandian Warrior} type Character other than [Raki], this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-115",
+      "name": "You're the One Who Should Disappear.",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": null,
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Sky Island"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/OP06-115.png?250701\", \"alt\": \"You\"re the One Who Should Disappear.\", \"localPath\": \"OP06-115.jpg\"}]",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+      "trigger_description": "[Trigger] If you have 0 Life cards, you may add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 1 card from your hand.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-116",
+      "name": "Reject",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "4",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Sky Island"
+        },
+        {
+          "trait": "Shandian Warrior"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-116.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] Choose one:• K.O. up to 1 of your opponent's Characters with a cost of 5 or less.• If your opponent has 1 Life card, deal 1 damage to your opponent. Then, add 1 card from the top of your Life cards to your hand.",
+      "trigger_description": "[Trigger] Draw 1 card.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-117",
+      "name": "The Ark Maxim",
+      "cardType": "STAGE",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Sky Island"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Yellow"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-117.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Activate: Main] [Once Per Turn] You may rest this card and 1 of your [Enel] cards: K.O. all of your opponent's Characters with a cost of 2 or less.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "OP06-119",
+      "name": "Sanji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "9",
+      "power": 9000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-119.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-119_p1.png?250701",
+          "label": "-WINGS OF THE CAPTAIN-[OP06] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-119_p2.png?250701",
+          "label": "-A FIST OF DIVINE SPEED- [OP-11] (p2)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character with a cost of 9 or less other than [Sanji]. Then, place the rest at the bottom of your deck.",
+      "trigger_description": "",
+      "rarity": "SEC",
+      "set": [
+        {
+          "set": "OP06 - Wings of the Captain",
+          "is_default": true
+        },
+        {
+          "set": "OP11 - A Fist of Divine Speed",
+          "is_default": false
+        }
+      ]
+    }
+  ]
+}

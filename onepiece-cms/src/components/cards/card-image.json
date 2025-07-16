@@ -7,17 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "image_url": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "label": {
       "type": "enumeration",
       "enum": [
@@ -28,7 +17,18 @@
         "Parallel Rare",
         "Special Art",
         "Promo"
-      ]
+      ],
+      "required": true
+    },
+    "image_url": {
+      "type": "string",
+      "required": true
+    },
+    "artist": {
+      "type": "string"
+    },
+    "is_default": {
+      "type": "boolean"
     }
   }
 }

@@ -1,0 +1,221 @@
+{
+  "sets": [
+    {
+      "name": "OP01 - Romance Dawn",
+      "code": "OP01",
+      "totalCards": 121
+    },
+    {
+      "name": "OP02 - Paramount War",
+      "code": "OP02",
+      "totalCards": 121
+    },
+    {
+      "name": "OP03 - Pillars of Strength",
+      "code": "OP03",
+      "totalCards": 123
+    },
+    {
+      "name": "OP04 - Kingdoms of Intrigue",
+      "code": "OP04",
+      "totalCards": 119
+    },
+    {
+      "name": "OP05 - Awakening of the New Era",
+      "code": "OP05",
+      "totalCards": 119
+    },
+    {
+      "name": "OP06 - Wings of the Captain",
+      "code": "OP06",
+      "totalCards": 119
+    },
+    {
+      "name": "OP07 - 500 Years in the Future",
+      "code": "OP07",
+      "totalCards": 119
+    },
+    {
+      "name": "OP08 - Two Legends",
+      "code": "OP08",
+      "totalCards": 119
+    },
+    {
+      "name": "OP09 - Emperors in the New World",
+      "code": "OP09",
+      "totalCards": 119
+    },
+    {
+      "name": "OP10 - Royal Blood",
+      "code": "OP10",
+      "totalCards": 119
+    },
+    {
+      "name": "OP11 - A Fist of Divine Speed",
+      "code": "OP11",
+      "totalCards": 119
+    },
+    {
+      "name": "EB01 - Memorial Collection",
+      "code": "EB01",
+      "totalCards": 61
+    },
+    {
+      "name": "EB02 - Anime 25th Collection",
+      "code": "EB02",
+      "totalCards": 61
+    },
+    {
+      "name": "PRB01 - One Piece The Best",
+      "code": "PRB01",
+      "totalCards": 1
+    },
+    {
+      "name": "ST01 - Straw Hat Crew",
+      "code": "ST01",
+      "totalCards": 17
+    },
+    {
+      "name": "ST02 - Worst Generation",
+      "code": "ST02",
+      "totalCards": 17
+    },
+    {
+      "name": "ST03 - The Seven Warlords of the Sea",
+      "code": "ST03",
+      "totalCards": 17
+    },
+    {
+      "name": "ST04 - Animal Kingdom Pirates",
+      "code": "ST04",
+      "totalCards": 17
+    },
+    {
+      "name": "ST05 - One Piece Film Edition",
+      "code": "ST05",
+      "totalCards": 17
+    },
+    {
+      "name": "ST06 - Absolute Justice",
+      "code": "ST06",
+      "totalCards": 17
+    },
+    {
+      "name": "ST07 - Big Mom Pirates",
+      "code": "ST07",
+      "totalCards": 17
+    },
+    {
+      "name": "ST08 - Monkey D. Luffy",
+      "code": "ST08",
+      "totalCards": 15
+    },
+    {
+      "name": "ST09 - Yamato",
+      "code": "ST09",
+      "totalCards": 15
+    },
+    {
+      "name": "ST10 - The Three Captains",
+      "code": "ST10",
+      "totalCards": 17
+    },
+    {
+      "name": "ST11 - Uta",
+      "code": "ST11",
+      "totalCards": 5
+    },
+    {
+      "name": "ST12 - Zoro & Sanji",
+      "code": "ST12",
+      "totalCards": 17
+    },
+    {
+      "name": "ST13 - The Three Brothers",
+      "code": "ST13",
+      "totalCards": 19
+    },
+    {
+      "name": "ST14 - 3D2Y",
+      "code": "ST14",
+      "totalCards": 17
+    },
+    {
+      "name": "ST15 - Edward.Newgate",
+      "code": "ST15",
+      "totalCards": 5
+    },
+    {
+      "name": "ST16 - Uta",
+      "code": "ST16",
+      "totalCards": 5
+    },
+    {
+      "name": "ST17 - Donquixote Doflamingo",
+      "code": "ST17",
+      "totalCards": 5
+    },
+    {
+      "name": "ST18 - Monkey.D.Luffy",
+      "code": "ST18",
+      "totalCards": 5
+    },
+    {
+      "name": "ST19 - Smoker",
+      "code": "ST19",
+      "totalCards": 5
+    },
+    {
+      "name": "ST20 - Charlotte Katakuri",
+      "code": "ST20",
+      "totalCards": 5
+    },
+    {
+      "name": "ST21 - EX - GEAR5",
+      "code": "ST21",
+      "totalCards": 17
+    },
+    {
+      "name": "ST22 - Ace & Newgate",
+      "code": "ST22",
+      "totalCards": 0
+    },
+    {
+      "name": "ST23 - Shanks",
+      "code": "ST23",
+      "totalCards": 5
+    },
+    {
+      "name": "ST24 - Jewelry Bonney",
+      "code": "ST24",
+      "totalCards": 5
+    },
+    {
+      "name": "ST25 - Buggy",
+      "code": "ST25",
+      "totalCards": 5
+    },
+    {
+      "name": "ST26 - Monkey.D.Luffy",
+      "code": "ST26",
+      "totalCards": 5
+    },
+    {
+      "name": "ST27 - Marshall.D.Teach",
+      "code": "ST27",
+      "totalCards": 5
+    },
+    {
+      "name": "ST28 - Yamato",
+      "code": "ST28",
+      "totalCards": 5
+    },
+    {
+      "name": "Promotional Cards",
+      "code": "P",
+      "totalCards": 76
+    }
+  ],
+  "totalSets": 43,
+  "exportedAt": "2025-07-16T00:21:34.141Z"
+}

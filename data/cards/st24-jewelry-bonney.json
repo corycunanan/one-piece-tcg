@@ -1,0 +1,237 @@
+{
+  "totalCards": 5,
+  "cards": [
+    {
+      "cardId": "ST24-001",
+      "name": "Capone\"Gang\"Bege",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 1000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Ranged"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Firetank Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "[{\"url\": \"https://en.onepiece-cardgame.com/images/cardlist/card/ST24-001.png?250701\", \"alt\": \"Capone\"Gang\"Bege\", \"localPath\": \"ST24-001.jpg\"}]",
+          "label": "-GREEN Jewelry Bonney- [ST-24]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 6 or more rested cards, draw 1 card and trash 1 card from your hand.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST24 - Jewelry Bonney",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST24-002",
+      "name": "Kid & Killer",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        },
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Kid Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-002.png?250701",
+          "label": "-GREEN Jewelry Bonney- [ST-24]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.[On Your Opponent's Attack] You may trash this Character: Set up to 1 of your DON!! cards as active.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "ST24 - Jewelry Bonney",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST24-003",
+      "name": "Basil Hawkins",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 4000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Hawkins Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-003.png?250701",
+          "label": "-GREEN Jewelry Bonney- [ST-24]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST24 - Jewelry Bonney",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST24-004",
+      "name": "Law & Bepo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "10",
+      "power": 11000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        },
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Minks"
+        },
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Heart Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-004.png?250701",
+          "label": "-GREEN Jewelry Bonney- [ST-24]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Rest up to 1 of your opponent's Characters and that Character will not become active in your opponent's next Refresh Phase. Then, if your opponent has 2 or more rested Characters, your Leader gains +2000 power until the end of your opponent's next End Phase.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "ST24 - Jewelry Bonney",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "cardId": "ST24-005",
+      "name": "X.Drake",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 5000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Supernovas"
+        },
+        {
+          "trait": "Navy"
+        },
+        {
+          "trait": "Drake Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Green"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-005.png?250701",
+          "label": "-GREEN Jewelry Bonney- [ST-24]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] If your Leader has the {Supernovas} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST24 - Jewelry Bonney",
+          "is_default": true
+        }
+      ]
+    }
+  ]
+}
