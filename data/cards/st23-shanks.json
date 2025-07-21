@@ -40,7 +40,8 @@
           "set": "ST23 - Shanks",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST23-002",
@@ -84,7 +85,8 @@
           "set": "ST23 - Shanks",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST23-003",
@@ -125,7 +127,8 @@
           "set": "ST23 - Shanks",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST23-004",
@@ -172,7 +175,8 @@
           "set": "ST23 - Shanks",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST23-005",
@@ -213,7 +217,8 @@
           "set": "ST23 - Shanks",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

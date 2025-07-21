@@ -1,0 +1,900 @@
+{
+  "name": "Test 1",
+  "description": "",
+  "leader": {
+    "cardId": "OP02-001",
+    "name": "Edward.Newgate",
+    "cardType": "LEADER",
+    "life": 6,
+    "cost": null,
+    "power": 6000,
+    "counter": null,
+    "attributes": [
+      {
+        "attribute": "Special"
+      }
+    ],
+    "traits": [
+      {
+        "trait": "The Four Emperors"
+      },
+      {
+        "trait": "Whitebeard Pirates"
+      }
+    ],
+    "colors": [
+      {
+        "color": "Red"
+      }
+    ],
+    "images": [
+      {
+        "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001.png?250701",
+        "label": "-PARAMOUNT WAR- [OP02]",
+        "artist": "",
+        "is_default": true
+      },
+      {
+        "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001_p1.png?250701",
+        "label": "-PARAMOUNT WAR- [OP02] (p1)",
+        "artist": "",
+        "is_default": false
+      },
+      {
+        "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001_p2.png?250701",
+        "label": "-Red Edward.Newgate- [ST-15] (p2)",
+        "artist": "",
+        "is_default": false
+      }
+    ],
+    "effect_description": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
+    "trigger_description": "",
+    "rarity": "L",
+    "set": [
+      {
+        "set": "OP02 - Paramount War",
+        "is_default": true
+      },
+      {
+        "set": "ST15 - Edward.Newgate",
+        "is_default": false
+      }
+    ]
+  },
+  "mainDeck": [
+    {
+      "cardId": "ST01-006",
+      "name": "Tony Tony.Chopper",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 1000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Animal"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-006.png?250701",
+          "label": "default",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-006_p6.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p6)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-006_p7.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p7)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-006_p8.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p8)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/ST01-006_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "ST01 - Straw Hat Crew",
+          "is_default": true
+        }
+      ],
+      "variantCount": 5,
+      "quantity": 4
+    },
+    {
+      "cardId": "ST21-012",
+      "name": "Brook",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 4000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-012.png?250701",
+          "label": "-GEAR5- [ST-21]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-012_p1.png?250701",
+          "label": "-GEAR5- [ST-21] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST21 - EX - GEAR5",
+          "is_default": true
+        },
+        {
+          "set": "ST21 - Ex Gear5",
+          "is_default": true
+        }
+      ],
+      "quantity": 4
+    },
+    {
+      "cardId": "OP01-016",
+      "name": "Nami",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "1",
+      "power": 2000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016.png?250701",
+          "label": "-ROMANCE DAWN- [OP01]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p8.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p8)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p1.png?250701",
+          "label": "-ROMANCE DAWN- [OP01] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p4.png?250701",
+          "label": "-AWAKENING OF THE NEW ERA-[OP05] (p4)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p3.png?250701",
+          "label": "-The Three Captains-[ST-10] (p3)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP01 - Romance Dawn",
+          "is_default": true
+        },
+        {
+          "set": "OP05 - Awakening of the New Era",
+          "is_default": false
+        },
+        {
+          "set": "ST10 - The Three Captains",
+          "is_default": false
+        }
+      ],
+      "quantity": 4
+    },
+    {
+      "cardId": "OP01-013",
+      "name": "Sanji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-013.png?250701",
+          "label": "-ROMANCE DAWN- [OP01]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-013_p1.png?250701",
+          "label": "-ROMANCE DAWN- [OP01] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP01 - Romance Dawn",
+          "is_default": true
+        }
+      ],
+      "quantity": 4
+    },
+    {
+      "cardId": "EB02-003",
+      "name": "Tony Tony.Chopper",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Animal"
+        },
+        {
+          "trait": "Drum Kingdom"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-003.png?250701",
+          "label": "-Anime 25th Collection- [EB-02]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-003_p1.png?250701",
+          "label": "-Anime 25th Collection- [EB-02] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power.[On Play] If your Leader has the {Straw Hat Crew} type, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "EB02 - Anime 25th Collection",
+          "is_default": true
+        }
+      ],
+      "quantity": 4
+    },
+    {
+      "cardId": "OP10-005",
+      "name": "Sanji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "3",
+      "power": 3000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Punk Hazard"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-005.png?250701",
+          "label": "-ROYAL BLOOD- [OP-10]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-005_p1.png?250701",
+          "label": "-ROYAL BLOOD- [OP-10] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Your Turn] This Character gains +3000 power.[On K.O.] Draw 1 card.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "OP10 - Royal Blood",
+          "is_default": true
+        }
+      ],
+      "quantity": 4
+    },
+    {
+      "cardId": "ST21-014",
+      "name": "Monkey.D.Luffy",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "The Four Emperors"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-014.png?250701",
+          "label": "-GEAR5- [ST-21]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-014_p1.png?250701",
+          "label": "-GEAR5- [ST-21] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "ST21 - EX - GEAR5",
+          "is_default": true
+        },
+        {
+          "set": "ST21 - Ex Gear5",
+          "is_default": true
+        }
+      ],
+      "quantity": 3
+    },
+    {
+      "cardId": "ST15-005",
+      "name": "Portgas.D.Ace",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 6000,
+      "counter": 1000,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Whitebeard Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-005.png?250701",
+          "label": "-Red Edward.Newgate- [ST-15]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "If your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush].(This card can attack on the turn in which it is played.)[Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may give this Character −2000 power during this turn instead.",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "ST15 - Edward Newgate",
+          "is_default": true
+        }
+      ],
+      "quantity": 3
+    },
+    {
+      "cardId": "OP09-118",
+      "name": "Gol.D.Roger",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "10",
+      "power": 13000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Slash"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "King of the Pirates"
+        },
+        {
+          "trait": "Roger Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-118.png?250701",
+          "label": "-EMPERORS IN THE NEW WORLD- [OP-09]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-118_p1.png?250701",
+          "label": "-EMPERORS IN THE NEW WORLD- [OP-09] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-118_p2.png?250701",
+          "label": "-EMPERORS IN THE NEW WORLD- [OP-09] (p2)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Rush] (This card can attack on the turn in which it is played.)When your opponent activates [Blocker], if either you or your opponent has 0 Life cards, you win the game.",
+      "trigger_description": "",
+      "rarity": "SEC",
+      "set": [
+        {
+          "set": "OP09 - Emperors in the New World",
+          "is_default": true
+        }
+      ],
+      "quantity": 2
+    },
+    {
+      "cardId": "EB01-002",
+      "name": "Izo",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "5",
+      "power": 7000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Ranged"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Land of Wano"
+        },
+        {
+          "trait": "Whitebeard Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-002.png?250701",
+          "label": "-Memorial Collection- [EB-01]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: If your Leader has the {Land of Wano} or {Whitebeard Pirates} type, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+      "trigger_description": "",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "EB01 - Memorial Collection",
+          "is_default": true
+        }
+      ],
+      "quantity": 3
+    },
+    {
+      "cardId": "OP02-013",
+      "name": "Portgas.D.Ace",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "7",
+      "power": 7000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Whitebeard Pirates"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013.png?250701",
+          "label": "-PARAMOUNT WAR- [OP02]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p1.png?250701",
+          "label": "-PARAMOUNT WAR- [OP02] (p1)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p2.png?250701",
+          "label": "-PARAMOUNT WAR- [OP02] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p3.png?250701",
+          "label": "-TWO LEGENDS- [OP-08] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP02-013_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "trigger_description": "",
+      "rarity": "SR",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP02 - Paramount War",
+          "is_default": true
+        },
+        {
+          "set": "OP08 - Two Legends",
+          "is_default": false
+        }
+      ],
+      "variantCount": 5,
+      "quantity": 3
+    },
+    {
+      "cardId": "ST21-017",
+      "name": "Gum-Gum Mole Pistol",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "4",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "The Four Emperors"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-017.png?250701",
+          "label": "-GEAR5- [ST-21]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Main] Give up to 1 of your opponent's Characters −5000 power during this turn. Then, if you have a Character with 6000 power or more, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+      "trigger_description": "[Trigger] Activate this card's [Main] effect.",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST21 - EX - GEAR5",
+          "is_default": true
+        },
+        {
+          "set": "ST21 - Ex Gear5",
+          "is_default": true
+        }
+      ],
+      "quantity": 4
+    },
+    {
+      "cardId": "OP04-016",
+      "name": "Bad Manners Kick Course",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": null,
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Alabasta"
+        },
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-016.png?250701",
+          "label": "-KINGDOMS OF INTRIGUE- [OP04]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+      "trigger_description": "[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
+      "rarity": "R",
+      "set": [
+        {
+          "set": "OP04 - Kingdoms of Intrigue",
+          "is_default": true
+        }
+      ],
+      "quantity": 2
+    },
+    {
+      "cardId": "OP01-029",
+      "name": "Radical Beam!!",
+      "cardType": "EVENT",
+      "life": null,
+      "cost": "1",
+      "power": null,
+      "counter": null,
+      "attributes": [],
+      "traits": [
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-029.png?250701",
+          "label": "-ROMANCE DAWN- [OP01]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-029_p2.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p2)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-029_p3.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (p3)",
+          "artist": "",
+          "is_default": false
+        },
+        {
+          "image_url": "../images/cardlist/card/OP01-029_r1.png?250701",
+          "label": "-ONE PIECE CARD THE BEST- [PRB-01] (r1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or less Life cards, that card gains an additional +2000 power.",
+      "trigger_description": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+      "rarity": "UC",
+      "set": [
+        {
+          "set": "PRB01 - One Piece The Best",
+          "is_default": false
+        },
+        {
+          "set": "OP01 - Romance Dawn",
+          "is_default": true
+        }
+      ],
+      "variantCount": 4,
+      "quantity": 4
+    },
+    {
+      "cardId": "ST21-003",
+      "name": "Sanji",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "2",
+      "power": 3000,
+      "counter": 2000,
+      "attributes": [
+        {
+          "attribute": "Strike"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Straw Hat Crew"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Red"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-003.png?250701",
+          "label": "-GEAR5- [ST-21]",
+          "artist": "",
+          "is_default": true
+        },
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-003_p1.png?250701",
+          "label": "-GEAR5- [ST-21] (p1)",
+          "artist": "",
+          "is_default": false
+        }
+      ],
+      "effect_description": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "ST21 - EX - GEAR5",
+          "is_default": true
+        },
+        {
+          "set": "ST21 - Ex Gear5",
+          "is_default": true
+        }
+      ],
+      "quantity": 2
+    }
+  ],
+  "createdAt": "2025-07-16T18:54:53.365Z",
+  "updatedAt": "2025-07-16T18:54:53.368Z",
+  "isValid": true,
+  "validationErrors": []
+}

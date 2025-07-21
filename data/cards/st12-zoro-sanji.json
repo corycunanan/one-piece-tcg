@@ -61,9 +61,14 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "ST12-008",
@@ -113,8 +118,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-012",
@@ -164,8 +174,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-001",
@@ -211,8 +226,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-002",
@@ -252,8 +272,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-003",
@@ -296,8 +321,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-004",
@@ -340,8 +370,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-005",
@@ -384,8 +419,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-006",
@@ -425,8 +465,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-007",
@@ -466,8 +511,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-009",
@@ -507,8 +557,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-010",
@@ -551,8 +606,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-011",
@@ -592,8 +652,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-013",
@@ -633,8 +698,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-015",
@@ -674,8 +744,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-016",
@@ -711,8 +786,13 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST12-017",
@@ -748,8 +828,14 @@
         {
           "set": "ST12 - Zoro & Sanji",
           "is_default": true
+        },
+        {
+          "set": "ST12 - Zoro Sanji",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
-  ]
+  ],
+  "updatedAt": "2025-07-16T18:30:18.168Z"
 }

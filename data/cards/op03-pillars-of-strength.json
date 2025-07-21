@@ -92,7 +92,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 7
+      "variantCount": 7,
+      "keywords": []
     },
     {
       "cardId": "OP03-055",
@@ -155,7 +156,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP03-056",
@@ -221,7 +223,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP03-057",
@@ -290,7 +293,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP03-060",
@@ -357,7 +361,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP03-079",
@@ -434,7 +439,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP03-089",
@@ -524,7 +530,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 7
+      "variantCount": 7,
+      "keywords": []
     },
     {
       "cardId": "OP03-094",
@@ -584,7 +591,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP03-108",
@@ -648,7 +656,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP03-110",
@@ -728,7 +737,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 6
+      "variantCount": 6,
+      "keywords": []
     },
     {
       "cardId": "OP03-113",
@@ -792,7 +802,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP03-116",
@@ -878,7 +889,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 7
+      "variantCount": 7,
+      "keywords": []
     },
     {
       "cardId": "OP03-121",
@@ -951,7 +963,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP03-122",
@@ -1015,7 +1028,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP03-123",
@@ -1089,7 +1103,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP03-033",
@@ -1146,7 +1161,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-044",
@@ -1197,7 +1213,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-088",
@@ -1248,7 +1265,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-102",
@@ -1299,7 +1317,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-112",
@@ -1383,7 +1402,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 6
+      "variantCount": 6,
+      "keywords": []
     },
     {
       "cardId": "OP03-114",
@@ -1453,7 +1473,8 @@
           "set": "OP06 - Wings of the Captain",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-001",
@@ -1500,7 +1521,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-002",
@@ -1541,7 +1563,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-004",
@@ -1582,7 +1605,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-005",
@@ -1623,7 +1647,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-006",
@@ -1675,7 +1700,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP03-007",
@@ -1730,7 +1756,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP03-008",
@@ -1781,7 +1808,8 @@
           "set": "OP06 - Wings of the Captain",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-009",
@@ -1833,7 +1861,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP03-010",
@@ -1885,7 +1914,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP03-011",
@@ -1926,7 +1956,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-012",
@@ -1967,7 +1998,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-013",
@@ -2014,7 +2046,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-014",
@@ -2055,7 +2088,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-015",
@@ -2096,7 +2130,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-016",
@@ -2133,7 +2168,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-017",
@@ -2170,7 +2206,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-018",
@@ -2213,7 +2250,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-019",
@@ -2250,7 +2288,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-020",
@@ -2287,7 +2326,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-021",
@@ -2337,7 +2377,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-022",
@@ -2393,7 +2434,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-023",
@@ -2437,7 +2479,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-024",
@@ -2487,7 +2530,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-025",
@@ -2537,7 +2581,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-026",
@@ -2584,7 +2629,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-027",
@@ -2628,7 +2674,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-028",
@@ -2672,7 +2719,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-029",
@@ -2719,7 +2767,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-030",
@@ -2763,7 +2812,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-031",
@@ -2807,7 +2857,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-032",
@@ -2851,7 +2902,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-034",
@@ -2895,7 +2947,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-035",
@@ -2939,7 +2992,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-036",
@@ -2979,7 +3033,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-037",
@@ -3022,7 +3077,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-038",
@@ -3062,7 +3118,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-039",
@@ -3102,7 +3159,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-040",
@@ -3149,7 +3207,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-041",
@@ -3196,7 +3255,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-042",
@@ -3237,7 +3297,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-043",
@@ -3278,7 +3339,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-045",
@@ -3319,7 +3381,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-046",
@@ -3360,7 +3423,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-047",
@@ -3407,7 +3471,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-048",
@@ -3448,7 +3513,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-049",
@@ -3489,7 +3555,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-050",
@@ -3530,7 +3597,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-051",
@@ -3574,7 +3642,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-052",
@@ -3615,7 +3684,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-053",
@@ -3656,7 +3726,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-054",
@@ -3696,7 +3767,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-058",
@@ -3746,7 +3818,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-059",
@@ -3790,7 +3863,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-061",
@@ -3834,7 +3908,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-062",
@@ -3878,7 +3953,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-063",
@@ -3922,7 +3998,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-064",
@@ -3966,7 +4043,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-065",
@@ -4010,7 +4088,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-066",
@@ -4060,7 +4139,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-067",
@@ -4104,7 +4184,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-068",
@@ -4148,7 +4229,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-069",
@@ -4192,7 +4274,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-070",
@@ -4236,7 +4319,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-071",
@@ -4280,7 +4364,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-072",
@@ -4320,7 +4405,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-073",
@@ -4360,7 +4446,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-074",
@@ -4400,7 +4487,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-075",
@@ -4440,7 +4528,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-076",
@@ -4487,7 +4576,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-077",
@@ -4540,7 +4630,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-078",
@@ -4597,7 +4688,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-080",
@@ -4644,7 +4736,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-081",
@@ -4691,7 +4784,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-082",
@@ -4732,7 +4826,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-083",
@@ -4773,7 +4868,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-084",
@@ -4814,7 +4910,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-085",
@@ -4855,7 +4952,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-086",
@@ -4902,7 +5000,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-087",
@@ -4943,7 +5042,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-090",
@@ -4984,7 +5084,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-091",
@@ -5025,7 +5126,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-092",
@@ -5082,7 +5184,8 @@
           "set": "OP05 - Awakening of the New Era",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-093",
@@ -5123,7 +5226,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-095",
@@ -5160,7 +5264,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-096",
@@ -5197,7 +5302,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-097",
@@ -5234,7 +5340,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-098",
@@ -5271,7 +5378,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-099",
@@ -5328,7 +5436,8 @@
           "set": "ST20 - Charlotte Katakuri",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-100",
@@ -5372,7 +5481,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-101",
@@ -5413,7 +5523,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-103",
@@ -5454,7 +5565,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-104",
@@ -5495,7 +5607,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-105",
@@ -5536,7 +5649,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-106",
@@ -5588,7 +5702,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP03-107",
@@ -5640,7 +5755,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP03-109",
@@ -5681,7 +5797,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-111",
@@ -5725,7 +5842,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-115",
@@ -5777,7 +5895,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP03-117",
@@ -5821,7 +5940,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-118",
@@ -5872,7 +5992,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP03-119",
@@ -5909,7 +6030,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP03-120",
@@ -5946,7 +6068,8 @@
           "set": "OP03 - Pillars of Strength",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

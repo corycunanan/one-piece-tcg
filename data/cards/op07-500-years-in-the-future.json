@@ -56,7 +56,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-019",
@@ -126,7 +127,8 @@
           "set": "ST24 - Jewelry Bonney",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-038",
@@ -186,7 +188,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-059",
@@ -243,7 +246,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-079",
@@ -300,7 +304,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-097",
@@ -360,7 +365,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-021",
@@ -465,7 +471,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 9
+      "variantCount": 9,
+      "keywords": []
     },
     {
       "cardId": "OP07-040",
@@ -519,7 +526,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-053",
@@ -570,7 +578,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-091",
@@ -621,7 +630,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-100",
@@ -675,7 +685,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-113",
@@ -729,7 +740,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-119",
@@ -786,7 +798,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-002",
@@ -830,7 +843,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-003",
@@ -871,7 +885,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-004",
@@ -912,7 +927,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-005",
@@ -962,7 +978,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-006",
@@ -1003,7 +1020,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-007",
@@ -1047,7 +1065,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-008",
@@ -1091,7 +1110,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-009",
@@ -1132,7 +1152,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-010",
@@ -1176,7 +1197,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-011",
@@ -1220,7 +1242,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-012",
@@ -1264,7 +1287,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-013",
@@ -1305,7 +1329,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-014",
@@ -1346,7 +1371,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-015",
@@ -1403,7 +1429,8 @@
           "set": "OP09 - Emperors in the New World",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-016",
@@ -1440,7 +1467,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-017",
@@ -1477,7 +1505,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-018",
@@ -1517,7 +1546,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-020",
@@ -1561,7 +1591,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-022",
@@ -1608,7 +1639,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-023",
@@ -1663,7 +1695,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP07-024",
@@ -1704,7 +1737,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-025",
@@ -1759,7 +1793,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP07-026",
@@ -1809,7 +1844,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-027",
@@ -1853,7 +1889,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-028",
@@ -1897,7 +1934,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-029",
@@ -1947,7 +1985,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-030",
@@ -1988,7 +2027,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-031",
@@ -2043,7 +2083,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP07-032",
@@ -2087,7 +2128,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-033",
@@ -2142,7 +2184,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP07-034",
@@ -2197,7 +2240,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP07-035",
@@ -2237,7 +2281,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-036",
@@ -2287,7 +2332,8 @@
           "set": "ST24 - Jewelry Bonney",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-037",
@@ -2338,7 +2384,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP07-039",
@@ -2379,7 +2426,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-041",
@@ -2420,7 +2468,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-042",
@@ -2464,7 +2513,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-043",
@@ -2508,7 +2558,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-044",
@@ -2549,7 +2600,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-045",
@@ -2602,7 +2654,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-046",
@@ -2649,7 +2702,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-047",
@@ -2699,7 +2753,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-048",
@@ -2743,7 +2798,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-049",
@@ -2780,7 +2836,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-050",
@@ -2821,7 +2878,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-051",
@@ -2887,7 +2945,8 @@
           "set": "OP09 - Emperors in the New World",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-052",
@@ -2928,7 +2987,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-054",
@@ -2969,7 +3029,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-055",
@@ -3006,7 +3067,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-056",
@@ -3046,7 +3108,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-057",
@@ -3086,7 +3149,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-058",
@@ -3123,7 +3187,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-060",
@@ -3164,7 +3229,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-061",
@@ -3208,7 +3274,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-062",
@@ -3252,7 +3319,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-063",
@@ -3296,7 +3364,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-064",
@@ -3343,7 +3412,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-065",
@@ -3384,7 +3454,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-066",
@@ -3428,7 +3499,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-067",
@@ -3469,7 +3541,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-068",
@@ -3510,7 +3583,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-069",
@@ -3551,7 +3625,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-070",
@@ -3598,7 +3673,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-071",
@@ -3645,7 +3721,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-072",
@@ -3692,7 +3769,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-073",
@@ -3733,7 +3811,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-074",
@@ -3777,7 +3856,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-075",
@@ -3814,7 +3894,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-076",
@@ -3851,7 +3932,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-077",
@@ -3891,7 +3973,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-078",
@@ -3928,7 +4011,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-080",
@@ -3969,7 +4053,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-081",
@@ -4010,7 +4095,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-082",
@@ -4054,7 +4140,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-083",
@@ -4098,7 +4185,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-084",
@@ -4139,7 +4227,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-085",
@@ -4196,7 +4285,8 @@
           "set": "OP11 - A Fist of Divine Speed",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-086",
@@ -4237,7 +4327,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-087",
@@ -4278,7 +4369,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-088",
@@ -4322,7 +4414,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-089",
@@ -4363,7 +4456,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-090",
@@ -4404,7 +4498,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-092",
@@ -4445,7 +4540,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-093",
@@ -4486,7 +4582,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-094",
@@ -4523,7 +4620,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-095",
@@ -4560,7 +4658,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-096",
@@ -4597,7 +4696,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-098",
@@ -4641,7 +4741,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-099",
@@ -4685,7 +4786,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-101",
@@ -4729,7 +4831,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-102",
@@ -4776,7 +4879,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-103",
@@ -4823,7 +4927,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-104",
@@ -4867,7 +4972,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-105",
@@ -4911,7 +5017,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-106",
@@ -4955,7 +5062,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-107",
@@ -5005,7 +5113,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-108",
@@ -5046,7 +5155,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-109",
@@ -5105,7 +5215,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-110",
@@ -5149,7 +5260,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-111",
@@ -5199,7 +5311,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-112",
@@ -5243,7 +5356,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-114",
@@ -5283,7 +5397,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-115",
@@ -5323,7 +5438,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-116",
@@ -5373,7 +5489,8 @@
           "set": "ST28 - Yamato",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-117",
@@ -5410,7 +5527,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP07-118",
@@ -5457,7 +5575,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

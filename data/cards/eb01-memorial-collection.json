@@ -62,7 +62,8 @@
           "set": "EB02 - Anime 25th Collection",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-002",
@@ -106,7 +107,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-003",
@@ -159,7 +161,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-004",
@@ -200,7 +203,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-005",
@@ -241,7 +245,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-006",
@@ -318,7 +323,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "EB01-007",
@@ -359,7 +365,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-008",
@@ -403,7 +410,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-009",
@@ -443,7 +451,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-010",
@@ -483,7 +492,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-011",
@@ -520,7 +530,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-012",
@@ -580,7 +591,8 @@
           "set": "Promotional Cards",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-013",
@@ -630,7 +642,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-014",
@@ -674,7 +687,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-015",
@@ -744,7 +758,8 @@
           "set": "ST24 - Jewelry Bonney",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-016",
@@ -785,7 +800,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-017",
@@ -829,7 +845,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-018",
@@ -873,7 +890,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-019",
@@ -913,7 +931,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-020",
@@ -953,7 +972,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-021",
@@ -1013,7 +1033,8 @@
           "set": "EB02 - Anime 25th Collection",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-022",
@@ -1063,7 +1084,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-023",
@@ -1104,7 +1126,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-024",
@@ -1148,7 +1171,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-025",
@@ -1192,7 +1216,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-026",
@@ -1233,7 +1258,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-027",
@@ -1280,7 +1306,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-028",
@@ -1320,7 +1347,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-029",
@@ -1360,7 +1388,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-030",
@@ -1397,7 +1426,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-031",
@@ -1447,7 +1477,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-032",
@@ -1491,7 +1522,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-033",
@@ -1532,7 +1564,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-034",
@@ -1579,7 +1612,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-035",
@@ -1620,7 +1654,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-036",
@@ -1664,7 +1699,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-037",
@@ -1705,7 +1741,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-038",
@@ -1742,7 +1779,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-039",
@@ -1782,7 +1820,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-040",
@@ -1842,7 +1881,8 @@
           "set": "EB02 - Anime 25th Collection",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-041",
@@ -1883,7 +1923,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-042",
@@ -1924,7 +1965,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-043",
@@ -2005,7 +2047,8 @@
           "set": "Promotional Cards",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-044",
@@ -2046,7 +2089,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-045",
@@ -2087,7 +2131,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-046",
@@ -2134,7 +2179,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-047",
@@ -2175,7 +2221,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-048",
@@ -2232,7 +2279,8 @@
           "set": "Promotional Cards",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-049",
@@ -2282,7 +2330,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-050",
@@ -2319,7 +2368,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-051",
@@ -2356,7 +2406,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-052",
@@ -2403,7 +2454,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-053",
@@ -2444,7 +2496,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-054",
@@ -2485,7 +2538,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-055",
@@ -2526,7 +2580,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-056",
@@ -2583,7 +2638,8 @@
           "set": "OP10 - Royal Blood",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-057",
@@ -2640,7 +2696,8 @@
           "set": "OP11 - A Fist of Divine Speed",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-058",
@@ -2681,7 +2738,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-059",
@@ -2718,7 +2776,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-060",
@@ -2755,7 +2814,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "EB01-061",
@@ -2802,7 +2862,8 @@
           "set": "EB01 - Memorial Collection",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

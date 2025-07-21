@@ -59,7 +59,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "ST09-001",
@@ -100,7 +101,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-002",
@@ -141,7 +143,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-003",
@@ -182,7 +185,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-004",
@@ -226,7 +230,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-005",
@@ -270,7 +275,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-006",
@@ -314,7 +320,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-007",
@@ -355,7 +362,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-008",
@@ -396,7 +404,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-009",
@@ -437,7 +446,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-010",
@@ -481,7 +491,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-011",
@@ -525,7 +536,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-012",
@@ -566,7 +578,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-013",
@@ -607,7 +620,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST09-015",
@@ -644,7 +658,8 @@
           "set": "ST09 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

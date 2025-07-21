@@ -69,7 +69,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP01-016",
@@ -146,7 +147,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-024",
@@ -213,7 +215,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP01-029",
@@ -273,7 +276,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP01-033",
@@ -356,7 +360,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 6
+      "variantCount": 6,
+      "keywords": []
     },
     {
       "cardId": "OP01-041",
@@ -439,7 +444,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 6
+      "variantCount": 6,
+      "keywords": []
     },
     {
       "cardId": "OP01-047",
@@ -516,7 +522,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP01-051",
@@ -593,7 +600,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP01-052",
@@ -670,7 +678,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP01-070",
@@ -744,7 +753,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP01-078",
@@ -821,7 +831,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP01-120",
@@ -900,7 +911,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 6
+      "variantCount": 6,
+      "keywords": []
     },
     {
       "cardId": "OP01-121",
@@ -974,7 +986,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP01-015",
@@ -1028,7 +1041,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-021",
@@ -1079,7 +1093,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-035",
@@ -1143,7 +1158,8 @@
           "set": "OP07 - 500 Years in the Future",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-101",
@@ -1194,7 +1210,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-001",
@@ -1244,7 +1261,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-002",
@@ -1297,7 +1315,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-003",
@@ -1350,7 +1369,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-004",
@@ -1391,7 +1411,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-005",
@@ -1432,7 +1453,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-007",
@@ -1476,7 +1498,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-008",
@@ -1526,7 +1549,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-009",
@@ -1567,7 +1591,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-010",
@@ -1611,7 +1636,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-011",
@@ -1652,7 +1678,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-012",
@@ -1693,7 +1720,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-013",
@@ -1740,7 +1768,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-014",
@@ -1784,7 +1813,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-017",
@@ -1825,7 +1855,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-018",
@@ -1869,7 +1900,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-019",
@@ -1913,7 +1945,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-020",
@@ -1954,7 +1987,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-022",
@@ -1995,7 +2029,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-023",
@@ -2036,7 +2071,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-025",
@@ -2096,7 +2132,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-026",
@@ -2136,7 +2173,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-027",
@@ -2176,7 +2214,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-028",
@@ -2213,7 +2252,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-030",
@@ -2250,7 +2290,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-031",
@@ -2300,7 +2341,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-032",
@@ -2344,7 +2386,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-034",
@@ -2397,7 +2440,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-036",
@@ -2438,7 +2482,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-037",
@@ -2485,7 +2530,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-038",
@@ -2529,7 +2575,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-039",
@@ -2573,7 +2620,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-040",
@@ -2623,7 +2671,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-042",
@@ -2667,7 +2716,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-043",
@@ -2708,7 +2758,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-044",
@@ -2749,7 +2800,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-045",
@@ -2790,7 +2842,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-046",
@@ -2834,7 +2887,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-048",
@@ -2887,7 +2941,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-049",
@@ -2931,7 +2986,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-050",
@@ -2972,7 +3028,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-053",
@@ -3013,7 +3070,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-054",
@@ -3060,7 +3118,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-055",
@@ -3100,7 +3159,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-056",
@@ -3140,7 +3200,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-057",
@@ -3180,7 +3241,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-058",
@@ -3220,7 +3282,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-059",
@@ -3257,7 +3320,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-060",
@@ -3317,7 +3381,8 @@
           "set": "ST17 - Donquixote Doflamingo",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-061",
@@ -3370,7 +3435,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-062",
@@ -3423,7 +3489,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-063",
@@ -3467,7 +3534,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-064",
@@ -3514,7 +3582,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-065",
@@ -3561,7 +3630,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-066",
@@ -3602,7 +3672,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-067",
@@ -3652,7 +3723,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-068",
@@ -3696,7 +3768,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-069",
@@ -3740,7 +3813,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-071",
@@ -3784,7 +3858,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-072",
@@ -3828,7 +3903,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-073",
@@ -3899,7 +3975,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP01-074",
@@ -3943,7 +4020,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-075",
@@ -3987,7 +4065,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-076",
@@ -4028,7 +4107,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-077",
@@ -4075,7 +4155,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-079",
@@ -4116,7 +4197,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-080",
@@ -4157,7 +4239,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-081",
@@ -4198,7 +4281,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-082",
@@ -4242,7 +4326,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-083",
@@ -4283,7 +4368,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-084",
@@ -4324,7 +4410,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-085",
@@ -4365,7 +4452,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-086",
@@ -4416,7 +4504,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP01-087",
@@ -4453,7 +4542,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-088",
@@ -4493,7 +4583,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-089",
@@ -4533,7 +4624,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-090",
@@ -4570,7 +4662,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-091",
@@ -4617,7 +4710,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-092",
@@ -4658,7 +4752,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-093",
@@ -4705,7 +4800,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-094",
@@ -4755,7 +4851,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-095",
@@ -4796,7 +4893,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-096",
@@ -4843,7 +4941,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-097",
@@ -4890,7 +4989,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-098",
@@ -4934,7 +5034,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-099",
@@ -4978,7 +5079,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-100",
@@ -5022,7 +5124,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-102",
@@ -5069,7 +5172,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-103",
@@ -5113,7 +5217,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-104",
@@ -5157,7 +5262,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-105",
@@ -5201,7 +5307,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-106",
@@ -5245,7 +5352,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-107",
@@ -5289,7 +5397,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-108",
@@ -5336,7 +5445,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-109",
@@ -5383,7 +5493,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-110",
@@ -5427,7 +5538,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-111",
@@ -5468,7 +5580,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-112",
@@ -5509,7 +5622,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-113",
@@ -5553,7 +5667,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-114",
@@ -5600,7 +5715,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-115",
@@ -5640,7 +5756,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-116",
@@ -5680,7 +5797,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-117",
@@ -5720,7 +5838,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-118",
@@ -5757,7 +5876,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP01-119",
@@ -5797,7 +5917,8 @@
           "set": "OP01 - Romance Dawn",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

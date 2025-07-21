@@ -56,7 +56,8 @@
           "set": "ST16 - Uta",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST16-001",
@@ -97,7 +98,8 @@
           "set": "ST16 - Uta",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST16-002",
@@ -138,7 +140,8 @@
           "set": "ST16 - Uta",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST16-003",
@@ -182,7 +185,8 @@
           "set": "ST16 - Uta",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST16-005",
@@ -229,7 +233,8 @@
           "set": "ST16 - Uta",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

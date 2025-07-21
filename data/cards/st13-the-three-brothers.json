@@ -62,7 +62,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-001",
@@ -115,7 +116,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-002",
@@ -165,7 +167,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-004",
@@ -215,7 +218,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-005",
@@ -262,7 +266,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-006",
@@ -309,7 +314,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-007",
@@ -356,7 +362,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-008",
@@ -406,7 +413,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-009",
@@ -456,7 +464,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-010",
@@ -503,7 +512,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-011",
@@ -550,7 +560,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-012",
@@ -597,7 +608,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-013",
@@ -644,7 +656,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-014",
@@ -691,7 +704,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-015",
@@ -741,7 +755,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-016",
@@ -799,7 +814,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 3
+      "variantCount": 3,
+      "keywords": []
     },
     {
       "cardId": "ST13-017",
@@ -839,7 +855,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-018",
@@ -879,7 +896,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST13-019",
@@ -916,7 +934,8 @@
           "set": "ST13 - The Three Brothers",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

@@ -63,7 +63,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "ST06-014",
@@ -123,7 +124,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "ST06-006",
@@ -186,7 +188,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-001",
@@ -227,7 +230,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-002",
@@ -268,7 +272,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-003",
@@ -309,7 +314,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-004",
@@ -350,7 +356,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-005",
@@ -391,7 +398,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-007",
@@ -432,7 +440,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-008",
@@ -473,7 +482,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-009",
@@ -514,7 +524,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-011",
@@ -555,7 +566,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-012",
@@ -596,7 +608,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-013",
@@ -637,7 +650,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-015",
@@ -674,7 +688,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-016",
@@ -711,7 +726,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST06-017",
@@ -748,7 +764,8 @@
           "set": "ST06 - Absolute Justice",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

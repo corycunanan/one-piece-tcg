@@ -1,0 +1,115 @@
+{
+  "name": "test 3 pacifistas",
+  "description": "",
+  "leader": {
+    "cardId": "OP01-060",
+    "name": "Donquixote Doflamingo",
+    "cardType": "LEADER",
+    "life": 5,
+    "cost": null,
+    "power": 5000,
+    "counter": null,
+    "attributes": [
+      {
+        "attribute": "Special"
+      }
+    ],
+    "traits": [
+      {
+        "trait": "The Seven Warlords of the Sea"
+      },
+      {
+        "trait": "Donquixote Pirates"
+      }
+    ],
+    "colors": [
+      {
+        "color": "Blue"
+      }
+    ],
+    "images": [
+      {
+        "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-060.png?250701",
+        "label": "-ROMANCE DAWN- [OP01]",
+        "artist": "",
+        "is_default": true
+      },
+      {
+        "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-060_p1.png?250701",
+        "label": "-ROMANCE DAWN- [OP01] (p1)",
+        "artist": "",
+        "is_default": false
+      },
+      {
+        "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-060_p2.png?250701",
+        "label": "-Blue Donquixote Doflamingo- [ST-17] (p2)",
+        "artist": "",
+        "is_default": false
+      }
+    ],
+    "effect_description": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested.",
+    "trigger_description": "",
+    "rarity": "L",
+    "set": [
+      {
+        "set": "OP01 - Romance Dawn",
+        "is_default": true
+      },
+      {
+        "set": "ST17 - Donquixote Doflamingo",
+        "is_default": false
+      }
+    ]
+  },
+  "mainDeck": [
+    {
+      "cardId": "OP01-075",
+      "name": "Pacifista",
+      "cardType": "CHARACTER",
+      "life": null,
+      "cost": "4",
+      "power": 5000,
+      "counter": null,
+      "attributes": [
+        {
+          "attribute": "Special"
+        }
+      ],
+      "traits": [
+        {
+          "trait": "Biological Weapon"
+        },
+        {
+          "trait": "Navy"
+        }
+      ],
+      "colors": [
+        {
+          "color": "Blue"
+        }
+      ],
+      "images": [
+        {
+          "image_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-075.png?250701",
+          "label": "-ROMANCE DAWN- [OP01]",
+          "artist": "",
+          "is_default": true
+        }
+      ],
+      "effect_description": "Under the rules of this game, you may have any number of this card in your deck.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "",
+      "rarity": "C",
+      "set": [
+        {
+          "set": "OP01 - Romance Dawn",
+          "is_default": true
+        }
+      ],
+      "quantity": 50
+    }
+  ],
+  "createdAt": "2025-07-16T22:13:47.546Z",
+  "updatedAt": "2025-07-16T22:13:47.549Z",
+  "isValid": true,
+  "validationErrors": []
+}

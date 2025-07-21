@@ -80,7 +80,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "ST04-005",
@@ -154,7 +155,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "ST04-016",
@@ -217,7 +219,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "ST04-008",
@@ -268,7 +271,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-010",
@@ -319,7 +323,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-011",
@@ -370,7 +375,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-001",
@@ -414,7 +420,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-002",
@@ -455,7 +462,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-004",
@@ -496,7 +504,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-006",
@@ -537,7 +546,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-007",
@@ -581,7 +591,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-009",
@@ -625,7 +636,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-012",
@@ -666,7 +678,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-013",
@@ -713,7 +726,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-014",
@@ -750,7 +764,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-015",
@@ -787,7 +802,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST04-017",
@@ -824,7 +840,8 @@
           "set": "ST04 - Animal Kingdom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

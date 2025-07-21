@@ -72,7 +72,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "ST02-007",
@@ -120,7 +121,7 @@
           "is_default": false
         }
       ],
-      "effect_description": "",
+      "effect_description": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
       "trigger_description": "",
       "rarity": "C",
       "set": [
@@ -131,8 +132,13 @@
         {
           "set": "OP08 - Two Legends",
           "is_default": false
+        },
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-008",
@@ -174,15 +180,20 @@
           "is_default": false
         }
       ],
-      "effect_description": "",
+      "effect_description": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.",
       "trigger_description": "",
       "rarity": "C",
       "set": [
         {
           "set": "Promotional Cards",
           "is_default": false
+        },
+        {
+          "set": "ST02 - Worst Generation",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-013",
@@ -236,7 +247,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-001",
@@ -280,7 +292,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-002",
@@ -321,7 +334,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-003",
@@ -365,7 +379,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-005",
@@ -409,7 +424,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-006",
@@ -450,7 +466,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-009",
@@ -494,7 +511,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-010",
@@ -538,7 +556,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-011",
@@ -579,7 +598,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-012",
@@ -623,7 +643,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-014",
@@ -670,7 +691,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-015",
@@ -710,7 +732,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-016",
@@ -750,7 +773,8 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST02-017",
@@ -790,7 +814,9 @@
           "set": "ST02 - Worst Generation",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
-  ]
+  ],
+  "updatedAt": "2025-07-16T18:35:44.422Z"
 }

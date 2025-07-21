@@ -56,7 +56,8 @@
           "set": "ST19 - Smoker",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST19-001",
@@ -97,7 +98,8 @@
           "set": "ST19 - Smoker",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST19-003",
@@ -138,7 +140,8 @@
           "set": "ST19 - Smoker",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST19-004",
@@ -179,7 +182,8 @@
           "set": "ST19 - Smoker",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST19-005",
@@ -220,7 +224,8 @@
           "set": "ST19 - Smoker",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

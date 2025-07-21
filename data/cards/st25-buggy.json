@@ -40,7 +40,8 @@
           "set": "ST25 - Buggy",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST25-002",
@@ -81,7 +82,8 @@
           "set": "ST25 - Buggy",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST25-003",
@@ -128,7 +130,8 @@
           "set": "ST25 - Buggy",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST25-004",
@@ -172,7 +175,8 @@
           "set": "ST25 - Buggy",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST25-005",
@@ -213,7 +217,8 @@
           "set": "ST25 - Buggy",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

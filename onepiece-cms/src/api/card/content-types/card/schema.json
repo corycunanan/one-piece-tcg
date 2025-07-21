@@ -93,7 +93,10 @@
       "required": false
     },
     "keywords": {
-      "type": "json"
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     },
     "set": {
       "type": "component",

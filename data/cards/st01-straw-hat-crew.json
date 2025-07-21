@@ -59,16 +59,21 @@
           "is_default": false
         }
       ],
-      "effect_description": "",
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
       "trigger_description": "",
       "rarity": "C",
       "set": [
         {
           "set": "PRB01 - One Piece The Best",
           "is_default": false
+        },
+        {
+          "set": "ST01 - Straw Hat Crew",
+          "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "ST01-014",
@@ -131,7 +136,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "ST01-004",
@@ -182,7 +188,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-007",
@@ -239,7 +246,7 @@
           "is_default": false
         }
       ],
-      "effect_description": "",
+      "effect_description": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
       "trigger_description": "",
       "rarity": "C",
       "set": [
@@ -250,8 +257,13 @@
         {
           "set": "OP06 - Wings of the Captain",
           "is_default": false
+        },
+        {
+          "set": "ST01 - Straw Hat Crew",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-009",
@@ -302,7 +314,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-011",
@@ -353,7 +366,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-012",
@@ -414,7 +428,7 @@
         }
       ],
       "effect_description": "[Rush] (This card can attack on the turn in which it is played.)[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
-      "trigger_description": "",
+      "trigger_description": "[Trigger] Play this card.",
       "rarity": "SR",
       "set": [
         {
@@ -433,7 +447,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-015",
@@ -483,7 +498,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-001",
@@ -519,7 +535,7 @@
           "is_default": true
         }
       ],
-      "effect_description": "",
+      "effect_description": "[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.",
       "trigger_description": "",
       "rarity": "C",
       "set": [
@@ -527,7 +543,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-002",
@@ -560,15 +577,16 @@
           "is_default": true
         }
       ],
-      "effect_description": "",
-      "trigger_description": "",
+      "effect_description": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
+      "trigger_description": "[Trigger] Play this card.",
       "rarity": "C",
       "set": [
         {
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-003",
@@ -612,7 +630,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-005",
@@ -656,7 +675,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-008",
@@ -697,7 +717,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-010",
@@ -738,7 +759,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-013",
@@ -782,7 +804,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-016",
@@ -819,7 +842,8 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST01-017",
@@ -856,7 +880,9 @@
           "set": "ST01 - Straw Hat Crew",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
-  ]
+  ],
+  "updatedAt": "2025-07-16T18:35:44.421Z"
 }

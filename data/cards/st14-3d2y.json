@@ -49,8 +49,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-001",
@@ -90,8 +95,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-002",
@@ -131,8 +141,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-004",
@@ -175,8 +190,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-005",
@@ -219,8 +239,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-006",
@@ -260,8 +285,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-007",
@@ -301,8 +331,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-008",
@@ -342,8 +377,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-009",
@@ -383,8 +423,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-010",
@@ -434,9 +479,14 @@
         {
           "set": "ST26 - Monkey.D.Luffy",
           "is_default": false
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "ST14-011",
@@ -476,8 +526,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-012",
@@ -517,8 +572,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-013",
@@ -558,8 +618,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-014",
@@ -595,8 +660,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-015",
@@ -632,8 +702,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-016",
@@ -669,8 +744,13 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST14-017",
@@ -706,8 +786,14 @@
         {
           "set": "ST14 - 3D2Y",
           "is_default": true
+        },
+        {
+          "set": "ST14 - 3d2y",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
-  ]
+  ],
+  "updatedAt": "2025-07-16T18:30:18.169Z"
 }

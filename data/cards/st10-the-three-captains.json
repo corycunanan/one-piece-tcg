@@ -77,7 +77,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "ST10-006",
@@ -134,7 +135,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-013",
@@ -185,7 +187,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-001",
@@ -229,7 +232,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-002",
@@ -273,7 +277,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-003",
@@ -317,7 +322,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-004",
@@ -358,7 +364,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-005",
@@ -402,7 +409,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-007",
@@ -443,7 +451,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-008",
@@ -484,7 +493,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-009",
@@ -525,7 +535,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-011",
@@ -566,7 +577,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-012",
@@ -610,7 +622,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-014",
@@ -651,7 +664,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-015",
@@ -688,7 +702,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-016",
@@ -725,7 +740,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST10-017",
@@ -762,7 +778,8 @@
           "set": "ST10 - The Three Captains",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

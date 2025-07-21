@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece TCG Deck Manager</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+        .header { background: #2c3e50; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+        .nav { display: flex; gap: 10px; margin-bottom: 20px; }
+        .nav-btn { padding: 10px 20px; background: #3498db; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        .nav-btn.active { background: #27ae60; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 20px; }
+        .stat-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .stat-number { font-size: 2em; font-weight: bold; color: #3498db; }
+        .controls { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .search { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 10px; }
+        .filters { display: flex; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+        .filter { padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; background: white; }
+        .decks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 20px; }
+        .deck { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .deck-name { font-weight: bold; margin-bottom: 10px; color: #2c3e50; font-size: 1.2em; }
+        .deck-leader { background: #e8f4fd; padding: 10px; border-radius: 4px; margin-bottom: 10px; }
+        .deck-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0; font-size: 0.9em; }
+        .deck-actions { display: flex; gap: 5px; margin-top: 10px; }
+        .btn { padding: 6px 12px; border: none; border-radius: 4px; cursor: pointer; font-size: 12px; }
+        .btn-primary { background: #3498db; color: white; }
+        .btn-success { background: #27ae60; color: white; }
+        .btn-warning { background: #f39c12; color: white; }
+        .btn-danger { background: #e74c3c; color: white; }
+        .btn-secondary { background: #95a5a6; color: white; }
+        .loading { text-align: center; padding: 40px; color: #666; }
+        .error { background: #e74c3c; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; }
+        .modal-content { background: white; margin: 50px auto; padding: 20px; border-radius: 8px; max-width: 800px; max-height: 80vh; overflow-y: auto; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
+        .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+        .card-list { max-height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 4px; padding: 10px; }
+        .card-item { display: flex; justify-content: space-between; align-items: center; padding: 5px; border-bottom: 1px solid #eee; }
+        .card-item:last-child { border-bottom: none; }
+        .validation-error { color: #e74c3c; font-size: 0.9em; margin-top: 5px; }
+        .validation-success { color: #27ae60; font-size: 0.9em; margin-top: 5px; }
+        .pagination { display: flex; justify-content: center; gap: 10px; margin-top: 20px; }
+        .page-btn { padding: 8px 12px; border: 1px solid #ddd; background: white; cursor: pointer; }
+        .page-btn.active { background: #3498db; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎴 One Piece TCG Deck Manager</h1>
+            <p>Manage decks through the backend API</p>
+        </div>
+        
+        <div class="nav">
+            <button class="nav-btn active" onclick="showView('list')">Deck List</button>
+            <button class="nav-btn" onclick="showView('create')">Create Deck</button>
+            <button class="nav-btn" onclick="showView('files')">Deck Files</button>
+            <button class="nav-btn" onclick="showView('stats')">Statistics</button>
+        </div>
+        
+        <div id="stats-view" class="stats" style="display: none;">
+            <div class="stat-card">
+                <div class="stat-number" id="totalDecks">-</div>
+                <div>Total Decks</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="validDecks">-</div>
+                <div>Valid Decks</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="invalidDecks">-</div>
+                <div>Invalid Decks</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="publicDecks">-</div>
+                <div>Public Decks</div>
+            </div>
+        </div>
+        
+        <div id="list-view">
+            <div class="controls">
+                <input type="text" class="search" id="search" placeholder="Search decks by name or description...">
+                <div class="filters">
+                    <select class="filter" id="validFilter">
+                        <option value="">All Decks</option>
+                        <option value="true">Valid Only</option>
+                        <option value="false">Invalid Only</option>
+                    </select>
+                    <select class="filter" id="publicFilter">
+                        <option value="">All Visibility</option>
+                        <option value="true">Public Only</option>
+                        <option value="false">Private Only</option>
+                    </select>
+                    <select class="filter" id="leaderFilter">
+                        <option value="">All Leaders</option>
+                    </select>
+                    <button class="btn btn-primary" onclick="loadDecks()">Refresh</button>
+                </div>
+            </div>
+            
+            <div id="decks" class="decks-grid">
+                <div class="loading">Loading decks...</div>
+            </div>
+            
+            <div id="pagination" class="pagination"></div>
+        </div>
+        
+        <div id="create-view" style="display: none;">
+            <div class="controls">
+                <h2>Create New Deck</h2>
+                <div class="form-group">
+                    <label>Deck Name:</label>
+                    <input type="text" id="deckName" placeholder="Enter deck name">
+                </div>
+                <div class="form-group">
+                    <label>Description:</label>
+                    <textarea id="deckDescription" placeholder="Enter deck description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Leader Card:</label>
+                    <select id="leaderSelect">
+                        <option value="">Select a leader...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Tags (comma-separated):</label>
+                    <input type="text" id="deckTags" placeholder="Enter tags">
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="isPublic"> Make deck public
+                    </label>
+                </div>
+                <button class="btn btn-success" onclick="createDeck()">Create Deck</button>
+            </div>
+        </div>
+        
+        <div id="files-view" style="display: none;">
+            <div class="controls">
+                <h2>Deck Files (JSON)</h2>
+                <p>View deck files created by the create-deck.js script</p>
+                <button class="btn btn-primary" onclick="loadDeckFiles()">Refresh Files</button>
+            </div>
+            
+            <div id="deckFiles" class="decks-grid">
+                <div class="loading">Loading deck files...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deck Detail Modal -->
+    <div id="deckModal" class="modal">
+        <div class="modal-content">
+            <h2 id="modalTitle">Deck Details</h2>
+            <div id="modalContent"></div>
+            <div style="margin-top: 20px;">
+                <button class="btn btn-primary" onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allDecks = [];
+        let filteredDecks = [];
+        let allCards = [];
+        let currentPage = 1;
+        let totalPages = 1;
+        const API_BASE = 'http://localhost:5001';
+        
+        async function loadData() {
+            try {
+                // Load cards for leader selection
+                const cardsResponse = await fetch('http://localhost:3001/cards');
+                allCards = await cardsResponse.json();
+                
+                // Load decks
+                await loadDecks();
+                
+                // Load statistics
+                await loadStats();
+                
+                // Populate leader filter
+                populateLeaderFilter();
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('decks').innerHTML = `
+                    <div class="error">
+                        <h3>⚠️ Connection Error</h3>
+                        <p>Could not connect to backend server. Make sure it's running:</p>
+                        <code>cd backend && npm start</code>
+                        <p>Then refresh this page.</p>
+                    </div>
+                `;
+            }
+        }
+        
+        async function loadDecks() {
+            try {
+                const params = new URLSearchParams({
+                    page: currentPage,
+                    limit: 12,
+                    search: document.getElementById('search')?.value || '',
+                    isValid: document.getElementById('validFilter')?.value || '',
+                    isPublic: document.getElementById('publicFilter')?.value || '',
+                    leaderId: document.getElementById('leaderFilter')?.value || ''
+                });
+                
+                const response = await fetch(`${API_BASE}/decks?${params}`);
+                const data = await response.json();
+                
+                allDecks = data.decks;
+                totalPages = data.pagination.pages;
+                
+                renderDecks();
+                renderPagination();
+            } catch (error) {
+                console.error('Error loading decks:', error);
+                document.getElementById('decks').innerHTML = `
+                    <div class="error">
+                        <h3>⚠️ Error Loading Decks</h3>
+                        <p>${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+        
+        async function loadStats() {
+            try {
+                const response = await fetch(`${API_BASE}/decks/stats/overview`);
+                const stats = await response.json();
+                
+                document.getElementById('totalDecks').textContent = stats.totalDecks;
+                document.getElementById('validDecks').textContent = stats.validDecks;
+                document.getElementById('invalidDecks').textContent = stats.invalidDecks;
+                document.getElementById('publicDecks').textContent = stats.publicDecks;
+            } catch (error) {
+                console.error('Error loading stats:', error);
+            }
+        }
+        
+        function populateLeaderFilter() {
+            const leaders = allCards.filter(card => card.cardType === 'LEADER');
+            const select = document.getElementById('leaderFilter');
+            const createSelect = document.getElementById('leaderSelect');
+            
+            const options = leaders.map(leader => 
+                `<option value="${leader.cardId}">${leader.name} (${leader.cardId})</option>`
+            ).join('');
+            
+            select.innerHTML = '<option value="">All Leaders</option>' + options;
+            createSelect.innerHTML = '<option value="">Select a leader...</option>' + options;
+        }
+        
+        function renderDecks() {
+            const container = document.getElementById('decks');
+            
+            if (allDecks.length === 0) {
+                container.innerHTML = '<div class="loading">No decks found.</div>';
+                return;
+            }
+            
+            container.innerHTML = allDecks.map(deck => `
+                <div class="deck">
+                    <div class="deck-name">${deck.name}</div>
+                    ${deck.description ? `<div style="color: #666; margin-bottom: 10px;">${deck.description}</div>` : ''}
+                    
+                    <div class="deck-leader">
+                        <strong>Leader:</strong> ${deck.leader.name} (${deck.leader.cardId})
+                        <br><small>Life: ${deck.leader.life} • Colors: ${deck.leader.colors.map(c => c.color).join(', ')}</small>
+                    </div>
+                    
+                    <div class="deck-stats">
+                        <div>Cards: ${deck.mainDeck.reduce((sum, card) => sum + card.quantity, 0)}/50</div>
+                        <div>Status: ${deck.isValid ? '✅ Valid' : '❌ Invalid'}</div>
+                        <div>Visibility: ${deck.isPublic ? '🌐 Public' : '🔒 Private'}</div>
+                        <div>Created: ${new Date(deck.createdAt).toLocaleDateString()}</div>
+                    </div>
+                    
+                    ${deck.validationErrors && deck.validationErrors.length > 0 ? `
+                        <div class="validation-error">
+                            <strong>Errors:</strong><br>
+                            ${deck.validationErrors.map(error => `• ${error}`).join('<br>')}
+                        </div>
+                    ` : ''}
+                    
+                    <div class="deck-actions">
+                        <button class="btn btn-primary" onclick="viewDeck('${deck._id}')">View</button>
+                        <button class="btn btn-success" onclick="editDeck('${deck._id}')">Edit</button>
+                        <button class="btn btn-warning" onclick="duplicateDeck('${deck._id}')">Copy</button>
+                        <button class="btn btn-danger" onclick="deleteDeck('${deck._id}')">Delete</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        function renderPagination() {
+            const container = document.getElementById('pagination');
+            
+            if (totalPages <= 1) {
+                container.innerHTML = '';
+                return;
+            }
+            
+            let paginationHTML = '';
+            
+            if (currentPage > 1) {
+                paginationHTML += `<button class="page-btn" onclick="changePage(${currentPage - 1})">Previous</button>`;
+            }
+            
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
+                    paginationHTML += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="changePage(${i})">${i}</button>`;
+                } else if (i === currentPage - 3 || i === currentPage + 3) {
+                    paginationHTML += `<span class="page-btn">...</span>`;
+                }
+            }
+            
+            if (currentPage < totalPages) {
+                paginationHTML += `<button class="page-btn" onclick="changePage(${currentPage + 1})">Next</button>`;
+            }
+            
+            container.innerHTML = paginationHTML;
+        }
+        
+        function changePage(page) {
+            currentPage = page;
+            loadDecks();
+        }
+        
+        async function viewDeck(deckId) {
+            try {
+                const response = await fetch(`${API_BASE}/decks/${deckId}`);
+                const deck = await response.json();
+                
+                const stats = deck.mainDeck.reduce((acc, card) => {
+                    acc.totalCards += card.quantity;
+                    acc.cardTypes[card.cardType] = (acc.cardTypes[card.cardType] || 0) + card.quantity;
+                    card.colors.forEach(color => {
+                        acc.colors[color.color] = (acc.colors[color.color] || 0) + card.quantity;
+                    });
+                    return acc;
+                }, { totalCards: 0, cardTypes: {}, colors: {} });
+                
+                document.getElementById('modalTitle').textContent = deck.name;
+                document.getElementById('modalContent').innerHTML = `
+                    <div style="margin-bottom: 20px;">
+                        <p><strong>Description:</strong> ${deck.description || 'No description'}</p>
+                        <p><strong>Created:</strong> ${new Date(deck.createdAt).toLocaleString()}</p>
+                        <p><strong>Updated:</strong> ${new Date(deck.updatedAt).toLocaleString()}</p>
+                        <p><strong>Status:</strong> ${deck.isValid ? '✅ Valid' : '❌ Invalid'}</p>
+                        <p><strong>Visibility:</strong> ${deck.isPublic ? '🌐 Public' : '🔒 Private'}</p>
+                    </div>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <h3>Leader Card</h3>
+                        <div style="background: #f8f9fa; padding: 10px; border-radius: 4px;">
+                            <strong>${deck.leader.name}</strong> (${deck.leader.cardId})<br>
+                            Life: ${deck.leader.life} • Colors: ${deck.leader.colors.map(c => c.color).join(', ')}<br>
+                            ${deck.leader.effect_description ? `Effect: ${deck.leader.effect_description}` : ''}
+                        </div>
+                    </div>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <h3>Deck Statistics</h3>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div><strong>Total Cards:</strong> ${stats.totalCards}/50</div>
+                            <div><strong>Card Types:</strong> ${Object.entries(stats.cardTypes).map(([type, count]) => `${type}: ${count}`).join(', ')}</div>
+                            <div><strong>Colors:</strong> ${Object.entries(stats.colors).map(([color, count]) => `${color}: ${count}`).join(', ')}</div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3>Main Deck (${deck.mainDeck.length} unique cards)</h3>
+                        <div class="card-list">
+                            ${deck.mainDeck.map(card => `
+                                <div class="card-item">
+                                    <div>
+                                        <strong>${card.name}</strong> (${card.cardId})<br>
+                                        <small>${card.cardType} • Cost: ${card.cost || 0} • ${card.colors.map(c => c.color).join(', ')}</small>
+                                    </div>
+                                    <div style="text-align: right;">
+                                        <span style="background: #3498db; color: white; padding: 2px 6px; border-radius: 10px; font-size: 12px;">
+                                            ${card.quantity}
+                                        </span>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                    
+                    ${deck.validationErrors && deck.validationErrors.length > 0 ? `
+                        <div style="margin-top: 20px;">
+                            <h3>Validation Errors</h3>
+                            <div class="validation-error">
+                                ${deck.validationErrors.map(error => `• ${error}`).join('<br>')}
+                            </div>
+                        </div>
+                    ` : ''}
+                `;
+                
+                document.getElementById('deckModal').style.display = 'block';
+            } catch (error) {
+                console.error('Error viewing deck:', error);
+                alert('Error loading deck details');
+            }
+        }
+        
+        async function createDeck() {
+            const name = document.getElementById('deckName').value.trim();
+            const description = document.getElementById('deckDescription').value.trim();
+            const leaderId = document.getElementById('leaderSelect').value;
+            const tags = document.getElementById('deckTags').value.split(',').map(t => t.trim()).filter(t => t);
+            const isPublic = document.getElementById('isPublic').checked;
+            
+            if (!name || !leaderId) {
+                alert('Please provide a deck name and select a leader');
+                return;
+            }
+            
+            const leader = allCards.find(card => card.cardId === leaderId);
+            if (!leader) {
+                alert('Selected leader not found');
+                return;
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE}/decks`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        name,
+                        description,
+                        leader,
+                        mainDeck: [],
+                        tags,
+                        isPublic
+                    })
+                });
+                
+                if (response.ok) {
+                    const result = await response.json();
+                    alert('Deck created successfully!');
+                    showView('list');
+                    loadDecks();
+                } else {
+                    const error = await response.json();
+                    alert(`Error creating deck: ${error.message}`);
+                }
+            } catch (error) {
+                console.error('Error creating deck:', error);
+                alert('Error creating deck');
+            }
+        }
+        
+        async function deleteDeck(deckId) {
+            if (!confirm('Are you sure you want to delete this deck? This action cannot be undone.')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE}/decks/${deckId}`, {
+                    method: 'DELETE'
+                });
+                
+                if (response.ok) {
+                    alert('Deck deleted successfully!');
+                    loadDecks();
+                } else {
+                    const error = await response.json();
+                    alert(`Error deleting deck: ${error.message}`);
+                }
+            } catch (error) {
+                console.error('Error deleting deck:', error);
+                alert('Error deleting deck');
+            }
+        }
+        
+        async function duplicateDeck(deckId) {
+            const newName = prompt('Enter a name for the copied deck:');
+            if (!newName) return;
+            
+            try {
+                const response = await fetch(`${API_BASE}/decks/${deckId}/duplicate`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ newName })
+                });
+                
+                if (response.ok) {
+                    alert('Deck duplicated successfully!');
+                    loadDecks();
+                } else {
+                    const error = await response.json();
+                    alert(`Error duplicating deck: ${error.message}`);
+                }
+            } catch (error) {
+                console.error('Error duplicating deck:', error);
+                alert('Error duplicating deck');
+            }
+        }
+        
+        function editDeck(deckId) {
+            // For now, just view the deck
+            // In a full implementation, you'd open an edit form
+            viewDeck(deckId);
+        }
+        
+        function closeModal() {
+            document.getElementById('deckModal').style.display = 'none';
+        }
+        
+        function showView(view) {
+            // Update navigation
+            document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Show/hide views
+            document.getElementById('list-view').style.display = view === 'list' ? 'block' : 'none';
+            document.getElementById('create-view').style.display = view === 'create' ? 'block' : 'none';
+            document.getElementById('stats-view').style.display = view === 'stats' ? 'block' : 'none';
+            document.getElementById('files-view').style.display = view === 'files' ? 'block' : 'none';
+            
+            if (view === 'stats') {
+                loadStats();
+            } else if (view === 'files') {
+                loadDeckFiles();
+            }
+        }
+        
+        async function loadDeckFiles() {
+            try {
+                const response = await fetch(`${API_BASE}/decks/files`);
+                const files = await response.json();
+                
+                if (files.length === 0) {
+                    document.getElementById('deckFiles').innerHTML = `
+                        <div class="loading">
+                            <h3>No deck files found</h3>
+                            <p>Create a deck using the script:</p>
+                            <code>node deck-management/create-deck.js</code>
+                        </div>
+                    `;
+                    return;
+                }
+                
+                document.getElementById('deckFiles').innerHTML = files.map(file => `
+                    <div class="deck">
+                        <div class="deck-name">${file}</div>
+                        <div style="color: #666; margin-bottom: 10px;">
+                            Deck file created by create-deck.js script
+                        </div>
+                        <div class="deck-actions">
+                            <button class="btn btn-primary" onclick="viewDeckFile('${file}')">View JSON</button>
+                            <button class="btn btn-secondary" onclick="downloadDeckFile('${file}')">Download</button>
+                        </div>
+                    </div>
+                `).join('');
+                
+            } catch (error) {
+                console.error('Error loading deck files:', error);
+                document.getElementById('deckFiles').innerHTML = `
+                    <div class="error">
+                        <h3>⚠️ Error Loading Deck Files</h3>
+                        <p>${error.message}</p>
+                        <p>Make sure the backend server is running on port 5001.</p>
+                    </div>
+                `;
+            }
+        }
+        
+        async function viewDeckFile(filename) {
+            try {
+                const response = await fetch(`${API_BASE}/decks/files/${filename}`);
+                const deckData = await response.json();
+                
+                document.getElementById('modalTitle').textContent = `Deck File: ${filename}`;
+                document.getElementById('modalContent').innerHTML = `
+                    <div style="margin-bottom: 20px;">
+                        <h3>Deck Information</h3>
+                        <p><strong>Name:</strong> ${deckData.name}</p>
+                        <p><strong>Leader:</strong> ${deckData.leader.name} (${deckData.leader.cardId})</p>
+                        <p><strong>Total Cards:</strong> ${deckData.mainDeck.reduce((sum, card) => sum + card.quantity, 0)}/50</p>
+                        <p><strong>Valid:</strong> ${deckData.isValid ? '✅ Yes' : '❌ No'}</p>
+                        <p><strong>Created:</strong> ${new Date(deckData.createdAt).toLocaleString()}</p>
+                    </div>
+                    
+                    <div>
+                        <h3>JSON Content</h3>
+                        <div style="background: #f8f9fa; padding: 15px; border-radius: 4px; max-height: 400px; overflow-y: auto; font-family: monospace; font-size: 12px; white-space: pre-wrap;">
+${JSON.stringify(deckData, null, 2)}
+                        </div>
+                    </div>
+                `;
+                
+                document.getElementById('deckModal').style.display = 'block';
+            } catch (error) {
+                console.error('Error viewing deck file:', error);
+                alert('Error loading deck file');
+            }
+        }
+        
+        async function downloadDeckFile(filename) {
+            try {
+                const response = await fetch(`${API_BASE}/decks/files/${filename}`);
+                const deckData = await response.json();
+                
+                const blob = new Blob([JSON.stringify(deckData, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            } catch (error) {
+                console.error('Error downloading deck file:', error);
+                alert('Error downloading deck file');
+            }
+        }
+        
+        // Event listeners
+        document.getElementById('search')?.addEventListener('input', () => {
+            currentPage = 1;
+            loadDecks();
+        });
+        
+        document.getElementById('validFilter')?.addEventListener('change', () => {
+            currentPage = 1;
+            loadDecks();
+        });
+        
+        document.getElementById('publicFilter')?.addEventListener('change', () => {
+            currentPage = 1;
+            loadDecks();
+        });
+        
+        document.getElementById('leaderFilter')?.addEventListener('change', () => {
+            currentPage = 1;
+            loadDecks();
+        });
+        
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('deckModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+        
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html> 

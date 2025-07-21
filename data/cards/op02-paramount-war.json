@@ -76,7 +76,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP02-013",
@@ -150,7 +151,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP02-015",
@@ -214,7 +216,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP02-018",
@@ -300,7 +303,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 7
+      "variantCount": 7,
+      "keywords": []
     },
     {
       "cardId": "OP02-089",
@@ -366,7 +370,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP02-096",
@@ -430,7 +435,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP02-099",
@@ -504,7 +510,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP02-106",
@@ -588,7 +595,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 6
+      "variantCount": 6,
+      "keywords": []
     },
     {
       "cardId": "OP02-114",
@@ -652,7 +660,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP02-117",
@@ -722,7 +731,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP02-121",
@@ -786,7 +796,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP02-022",
@@ -833,7 +844,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-034",
@@ -900,7 +912,8 @@
           "set": "ST11 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-035",
@@ -967,7 +980,8 @@
           "set": "ST11 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-063",
@@ -1021,7 +1035,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-098",
@@ -1083,7 +1098,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 3
+      "variantCount": 3,
+      "keywords": []
     },
     {
       "cardId": "OP02-001",
@@ -1143,7 +1159,8 @@
           "set": "ST15 - Edward.Newgate",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-002",
@@ -1193,7 +1210,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-003",
@@ -1234,7 +1252,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-005",
@@ -1275,7 +1294,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-006",
@@ -1316,7 +1336,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-007",
@@ -1357,7 +1378,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-008",
@@ -1409,7 +1431,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP02-009",
@@ -1456,7 +1479,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-010",
@@ -1497,7 +1521,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-011",
@@ -1538,7 +1563,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-012",
@@ -1579,7 +1605,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-014",
@@ -1620,7 +1647,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-016",
@@ -1661,7 +1689,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-017",
@@ -1708,7 +1737,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-019",
@@ -1760,7 +1790,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP02-020",
@@ -1804,7 +1835,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-021",
@@ -1844,7 +1876,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-023",
@@ -1895,7 +1928,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP02-024",
@@ -1932,7 +1966,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-025",
@@ -1982,7 +2017,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-026",
@@ -2032,7 +2068,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-027",
@@ -2079,7 +2116,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-028",
@@ -2133,7 +2171,8 @@
           "set": "ST11 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-029",
@@ -2174,7 +2213,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-030",
@@ -2224,7 +2264,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-031",
@@ -2274,7 +2315,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-032",
@@ -2315,7 +2357,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-033",
@@ -2372,7 +2415,8 @@
           "set": "ST11 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-036",
@@ -2422,7 +2466,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-037",
@@ -2476,7 +2521,8 @@
           "set": "ST11 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-038",
@@ -2523,7 +2569,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-039",
@@ -2577,7 +2624,8 @@
           "set": "ST11 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-040",
@@ -2631,7 +2679,8 @@
           "set": "ST11 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-041",
@@ -2694,7 +2743,8 @@
           "set": "ST11 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-042",
@@ -2735,7 +2785,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-043",
@@ -2792,7 +2843,8 @@
           "set": "ST11 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-044",
@@ -2833,7 +2885,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-045",
@@ -2886,7 +2939,8 @@
           "set": "ST11 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-046",
@@ -2926,7 +2980,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-047",
@@ -2966,7 +3021,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-048",
@@ -3003,7 +3059,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-049",
@@ -3053,7 +3110,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-050",
@@ -3097,7 +3155,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-051",
@@ -3147,7 +3206,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-052",
@@ -3188,7 +3248,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-053",
@@ -3232,7 +3293,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-054",
@@ -3287,7 +3349,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP02-055",
@@ -3328,7 +3391,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-056",
@@ -3372,7 +3436,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-057",
@@ -3427,7 +3492,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP02-058",
@@ -3477,7 +3543,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-059",
@@ -3530,7 +3597,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-060",
@@ -3571,7 +3639,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-061",
@@ -3615,7 +3684,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-062",
@@ -3665,7 +3735,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-064",
@@ -3709,7 +3780,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-065",
@@ -3753,7 +3825,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-066",
@@ -3790,7 +3863,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-067",
@@ -3830,7 +3904,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-068",
@@ -3870,7 +3945,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-069",
@@ -3910,7 +3986,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-070",
@@ -3947,7 +4024,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-071",
@@ -3994,7 +4072,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-072",
@@ -4047,7 +4126,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-073",
@@ -4094,7 +4174,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-074",
@@ -4135,7 +4216,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-075",
@@ -4179,7 +4261,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-076",
@@ -4220,7 +4303,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-077",
@@ -4264,7 +4348,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-078",
@@ -4308,7 +4393,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-079",
@@ -4352,7 +4438,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-080",
@@ -4396,7 +4483,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-081",
@@ -4437,7 +4525,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-082",
@@ -4478,7 +4567,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-083",
@@ -4519,7 +4609,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-084",
@@ -4563,7 +4654,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-085",
@@ -4620,7 +4712,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-086",
@@ -4670,7 +4763,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-087",
@@ -4714,7 +4808,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-088",
@@ -4758,7 +4853,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-090",
@@ -4795,7 +4891,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-091",
@@ -4832,7 +4929,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-092",
@@ -4869,7 +4967,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-093",
@@ -4926,7 +5025,8 @@
           "set": "ST19 - Smoker",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-094",
@@ -4967,7 +5067,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-095",
@@ -5008,7 +5109,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-097",
@@ -5049,7 +5151,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-100",
@@ -5090,7 +5193,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-101",
@@ -5131,7 +5235,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-102",
@@ -5172,7 +5277,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-103",
@@ -5213,7 +5319,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-104",
@@ -5254,7 +5361,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-105",
@@ -5301,7 +5409,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-107",
@@ -5342,7 +5451,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-108",
@@ -5403,7 +5513,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 3
+      "variantCount": 3,
+      "keywords": []
     },
     {
       "cardId": "OP02-109",
@@ -5458,7 +5569,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP02-110",
@@ -5499,7 +5611,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-111",
@@ -5540,7 +5653,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-112",
@@ -5581,7 +5695,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-113",
@@ -5633,7 +5748,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP02-115",
@@ -5680,7 +5796,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-116",
@@ -5732,7 +5849,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "OP02-118",
@@ -5769,7 +5887,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-119",
@@ -5806,7 +5925,8 @@
           "set": "OP02 - Paramount War",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP02-120",
@@ -5863,7 +5983,8 @@
           "set": "OP05 - Awakening of the New Era",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

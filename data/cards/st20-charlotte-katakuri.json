@@ -40,7 +40,8 @@
           "set": "ST20 - Charlotte Katakuri",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST20-002",
@@ -81,7 +82,8 @@
           "set": "ST20 - Charlotte Katakuri",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST20-003",
@@ -122,7 +124,8 @@
           "set": "ST20 - Charlotte Katakuri",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST20-004",
@@ -163,7 +166,8 @@
           "set": "ST20 - Charlotte Katakuri",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST20-005",
@@ -207,7 +211,8 @@
           "set": "ST20 - Charlotte Katakuri",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

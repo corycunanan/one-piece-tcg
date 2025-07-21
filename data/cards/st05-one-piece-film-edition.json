@@ -46,7 +46,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-002",
@@ -90,7 +91,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-003",
@@ -134,7 +136,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-004",
@@ -175,7 +178,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-005",
@@ -219,7 +223,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-006",
@@ -263,7 +268,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-007",
@@ -304,7 +310,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-008",
@@ -348,7 +355,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-009",
@@ -395,7 +403,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-010",
@@ -439,7 +448,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-011",
@@ -483,7 +493,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-012",
@@ -527,7 +538,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-013",
@@ -571,7 +583,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-014",
@@ -615,7 +628,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-015",
@@ -662,7 +676,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-016",
@@ -702,7 +717,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST05-017",
@@ -742,7 +758,8 @@
           "set": "ST05 - One Piece Film Edition",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

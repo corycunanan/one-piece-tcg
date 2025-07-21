@@ -1,29 +1,32 @@
-import React, { useState } from 'react';
-import './App.css';
-import CardInfoPanel from './components/CardInfoPanel';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import GameBoard from './components/GameBoard';
-import { MockCard } from './mockCards';
+import DeckBuilderPage from './pages/DeckBuilderPage';
+import './App.css';
 
 function App() {
-  const [hoveredCard, setHoveredCard] = useState<MockCard | null>(null);
-
-  // Handler to pass to GameBoard for card hover
-  const handleCardHover = (card: MockCard | null, e?: React.MouseEvent) => {
-    setHoveredCard(card);
-  };
-
   return (
-    <div className="app-layout">
-      {/* Main Game Area */}
-      <main className="main-board">
-        <GameBoard setHoveredCard={handleCardHover} />
-        {hoveredCard && (
-          <div className="card-info-panel-overlay">
-            <CardInfoPanel card={hoveredCard} />
-          </div>
-        )}
-      </main>
-    </div>
+    <Router>
+      <div className="App">
+        <nav style={{
+          padding: '10px 20px',
+          backgroundColor: '#333',
+          color: 'white'
+        }}>
+          <Link to="/" style={{ color: 'white', textDecoration: 'none', marginRight: '20px' }}>
+            Game
+          </Link>
+          <Link to="/deck-builder" style={{ color: 'white', textDecoration: 'none' }}>
+            Deck Builder
+          </Link>
+        </nav>
+        
+        <Routes>
+          <Route path="/" element={<GameBoard setHoveredCard={() => {}} />} />
+          <Route path="/deck-builder" element={<DeckBuilderPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

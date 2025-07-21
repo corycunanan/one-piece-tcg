@@ -1,0 +1,23 @@
+{
+  "name": "one-piece-tcg-deck-creator",
+  "version": "1.0.0",
+  "description": "Modular deck creation system for One Piece TCG",
+  "main": "create-deck-modular.js",
+  "scripts": {
+    "create": "node create-deck-modular.js",
+    "view": "node view-deck.js",
+    "bulk-import": "node bulk-import.js",
+    "start": "node create-deck-modular.js"
+  },
+  "keywords": [
+    "one-piece",
+    "tcg",
+    "deck-builder",
+    "card-game"
+  ],
+  "author": "One Piece TCG Project",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 

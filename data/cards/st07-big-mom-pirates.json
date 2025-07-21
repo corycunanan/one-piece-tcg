@@ -63,7 +63,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "ST07-008",
@@ -114,7 +115,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-001",
@@ -158,7 +160,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-002",
@@ -199,7 +202,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-003",
@@ -240,7 +244,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-004",
@@ -281,7 +286,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-005",
@@ -333,7 +339,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "ST07-006",
@@ -374,7 +381,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-009",
@@ -415,7 +423,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-010",
@@ -459,7 +468,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-011",
@@ -503,7 +513,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-012",
@@ -544,7 +555,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-013",
@@ -588,7 +600,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-014",
@@ -643,7 +656,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "ST07-015",
@@ -683,7 +697,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-016",
@@ -720,7 +735,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST07-017",
@@ -760,7 +776,8 @@
           "set": "ST07 - Big Mom Pirates",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

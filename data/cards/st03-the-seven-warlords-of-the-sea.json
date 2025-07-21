@@ -81,9 +81,14 @@
         {
           "set": "ST17 - Donquixote Doflamingo",
           "is_default": false
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
       ],
-      "variantCount": 6
+      "variantCount": 6,
+      "keywords": []
     },
     {
       "cardId": "ST03-008",
@@ -174,9 +179,14 @@
         {
           "set": "ST17 - Donquixote Doflamingo",
           "is_default": false
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
       ],
-      "variantCount": 7
+      "variantCount": 7,
+      "keywords": []
     },
     {
       "cardId": "ST03-013",
@@ -236,16 +246,21 @@
           "is_default": false
         }
       ],
-      "effect_description": "",
-      "trigger_description": "",
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "trigger_description": "[Trigger] Play this card.",
       "rarity": "C",
       "set": [
         {
           "set": "PRB01 - One Piece The Best",
           "is_default": false
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "ST03-003",
@@ -287,15 +302,20 @@
           "is_default": false
         }
       ],
-      "effect_description": "",
+      "effect_description": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
       "trigger_description": "",
       "rarity": "C",
       "set": [
         {
           "set": "Promotional Cards",
           "is_default": false
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST03-007",
@@ -345,8 +365,13 @@
         {
           "set": "ST03 - The Seven Warlords of the Sea",
           "is_default": true
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST03-014",
@@ -388,15 +413,20 @@
           "is_default": false
         }
       ],
-      "effect_description": "",
+      "effect_description": "[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
       "trigger_description": "",
       "rarity": "C",
       "set": [
         {
           "set": "Promotional Cards",
           "is_default": false
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST03-009",
@@ -449,8 +479,13 @@
         {
           "set": "ST03 - The Seven Warlords of the Sea",
           "is_default": true
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST03-004",
@@ -498,7 +533,7 @@
           "is_default": false
         }
       ],
-      "effect_description": "",
+      "effect_description": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
       "trigger_description": "",
       "rarity": "C",
       "set": [
@@ -509,9 +544,14 @@
         {
           "set": "ST17 - Donquixote Doflamingo",
           "is_default": false
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
       ],
-      "variantCount": 3
+      "variantCount": 3,
+      "keywords": []
     },
     {
       "cardId": "ST03-001",
@@ -554,8 +594,13 @@
         {
           "set": "ST03 - The Seven Warlords of the Sea",
           "is_default": true
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST03-002",
@@ -601,9 +646,14 @@
         {
           "set": "ST17 - Donquixote Doflamingo",
           "is_default": false
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "ST03-006",
@@ -649,8 +699,13 @@
         {
           "set": "ST03 - The Seven Warlords of the Sea",
           "is_default": true
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST03-010",
@@ -693,8 +748,13 @@
         {
           "set": "ST03 - The Seven Warlords of the Sea",
           "is_default": true
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST03-011",
@@ -730,8 +790,13 @@
         {
           "set": "ST03 - The Seven Warlords of the Sea",
           "is_default": true
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST03-012",
@@ -774,8 +839,13 @@
         {
           "set": "ST03 - The Seven Warlords of the Sea",
           "is_default": true
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST03-015",
@@ -814,8 +884,13 @@
         {
           "set": "ST03 - The Seven Warlords of the Sea",
           "is_default": true
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST03-016",
@@ -854,8 +929,13 @@
         {
           "set": "ST03 - The Seven Warlords of the Sea",
           "is_default": true
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST03-017",
@@ -894,8 +974,14 @@
         {
           "set": "ST03 - The Seven Warlords of the Sea",
           "is_default": true
+        },
+        {
+          "set": "ST03 - The Seven Warlords Of The Sea",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
-  ]
+  ],
+  "updatedAt": "2025-07-16T18:35:44.423Z"
 }

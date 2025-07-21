@@ -9,6 +9,7 @@ const CardSchema = new mongoose.Schema({
   life: Number,
   traits: [String],
   rarity: String,
+  keywords: [String],
   effect: {
     trigger: String,
     description: String

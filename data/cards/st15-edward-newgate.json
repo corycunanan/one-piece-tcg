@@ -49,7 +49,8 @@
           "set": "ST15 - Edward Newgate",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST15-001",
@@ -90,7 +91,8 @@
           "set": "ST15 - Edward Newgate",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST15-003",
@@ -131,7 +133,8 @@
           "set": "ST15 - Edward Newgate",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST15-004",
@@ -172,7 +175,8 @@
           "set": "ST15 - Edward Newgate",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST15-005",
@@ -213,9 +217,10 @@
           "set": "ST15 - Edward Newgate",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ],
   "exportedAt": "2025-07-14T00:05:26.925Z",
-  "updatedAt": "2025-07-15T23:44:36.686Z"
+  "updatedAt": "2025-07-16T21:13:00.493Z"
 }

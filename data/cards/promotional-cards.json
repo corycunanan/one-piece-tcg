@@ -66,7 +66,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "P-029",
@@ -146,7 +147,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "P-053",
@@ -210,7 +212,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "P-055",
@@ -274,7 +277,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "P-001",
@@ -336,7 +340,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-002",
@@ -373,7 +378,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-003",
@@ -423,7 +429,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-004",
@@ -467,7 +474,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-005",
@@ -511,7 +519,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-006",
@@ -555,7 +564,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-007",
@@ -599,7 +609,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-008",
@@ -640,7 +651,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-009",
@@ -684,7 +696,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-010",
@@ -728,7 +741,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-011",
@@ -769,7 +783,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-012",
@@ -813,7 +828,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-013",
@@ -854,7 +870,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-015",
@@ -898,7 +915,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-016",
@@ -945,7 +963,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-017",
@@ -998,7 +1017,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-018",
@@ -1045,7 +1065,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-019",
@@ -1098,7 +1119,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-020",
@@ -1142,7 +1164,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-021",
@@ -1186,7 +1209,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-022",
@@ -1233,7 +1257,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-023",
@@ -1277,7 +1302,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-024",
@@ -1317,7 +1343,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-025",
@@ -1358,7 +1385,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-026",
@@ -1399,7 +1427,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-027",
@@ -1440,7 +1469,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-028",
@@ -1481,7 +1511,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-030",
@@ -1539,7 +1570,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "P-031",
@@ -1580,7 +1612,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-032",
@@ -1621,7 +1654,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-033",
@@ -1662,7 +1696,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-034",
@@ -1703,7 +1738,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-035",
@@ -1744,7 +1780,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-036",
@@ -1788,7 +1825,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-037",
@@ -1829,7 +1867,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-039",
@@ -1870,7 +1909,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-041",
@@ -1931,7 +1971,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 3
+      "variantCount": 3,
+      "keywords": []
     },
     {
       "cardId": "P-042",
@@ -1975,7 +2016,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-043",
@@ -2016,7 +2058,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-045",
@@ -2063,7 +2106,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-046",
@@ -2104,7 +2148,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-047",
@@ -2145,7 +2190,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-048",
@@ -2189,7 +2235,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-049",
@@ -2230,7 +2277,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-050",
@@ -2271,7 +2319,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-051",
@@ -2312,7 +2361,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-052",
@@ -2353,7 +2403,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-054",
@@ -2394,7 +2445,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-056",
@@ -2435,7 +2487,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-057",
@@ -2485,7 +2538,8 @@
           "set": "ST16 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-058",
@@ -2535,7 +2589,8 @@
           "set": "ST16 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-059",
@@ -2585,7 +2640,8 @@
           "set": "ST16 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-060",
@@ -2635,7 +2691,8 @@
           "set": "ST16 - Uta",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-061",
@@ -2690,7 +2747,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 2
+      "variantCount": 2,
+      "keywords": []
     },
     {
       "cardId": "P-062",
@@ -2740,7 +2798,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-065",
@@ -2784,7 +2843,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-068",
@@ -2828,7 +2888,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-069",
@@ -2869,7 +2930,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-070",
@@ -2910,7 +2972,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-071",
@@ -2951,7 +3014,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-076",
@@ -2995,7 +3059,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-077",
@@ -3036,7 +3101,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-078",
@@ -3107,7 +3173,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-079",
@@ -3148,7 +3215,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-081",
@@ -3195,7 +3263,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-082",
@@ -3245,7 +3314,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-083",
@@ -3289,7 +3359,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-088",
@@ -3333,7 +3404,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-090",
@@ -3374,7 +3446,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-091",
@@ -3418,7 +3491,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-092",
@@ -3462,7 +3536,8 @@
           "set": "Promotional Cards",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "P-084",
@@ -3506,7 +3581,8 @@
           "set": "ST25 - Buggy",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

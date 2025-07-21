@@ -43,7 +43,8 @@
           "set": "ST28 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST28-002",
@@ -87,7 +88,8 @@
           "set": "ST28 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST28-003",
@@ -131,7 +133,8 @@
           "set": "ST28 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST28-004",
@@ -175,7 +178,8 @@
           "set": "ST28 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST28-005",
@@ -216,7 +220,8 @@
           "set": "ST28 - Yamato",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

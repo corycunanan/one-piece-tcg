@@ -45,8 +45,13 @@
         {
           "set": "ST18 - Monkey D. Luffy",
           "is_default": true
+        },
+        {
+          "set": "ST18 - Monkey D Luffy",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST18-004",
@@ -92,8 +97,13 @@
         {
           "set": "ST18 - Monkey D. Luffy",
           "is_default": true
+        },
+        {
+          "set": "ST18 - Monkey D Luffy",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST18-001",
@@ -139,8 +149,13 @@
         {
           "set": "ST18 - Monkey D. Luffy",
           "is_default": true
+        },
+        {
+          "set": "ST18 - Monkey D Luffy",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST18-005",
@@ -186,8 +201,13 @@
         {
           "set": "ST18 - Monkey D. Luffy",
           "is_default": true
+        },
+        {
+          "set": "ST18 - Monkey D Luffy",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST18-002",
@@ -227,10 +247,15 @@
         {
           "set": "ST18 - Monkey D. Luffy",
           "is_default": true
+        },
+        {
+          "set": "ST18 - Monkey D Luffy",
+          "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ],
   "exportedAt": "2025-07-14T00:05:26.923Z",
-  "updatedAt": "2025-07-15T23:44:36.687Z"
+  "updatedAt": "2025-07-16T21:13:00.495Z"
 }

@@ -63,7 +63,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP04-031",
@@ -130,7 +131,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP04-032",
@@ -194,7 +196,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP04-036",
@@ -254,7 +257,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP04-044",
@@ -331,7 +335,8 @@
           "is_default": false
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP04-056",
@@ -397,7 +402,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP04-083",
@@ -474,7 +480,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP04-089",
@@ -547,7 +554,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 5
+      "variantCount": 5,
+      "keywords": []
     },
     {
       "cardId": "OP04-095",
@@ -610,7 +618,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP04-100",
@@ -686,7 +695,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 6
+      "variantCount": 6,
+      "keywords": []
     },
     {
       "cardId": "OP04-104",
@@ -750,7 +760,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP04-112",
@@ -814,7 +825,8 @@
           "is_default": true
         }
       ],
-      "variantCount": 4
+      "variantCount": 4,
+      "keywords": []
     },
     {
       "cardId": "OP04-010",
@@ -871,7 +883,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-092",
@@ -928,7 +941,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-001",
@@ -978,7 +992,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-002",
@@ -1019,7 +1034,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-003",
@@ -1063,7 +1079,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-004",
@@ -1107,7 +1124,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-005",
@@ -1151,7 +1169,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-006",
@@ -1192,7 +1211,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-007",
@@ -1236,7 +1256,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-008",
@@ -1277,7 +1298,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-009",
@@ -1321,7 +1343,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-011",
@@ -1365,7 +1388,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-012",
@@ -1406,7 +1430,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-013",
@@ -1453,7 +1478,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-014",
@@ -1497,7 +1523,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-015",
@@ -1541,7 +1568,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-016",
@@ -1581,7 +1609,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-017",
@@ -1621,7 +1650,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-018",
@@ -1658,7 +1688,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-019",
@@ -1711,7 +1742,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-020",
@@ -1761,7 +1793,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-021",
@@ -1802,7 +1835,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-022",
@@ -1843,7 +1877,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-023",
@@ -1887,7 +1922,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-024",
@@ -1944,7 +1980,8 @@
           "set": "OP06 - Wings of the Captain",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-025",
@@ -1985,7 +2022,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-026",
@@ -2026,7 +2064,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-027",
@@ -2070,7 +2109,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-028",
@@ -2117,7 +2157,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-030",
@@ -2164,7 +2205,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-033",
@@ -2205,7 +2247,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-034",
@@ -2246,7 +2289,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-035",
@@ -2286,7 +2330,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-037",
@@ -2326,7 +2371,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-038",
@@ -2366,7 +2412,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-039",
@@ -2416,7 +2463,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-040",
@@ -2466,7 +2514,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-041",
@@ -2507,7 +2556,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-042",
@@ -2548,7 +2598,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-043",
@@ -2589,7 +2640,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-045",
@@ -2630,7 +2682,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-046",
@@ -2671,7 +2724,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-047",
@@ -2715,7 +2769,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-048",
@@ -2756,7 +2811,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-049",
@@ -2797,7 +2853,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-050",
@@ -2838,7 +2895,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-051",
@@ -2885,7 +2943,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-052",
@@ -2926,7 +2985,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-053",
@@ -2967,7 +3027,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-054",
@@ -3011,7 +3072,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-055",
@@ -3048,7 +3110,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-057",
@@ -3088,7 +3151,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-058",
@@ -3141,7 +3205,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-059",
@@ -3185,7 +3250,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-060",
@@ -3235,7 +3301,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-061",
@@ -3279,7 +3346,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-062",
@@ -3320,7 +3388,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-063",
@@ -3364,7 +3433,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-064",
@@ -3421,7 +3491,8 @@
           "set": "OP06 - Wings of the Captain",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-065",
@@ -3462,7 +3533,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-066",
@@ -3503,7 +3575,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-067",
@@ -3544,7 +3617,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-068",
@@ -3588,7 +3662,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-069",
@@ -3629,7 +3704,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-070",
@@ -3670,7 +3746,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-071",
@@ -3711,7 +3788,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-072",
@@ -3758,7 +3836,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-073",
@@ -3802,7 +3881,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-074",
@@ -3839,7 +3919,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-075",
@@ -3876,7 +3957,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-076",
@@ -3916,7 +3998,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-077",
@@ -3957,7 +4040,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-078",
@@ -4001,7 +4085,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-079",
@@ -4045,7 +4130,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-080",
@@ -4086,7 +4172,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-081",
@@ -4130,7 +4217,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-082",
@@ -4177,7 +4265,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-084",
@@ -4218,7 +4307,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-085",
@@ -4259,7 +4349,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-086",
@@ -4303,7 +4394,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-087",
@@ -4347,7 +4439,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-088",
@@ -4394,7 +4487,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-090",
@@ -4444,7 +4538,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-091",
@@ -4488,7 +4583,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-093",
@@ -4528,7 +4624,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-094",
@@ -4565,7 +4662,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-096",
@@ -4602,7 +4700,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-097",
@@ -4643,7 +4742,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-098",
@@ -4684,7 +4784,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-099",
@@ -4731,7 +4832,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-101",
@@ -4772,7 +4874,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-102",
@@ -4813,7 +4916,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-103",
@@ -4857,7 +4961,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-105",
@@ -4898,7 +5003,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-106",
@@ -4939,7 +5045,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-107",
@@ -4980,7 +5087,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-108",
@@ -5021,7 +5129,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-109",
@@ -5062,7 +5171,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-110",
@@ -5103,7 +5213,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-111",
@@ -5147,7 +5258,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-113",
@@ -5191,7 +5303,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-114",
@@ -5235,7 +5348,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-115",
@@ -5275,7 +5389,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-116",
@@ -5312,7 +5427,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-117",
@@ -5352,7 +5468,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-118",
@@ -5399,7 +5516,8 @@
           "set": "OP04 - Kingdoms of Intrigue",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "OP04-119",
@@ -5459,7 +5577,8 @@
           "set": "OP09 - Emperors in the New World",
           "is_default": false
         }
-      ]
+      ],
+      "keywords": []
     }
   ]
 }

@@ -52,6 +52,30 @@ const BULK_UPDATE_SCRIPTS = [
     script: 'consolidate-art-variants.js',
     description: 'Consolidate art variants and clean up duplicates',
     critical: false
+  },
+  {
+    name: 'Consolidate Duplicate Cards',
+    script: 'consolidate-duplicate-cards.js',
+    description: 'Consolidate duplicate card entries and clean up database',
+    critical: false
+  },
+  {
+    name: 'Fix Duplicate Set Files',
+    script: 'fix-duplicate-set-files.js',
+    description: 'Fix duplicate set files and ensure consistent naming',
+    critical: false
+  },
+  {
+    name: 'Fix Missing Fields and Sets',
+    script: 'bulk-fix-missing-fields.js',
+    description: 'Ensure all cards have required fields and correct set assignments',
+    critical: true
+  },
+  {
+    name: 'Update Database',
+    script: 'update-db-json.js',
+    description: 'Sync individual JSON files to db.json for JSON Server',
+    critical: true
   }
 ];
 

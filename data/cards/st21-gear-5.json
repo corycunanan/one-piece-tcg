@@ -49,7 +49,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-002",
@@ -96,7 +97,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-003",
@@ -143,7 +145,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-004",
@@ -193,7 +196,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-005",
@@ -243,7 +247,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-006",
@@ -290,7 +295,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-007",
@@ -340,7 +346,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-008",
@@ -390,7 +397,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-009",
@@ -437,7 +445,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-010",
@@ -484,7 +493,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-011",
@@ -531,7 +541,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-012",
@@ -578,7 +589,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-013",
@@ -628,7 +640,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-014",
@@ -678,7 +691,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-015",
@@ -725,7 +739,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-016",
@@ -765,7 +780,8 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "cardId": "ST21-017",
@@ -805,9 +821,10 @@
           "set": "ST21 - Gear 5",
           "is_default": true
         }
-      ]
+      ],
+      "keywords": []
     }
   ],
   "exportedAt": "2025-07-14T00:05:26.926Z",
-  "updatedAt": "2025-07-15T23:44:36.689Z"
+  "updatedAt": "2025-07-16T21:13:00.496Z"
 }
